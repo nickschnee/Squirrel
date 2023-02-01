@@ -44,6 +44,9 @@ write.csv(hectare, "hectare_temperature.csv")
 # temperature END
 
 
+# weather conditions extraction
+# weather conditions extraction
+# weather conditions extraction
 
 # make a list of all different weather conditions
 weather_split <- str_split(weather, ",")
@@ -58,9 +61,19 @@ unique_weather
 weather_no_numbers <- str_trim(unlist(weather_split), side = "both")[!str_detect(str_trim(unlist(weather_split), side = "both"), "\\d")]
 sort(table(weather_no_numbers), ascending = TRUE)
 
-
 # get unique values where sun appears
-table(unique_weather[grepl(pattern = "sun", x = unique_weather)])
+# table(unique_weather[grepl(pattern = "sun", x = unique_weather)])
+
+# END weather conditions extraction
+# END weather conditions extraction
+# END weather conditions extraction
+
+
+# START making new columns for groups of weather conditions
+# START making new columns for groups of weather conditions
+# START making new columns for groups of weather conditions
+# START making new columns for groups of weather conditions
+
 
 # sun:      sun(ny), clear, bright, blue, pleasant, perfect, not a cloud, nice, fair, crisp
 # clouds:   overcast, cloud(y), dreary (trostlos), gray, !not a cloud
@@ -83,41 +96,88 @@ weather_split <- str_split(weather, ",")
 # Check the results of the split
 weather_split
 
+#words_temp <- c("cool", "chilly", "cold", "warm", "dewy", "dewpoint", "mild")
+#words_other <- c("artsy lighting", "got dark very suddenly", "shady", "sun starting to go down")
+#words_nowind <- c("calm", "no wind")
 
-# TODO: do this for everything else
-
-# check words sunny and make column true false
-# check words sunny and make column true false
-# check words sunny and make column true false
-# check words sunny and make column true false
-
-words_sun <- c("sun", "clear", "bright", "blue", "pleasant", "perfect", "not a cloud", "nice", "fair", "crisp")
-words_not_sun <- c("sunny")
-
-sunny <- sapply(weather_split, function(x) {
-  
-  sun_detect <- any(str_detect(x, paste(words_sun, collapse = "|")))
-  if (sun_detect == TRUE) {
-    not_sun_detect <- any(str_detect(x, paste(words_not_sun, collapse = "|")))
-    if (not_sun_detect == TRUE) {
-      sun_detect <- FALSE
+detect_weather <- function(x, words_positive, words_negative = character(0)) {
+  detect <- any(str_detect(x, paste(words_positive, collapse = "|")))
+  if (detect == TRUE && length(words_negative) > 0) {
+    not_detect <- any(str_detect(x, paste(words_negative, collapse = "|")))
+    if (not_detect == TRUE) {
+      detect <- FALSE
     }
   }
-  
-  sun_detect
-  
-})
+  detect
+}
 
+# sun
+words_sun <- c("sun", "clear", "bright", "blue", "pleasant", "perfect", "not a cloud", "nice", "fair", "crisp")
+words_not_sun <- c("sonnelein")
+
+sunny <- sapply(weather_split, function(x) detect_weather(x, words_sun, words_not_sun))
 sunny
 
+# rain
+words_rain <- c("rain", "wet", "shower")
+words_not_rain <- c("lite rain", "drop", "light rain")
 
-# Convert the results to a logical vector and add it as a new column to the dataframe
+rainy <- sapply(weather_split, function(x) detect_weather(x, words_rain, words_not_rain))
+rainy
+
+# clouds
+words_clouds <- c("overcast", "cloud", "drear", "gray")
+words_not_clouds <- ("not a cloud")
+
+cloudy <- sapply(weather_split, function(x) detect_weather(x, words_clouds, words_not_clouds))
+cloudy
+
+# wind
+words_wind <- c("wind", "breez", "brisk", "gusty")
+windy <- sapply(weather_split, function(x) detect_weather(x, words_wind))
+windy
+
+# drizzle
+words_drizzle <- c("light rain", "drizzle", "drizzling", "drizzly", "sprink", "lite rain", "couple drops of rain", "a few raindrops")
+# !!! this will remove light rain and lite rain, drops of rain etc.
+words_not_drizzle <- c("rain", "wet", "showers")
+drizzly <- sapply(weather_split, function(x) detect_weather(x, words_drizzle, words_not_drizzle))
+drizzly
+
+# fog
+words_fog <- c("fog", "mist")
+foggy <- sapply(weather_split, function(x) detect_weather(x, words_fog))
+foggy
+
+# humid
+words_humid <- c("humid", "muggy", "damp", "moist")
+humid <- sapply(weather_split, function(x) detect_weather(x, words_humid))
+humid
+
 hectare$sunny <- as.logical(sunny)
+hectare$rainy <- as.logical(rainy)
+hectare$cloudy <- as.logical(cloudy)
+hectare$windy <- as.logical(windy)
+hectare$drizzly <- as.logical(drizzly)
+hectare$foggy <- as.logical(foggy)
+hectare$humid <- as.logical(humid)
+
+# END making new columns for groups of weather conditions
+# END making new columns for groups of weather conditions
+# END making new columns for groups of weather conditions
+# END making new columns for groups of weather conditions
+
 
 # Write the modified dataframe to a new csv file
-write.csv(hectare, "hectare_temperature.csv")
+# Write the modified dataframe to a new csv file
+# Write the modified dataframe to a new csv file
 
+write.csv(hectare, "hectare_weather.csv")
 
+# END write
+# END write
+# END write
+# END write
 
 
 #distance between terms
