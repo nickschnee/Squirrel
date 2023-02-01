@@ -7,6 +7,7 @@ hectare <- read.csv("2018_Central_Park_Squirrel_Census_-_Hectare_Data.csv")
 # Convert to lowercase
 weather <- tolower(hectare$Sighter.Observed.Weather.Data)
 
+#hallo
 
 # temperature
 # temperature
