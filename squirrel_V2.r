@@ -1,8 +1,9 @@
 # Load the stringr library
 library(stringr)
 
-# Read the csv file into a dataframe
+# Read the csv files into dataframes
 hectare <- read.csv("2018_Central_Park_Squirrel_Census_-_Hectare_Data.csv")
+squirrels <- read.csv("2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv")
 
 # Convert to lowercase
 weather <- tolower(hectare$Sighter.Observed.Weather.Data)
@@ -114,9 +115,15 @@ sunny
 # Convert the results to a logical vector and add it as a new column to the dataframe
 hectare$sunny <- as.logical(sunny)
 
+
 # Write the modified dataframe to a new csv file
 write.csv(hectare, "hectare_temperature.csv")
 
+# Join datasets based on hectare, time of day and date
+joint <- merge(squirrels, hectare, by=c("Hectare", "Shift", "Date"))
+
+# Write the modified dataframe to a new csv file
+write.csv(joint, "joint_squirrels.csv")
 
 
 
@@ -125,3 +132,4 @@ write.csv(hectare, "hectare_temperature.csv")
 
 # regex look for temp
 #grepl(pattern = "[0-9]+° F", weather)
+
