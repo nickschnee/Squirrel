@@ -7,7 +7,6 @@ hectare <- read.csv("2018_Central_Park_Squirrel_Census_-_Hectare_Data.csv")
 # Convert to lowercase
 weather <- tolower(hectare$Sighter.Observed.Weather.Data)
 
-#hallo
 
 # temperature
 # temperature
@@ -70,13 +69,13 @@ table(unique_weather[grepl(pattern = "sun", x = unique_weather)])
 # rain:     rain, rainy, wet, showers, !lite rain, !light rain drops, !couple drops of rain, !a few raindrops
 
 # wind:     wind(y), breez(e), brisk, gusty, !no wind
-# no-wind:  calm, no wind
 
 # fog:      foggy, mist(y)
 # humid:    humid, muggy, damp, moist
 
 # temp:     cool, chilly, cold, warm, dewy, dewpoint, mild
 # other:    artsy lighting, got dark very suddenly, shady, sun starting to go down
+# no-wind:  calm, no wind
 
 # Split the lowercase weather data by ","
 weather_split <- str_split(weather, ",")
@@ -84,11 +83,36 @@ weather_split <- str_split(weather, ",")
 # Check the results of the split
 weather_split
 
-# Check if the string "foggy" is present in each split weather string
-temp <- sapply(weather_split, function(x) any(str_detect(x, "foggy")))
+
+# TODO: do this for everything else
+
+# check words sunny and make column true false
+# check words sunny and make column true false
+# check words sunny and make column true false
+# check words sunny and make column true false
+
+words_sun <- c("sun", "clear", "bright", "blue", "pleasant", "perfect", "not a cloud", "nice", "fair", "crisp")
+words_not_sun <- c("sunny")
+
+sunny <- sapply(weather_split, function(x) {
+  
+  sun_detect <- any(str_detect(x, paste(words_sun, collapse = "|")))
+  if (sun_detect == TRUE) {
+    not_sun_detect <- any(str_detect(x, paste(words_not_sun, collapse = "|")))
+    if (not_sun_detect == TRUE) {
+      sun_detect <- FALSE
+    }
+  }
+  
+  sun_detect
+  
+})
+
+sunny
+
 
 # Convert the results to a logical vector and add it as a new column to the dataframe
-hectare$sunny <- as.logical(temp)
+hectare$sunny <- as.logical(sunny)
 
 # Write the modified dataframe to a new csv file
 write.csv(hectare, "hectare_temperature.csv")
