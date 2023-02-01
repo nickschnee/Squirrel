@@ -122,9 +122,22 @@ write.csv(hectare, "hectare_temperature.csv")
 # Join datasets based on hectare, time of day and date
 joint <- merge(squirrels, hectare, by=c("Hectare", "Shift", "Date"))
 
-# Write the modified dataframe to a new csv file
+# write the joint dataframe to a new csv file
 write.csv(joint, "joint_squirrels.csv")
 
+
+
+
+###########################
+# DESCRIPTIVE STATISTICS
+###########################
+
+summary(joint)
+
+# Number of squirrel sightings per hectare
+plot(squirrels$Hectare.Squirrel.Number ~ squirrels$Hectare, main = "Squirrel Sightings per Hectare", ylab = "squirrels", xlab = "hectare")
+
+# 
 
 
 #distance between terms
