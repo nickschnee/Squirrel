@@ -140,9 +140,7 @@ windy
 
 # drizzle
 words_drizzle <- c("light rain", "drizzle", "drizzling", "drizzly", "sprink", "lite rain", "couple drops of rain", "a few raindrops")
-# !!! this will remove light rain and lite rain, drops of rain etc.
-words_not_drizzle <- c("rain", "wet", "showers")
-drizzly <- sapply(weather_split, function(x) detect_weather(x, words_drizzle, words_not_drizzle))
+drizzly <- sapply(weather_split, function(x) detect_weather(x, words_drizzle))
 drizzly
 
 # fog
@@ -171,7 +169,7 @@ hectare$humid <- as.logical(humid)
 
 
 # Write the modified dataframe to a new csv file
-write.csv(hectare, "hectare_temperature.csv")
+write.csv(hectare, "hectare_weather.csv")
 
 # Join datasets based on hectare, time of day and date
 joint <- merge(squirrels, hectare, by=c("Hectare", "Shift", "Date"))

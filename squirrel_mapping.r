@@ -3,7 +3,7 @@ library(sf)
 library(ggmap)
 
 
-squirrels <- read.csv("2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv")
+squirrels <- read.csv("joint_squirrels.csv")
 
 # first five features
 head(available_features())
@@ -26,21 +26,20 @@ mad_map <- get_map(location = c(left = longitude_min, bottom = latitude_min, rig
 d.stations <- data.frame(Latitude = squirrels$Y, 
                          Longitude = squirrels$X)
 
+
+
 # Plot map
 ggmap(mad_map) +
-  geom_sf(data = cinema$osm_points,
-          inherit.aes = FALSE,
-          colour = "#238443",
-          fill = "#004529",
-          alpha = .5,
-          size = 10,
-          shape = 21) +
-  geom_point(data = d.stations,
-             aes(x = Longitude, y = Latitude),
-             color = "blue") +
+  geom_point(data = squirrels,
+             aes(x = X, y = Y, color = sunny),
+             ) +
+  theme(legend.position = "none") +
   labs(x = "Longitude", y = "Latitude")
 
 
+# get number of distinct values
+library(dplyr)
+n_distinct(squirrels$Hectare)
 
 
 
