@@ -1,701 +1,701 @@
-"","Hectare","Shift","Date","Anonymized.Sighter","Sighter.Observed.Weather.Data","Litter","Litter.Notes","Other.Animal.Sightings","Hectare.Conditions","Hectare.Conditions.Notes","Number.of.sighters","Number.of.Squirrels","Total.Time.of.Sighting","temperature","temperature_fahrenheit","temperature_celsius","sunny"
-"1","01A","AM",10072018,110,"70º F, Foggy","Some","","Humans, Pigeons","Busy","",1,4,22,TRUE,70,21.1,FALSE
-"2","01A","PM",10142018,177,"54º F, overcast","Abundant","","Humans, Pigeons","Busy","",1,7,26,FALSE,54,12.2,FALSE
-"3","01B","AM",10122018,11,"60º F, sunny","Some","","Humans, Dogs, Pigeons, Horses","Busy","",1,17,23,FALSE,60,15.6,TRUE
-"4","01B","PM",10192018,109,"59.8º F, Sun, Cool","Some","","Humans, Dogs, Pigeons, Sparrow, Blue jay","Busy","",1,10,35,FALSE,59,15,TRUE
-"5","01C","PM",10132018,241,"55° F, Partly Cloudy","None","","Humans, Dogs, Pigeons, Birds","Busy","",1,10,25,FALSE,55,12.8,FALSE
-"6","01D","AM",10062018,250,"66º F, cloudy, light drizzle","Some","","Humans","Calm","",1,9,35,FALSE,66,18.9,FALSE
-"7","01E","AM",10062018,218,"65º F approx, misty","Some","","Humans","Calm","",1,5,26,FALSE,65,18.3,FALSE
-"8","01F","AM",10102018,123,"74º F, Partly cloudy, no wind","None","","Humans, Dogs, Ducks","Calm","",1,5,20,FALSE,74,23.3,FALSE
-"9","01F","PM",10192018,241,"59º F, Clear","None","","Humans, Dogs, Pigeons, Birds","Busy","",1,3,24,FALSE,59,15,TRUE
-"10","01G","PM",10102018,151,"77º F, Warm, sunny, humid","None","","Humans, Dogs, Cats, Raccoons","Busy","",1,3,28,FALSE,77,25,TRUE
-"11","01G","AM",10062018,232,"64º F, cloudy, light drizzle","None","","Humans, Dogs, Pigeons, Ducks, Bluejay, Sparrow, Starling","Busy","",1,4,25,FALSE,64,17.8,FALSE
-"12","01H","PM",10132018,27,"56° F, Cloudy","None","","Humans","Busy","",1,2,28,FALSE,56,13.3,FALSE
-"13","01H","AM",10122018,224,"59º F, mostly sunny, windy","Some","","Humans, Pigeons, Small birds","Busy","",1,2,27,FALSE,59,15,TRUE
-"14","01I","AM",10072018,8,"71º F, Cloudy","Some","","Humans, Dogs, Pigeons, Horses","Calm","",1,0,28,FALSE,71,21.7,FALSE
-"15","02A","AM",10102018,66,"73º F, Cloudy, 85% humidity","Abundant","","Humans, Dogs","Busy","",1,9,25,FALSE,73,22.8,FALSE
-"16","02A","PM",10192018,109,"55º F, Sun","Some","","Humans, Dogs, Pigeons, Downy Woodpecker, Sparrows","Calm","",1,6,30,FALSE,55,12.8,TRUE
-"17","02C","AM",10102018,66,"70º F","None","","Humans, Small birds","Busy","",1,9,25,FALSE,70,21.1,FALSE
-"18","02D","AM",10072018,116,"71º F, cloudy","None","","Humans, Dogs","Calm","",1,6,25,FALSE,71,21.7,FALSE
-"19","02D","PM",10122018,134,"61º F, sunny","None","","Humans","Busy","",1,2,35,FALSE,61,16.1,TRUE
-"20","02E","AM",10102018,167,"73º F","","","Humans, Hawks, Dogs","Calm","",1,7,20,FALSE,73,22.8,FALSE
-"21","02E","PM",10142018,177,"58º F, overcast","Some","","Humans, Dogs","Busy","",1,5,22,FALSE,58,14.4,FALSE
-"22","02F","AM",10062018,126,"64º F, slight wind, dew point 59, misty","Some","","Humans, Dogs","Calm","",1,5,25,FALSE,64,17.8,FALSE
-"23","02G","AM",10102018,60,"73º F, Overcast","None","","Humans, Dogs","Busy","",1,4,20,FALSE,73,22.8,FALSE
-"24","02G","PM",10072018,119,"80º F, Humid. Party. Cloudy.","None","","Humans, Pigeons, Mice","Calm","",1,3,22,FALSE,80,26.7,FALSE
-"25","02H","AM",10062018,116,"65º F, cloudy","","","Humans, Pigeons, Ducks, Geese","","",1,3,22,FALSE,65,18.3,FALSE
-"26","02H","PM",10062018,196,"67º F, Cloudy, mist-rain","Some","","Humans, Dogs","Busy","",1,2,30,FALSE,67,19.4,FALSE
-"27","02I","AM",10062018,56,"65º F, overcast","Some","","Humans, Pigeons","Busy","",1,2,28,FALSE,65,18.3,FALSE
-"28","02I","PM",10062018,134,"","","","","","",1,2,20,FALSE,NA,NA,FALSE
-"29","03A","PM",10172018,241,"60º F, mostly cloudy","None","","Humans, Dogs, Birds","Calm","",1,8,25,FALSE,60,15.6,FALSE
-"30","03B","PM",10072018,231,"80º F, Cloudy. Humid","Some","","Humans, Dogs","Busy","",1,11,15,FALSE,80,26.7,FALSE
-"31","03C","AM",10072018,116,"71º F, Cloudy","None","","Humans, Dogs","Calm","",1,2,20,FALSE,71,21.7,FALSE
-"32","03C","PM",10082018,134,"62º F, overcast","Some","","Humans, Dogs","Busy","",1,2,30,FALSE,62,16.7,FALSE
-"33","03D","AM",10062018,121,"64º F, overcast, moist","Some","","Humans, Dogs, Pigeons, Birds","Busy","",1,8,35,FALSE,64,17.8,FALSE
-"34","03D","PM",10102018,241,"77º F, Sunny, humid","None","","Humans, Dogs, Birds","Busy","",1,14,31,FALSE,77,25,TRUE
-"35","03E","AM",10062018,28,"cloudy, slight drizzle","Some","","Humans, Dogs (off-leash)","Calm","",1,8,23,FALSE,NA,NA,FALSE
-"36","03E","PM",10082018,158,"65º F, overcast","","","Humans","Busy","",1,9,25,FALSE,65,18.3,FALSE
-"37","03F","AM",10062018,93,"66º F, overcast","None","","Humans, Birds","Calm","",1,14,46,FALSE,66,18.9,FALSE
-"38","03G","AM",10082018,114,"67º F, overcast","Some","","Humans, Dogs, Pigeons","Moderate","kinde (sic)",1,3,20,FALSE,67,19.4,FALSE
-"39","03G","PM",10132018,224,"57° F, Cloudy to Partly Cloudy, ""Crisp""","Some","","Humans, Dogs, Ducks, Cardinal, Small birds, Robin","Busy","",1,3,39,FALSE,57,13.9,TRUE
-"40","03H","AM",10082018,114,"67º F, overcast","","","Humans, Dogs, Pigeons","Calm","",1,6,23,FALSE,67,19.4,FALSE
-"41","03I","PM",10132018,27,"56° F, Partly Cloudy","Some","","Humans, Pigeons","Busy","",1,8,25,FALSE,56,13.3,FALSE
-"42","03I","AM",10102018,123,"74º F, Partly cloudy, minimal wind","None","","Humans, Dogs, Pigeons","Busy","",1,5,20,FALSE,74,23.3,FALSE
-"43","04A","AM",10072018,110,"70º F, Foggy","None","","Humans, Dogs, Birds, but not pigeons","Calm","",1,5,22,TRUE,70,21.1,FALSE
-"44","04A","PM",10072018,231,"80º F, Cloudy. Humid","Some","","Humans, Dogs","Busy","",1,6,20,FALSE,80,26.7,FALSE
-"45","04B","PM",10182018,109,"48º F, Sun","None","","Humans, Dogs","Busy","",1,5,NA,FALSE,48,8.9,TRUE
-"46","04B","AM",10102018,167,"70º F Partly cloudy","Abundant","","Humans, Dogs","Busy","",1,6,25,FALSE,70,21.1,FALSE
-"47","04C","PM",10102018,217,"77º F, Mostly sunny, humid","None","","Humans, Dogs, Sparrows","Busy","",1,17,20,FALSE,77,25,TRUE
-"48","04D","AM",10122018,11,"60º F, partly cloudy","None","","Humans, Dogs, Blue Jays","Busy","",1,4,25,FALSE,60,15.6,FALSE
-"49","04D","PM",10082018,134,"65º F, overcast","Some","","Humans","Calm","",1,14,65,FALSE,65,18.3,FALSE
-"50","04E","AM",10202018,145,"55º F, Cloudy","None","","Humans, Dogs, Small birds, Dogs","Busy","",1,4,24,FALSE,55,12.8,FALSE
-"51","04E","PM",10082018,158,"65º F, overcast","None","","","","",1,8,29,FALSE,65,18.3,FALSE
-"52","04F","AM",10072018,8,"71º F, Coudy. Misty. Rain.","Some","","Humans, Dogs","Calm","",1,0,23,FALSE,71,21.7,FALSE
-"53","04G","PM",10072018,133,"77º F, Sunny","Some","","Humans","Busy","",1,1,36,FALSE,77,25,TRUE
-"54","04H","PM",10062018,134,"65º F, Very Overcast","None","","Humans","Busy","",1,2,31,FALSE,65,18.3,FALSE
-"55","04H","AM",10062018,168,"64º F, overcast","Some","","Humans, Dogs, Birds, Song birds and Crows","Busy","",1,4,45,FALSE,64,17.8,FALSE
-"56","04I","AM",10062018,34,"65º F, overcast, misty","Some","","Humans, Dogs, Pigeons, Rat","Busy","",1,3,42,FALSE,65,18.3,FALSE
-"57","04I","PM",10072018,134,"77º F, Sunny","Some","","Humans","Busy","",1,3,31,FALSE,77,25,TRUE
-"58","05A","AM",10062018,61,"64º F","None","","Humans, Dogs","Busy","",1,5,50,FALSE,64,17.8,FALSE
-"59","05A","PM",10102018,241,"77º F, Mostly Sun, humid","","","Humans, Dogs, Birds","Calm","",1,4,23,FALSE,77,25,TRUE
-"60","05B","AM",10082018,163,"66º F, overcast","Some","","Humans, Dogs","Busy","",1,4,26,FALSE,66,18.9,FALSE
-"61","05B","PM",10132018,241,"55° F, Partly Cloudy","None","","Humans, Dogs, Birds","Busy","",1,6,25,FALSE,55,12.8,FALSE
-"62","05C","AM",10062018,169,"64º F, cloudy, light rain","Some","","Humans, Dogs, Sparrows, Starlings, American robins","Calm","",1,7,25,FALSE,64,17.8,FALSE
-"63","05C","PM",10102018,217,"77º F, Mostly sunny","None","","Humans, Dogs","Busy","",1,13,20,FALSE,77,25,TRUE
-"64","05D","PM",10182018,109,"48º F, Sunny","None","","Humans, Dogs, Sparrows, Robin","Moderate","",1,7,20,FALSE,48,8.9,TRUE
-"65","05D","AM",10202018,145,"55º F, Cloudy","None","","Humans, Dogs, Other birds","Calm","",1,4,23,FALSE,55,12.8,FALSE
-"66","05E","PM",10122018,134,"61º F, sunny","","","Humans","Busy","",1,6,44,FALSE,61,16.1,TRUE
-"67","05E","AM",10082018,163,"66º F, overcast, misty","Some","","Humans, Hawks, Dogs","Busy","",1,10,34,FALSE,66,18.9,FALSE
-"68","05F","AM",10072018,17,"71º F, Cloudy","Some","","Humans, Dogs, Pigeons","Busy","",1,6,25,FALSE,71,21.7,FALSE
-"69","05F","PM",10072018,119,"80º F, Humid. Cloudy.","None","","Humans, Dogs, Pigeons, Tourists","Busy","",1,6,22,FALSE,80,26.7,FALSE
-"70","05G","PM",10102018,151,"77º F Sunny humid","","","Dogs","Busy","",1,5,20,FALSE,77,25,TRUE
-"71","05G","AM",10062018,230,"64º F, cloudy, misty","","","Humans, little Birds","Busy","",1,1,20,FALSE,64,17.8,FALSE
-"72","05H","AM",10072018,17,"70º F, Cloudy","None","","Humans, Dogs","Calm","",1,1,25,FALSE,70,21.1,FALSE
-"73","05H","PM",10062018,196,"67º F, Cloudy, misting","Abundant","","Humans","Busy","",1,0,30,FALSE,67,19.4,FALSE
-"74","05I","AM",10102018,60,"74º F","None","","Humans, Dogs","Busy","",1,6,20,FALSE,74,23.3,FALSE
-"75","05I","PM",10082018,96,"65º F, dark and damp, drizzling","None","","Humans, Dogs, Pigeons","Calm","",1,2,25,FALSE,65,18.3,FALSE
-"76","06A","PM",10122018,115,"sunny, chilly","Some","","Humans, Dogs, Birds","Busy","",1,7,25,FALSE,NA,NA,TRUE
-"77","06A","AM",10062018,211,"65º F, gray, misting","Some","","Humans, Dogs","Calm","",1,8,20,FALSE,65,18.3,FALSE
-"78","06B","PM",10172018,241,"61º F, mostly cloudy","None","","Humans, Dogs, Birds","Busy","",1,7,25,FALSE,61,16.1,FALSE
-"79","06B","AM",10122018,261,"58º F, partly sunny, breezy","None","","Humans (Bikers, Runners), Dogs, Small birds","Busy","",1,2,22,FALSE,58,14.4,TRUE
-"80","06C","AM",10072018,34,"68º F, Overcast. Humid.","None","","Humans, Dogs","Busy","T/V busy with cars. Lots on dogs in ball fields.",1,8,25,FALSE,68,20,FALSE
-"81","06C","PM",10202018,150,"65º F","","","","","",1,4,25,FALSE,65,18.3,FALSE
-"82","06D","PM",10202018,150,"65º F","Some","","Humans, Dogs","Busy","",1,6,25,FALSE,65,18.3,FALSE
-"83","06D","AM",10082018,250,"66º F, cloudy","Some","","Humans, Dogs","Calm","",1,4,21,FALSE,66,18.9,FALSE
-"84","06E","PM",10102018,195,"77º F, Mostly sunny (humid) but lovely","","","Humans","Busy","",1,5,22,FALSE,77,25,TRUE
-"85","06F","PM",10082018,114,"65º F, drizzly","","","Humans, Dogs","Busy","",1,6,23,FALSE,65,18.3,FALSE
-"86","06F","AM",10062018,263,"18º C, Cloudy","Abundant","","Humans, Dogs","Busy","",1,1,26,FALSE,18,-7.8,FALSE
-"87","06G","PM",10202018,242,"61º F, Sunny. Sun starting to go down","Some","","Humans, Horses, Birds","Busy","",1,4,24,FALSE,61,16.1,TRUE
-"88","06H","AM",10082018,6,"66º F, overcast, damp","","","Humans, Dogs","","",1,2,30,FALSE,66,18.9,FALSE
-"89","06H","PM",10202018,242,"63º F, Perfect","None","","Humans, Birds, Cardinal","Calm","",1,3,25,FALSE,63,17.2,TRUE
-"90","06I","AM",10062018,17,"65º F, cloudy","","","","","",1,1,23,FALSE,65,18.3,FALSE
-"91","06I","PM",10132018,256,"57° F, Cloudy","Some","","Humans, Dogs, Pigeons","Busy","",1,7,26,FALSE,57,13.9,FALSE
-"92","07A","PM",10072018,182,"79º F, Cloudy","","","Humans, Dogs","Calm","",1,2,22,FALSE,79,26.1,FALSE
-"93","07A","AM",10062018,227,"67º F, light drizzle","Some","","Humans, Dogs, Robins (Birds)","Busy","",1,3,29,FALSE,67,19.4,FALSE
-"94","07B","AM",10082018,60,"67º F, misty","None","","Humans, Dogs, Pigeons","Busy","",1,15,30,FALSE,67,19.4,FALSE
-"95","07B","PM",10062018,118,"Misty","Some","","Humans, Dogs","Busy","",1,1,22,FALSE,NA,NA,FALSE
-"96","07C","AM",10122018,261,"58º F, partly cloudy, breezy","None","","Humans (Very Few)","Calm","Sheep Meadow Closed!",1,3,20,FALSE,58,14.4,FALSE
-"97","07D","PM",10102018,115,"77º F, Humid, sunny","Some","","Humans","Busy","",1,1,25,FALSE,77,25,TRUE
-"98","07D","AM",10062018,117,"60s, cloudy, threatening to rain, misty","None","","Humans, Dogs","Calm","",1,0,30,FALSE,60,15.6,FALSE
-"99","07E","AM",10062018,118,"64º F, Cloudy","","","Humans, Dogs, Pigeons","Calm","",1,6,26,FALSE,64,17.8,FALSE
-"100","07F","PM",10122018,131,"60º F, sunny","None","","Humans, Dogs, Small birds","Calm","",1,3,25,FALSE,60,15.6,TRUE
-"101","07G","AM",10102018,67,"Muggy, cloudy, slightly damp","None","","Humans, Dogs, Birds, Blue jays","Busy","",1,9,25,FALSE,NA,NA,FALSE
-"102","07G","PM",10182018,242,"52º F, Sunny","","","Humans","Busy","",1,7,20,FALSE,52,11.1,TRUE
-"103","07H","PM",10062018,227228,"68º F, drizzle","None","","Humans, Sparrow","","",1,10,25,FALSE,68,20,FALSE
-"104","07I","AM",10122018,44,"59º F, sunny, very windy","Some","","Humans, Dogs, Pigeons, Small birds","Busy","Construction",1,0,25,FALSE,59,15,TRUE
-"105","07I","PM",10132018,256,"","","","","","",1,8,33,FALSE,NA,NA,FALSE
-"106","08A","PM",10142018,103,"58º F, cloudy, cool & crisp","None","","Humans, Dogs, Pigeons, Mice, Sparrows","Busy","",1,3,25,FALSE,58,14.4,TRUE
-"107","08B","PM",10122018,115,"chilly, sunny","Some","","Humans","Busy","",1,9,35,FALSE,NA,NA,TRUE
-"108","08C","AM",10072018,34,"68º F, Overcast. Humid.","None","","Humans, Dogs","Calm","Humans quietly walking polite dogs. dog run.",1,2,20,FALSE,68,20,FALSE
-"109","08D","PM",10072018,182,"80º F, Sunny","Some","","Humans, Dogs","Busy","",1,4,22,FALSE,80,26.7,TRUE
-"110","08D","AM",10072018,224,"71º F, Overcast. Misty","None","","Humans, Dogs, Pigeons","Calm","Very calm, except you can hear machinery",1,8,26,FALSE,71,21.7,FALSE
-"111","08E","AM",10132018,78,"46º F, rain","None","","Humans, Dogs","Calm","",1,2,20,FALSE,46,7.8,FALSE
-"112","08E","PM",10082018,96,"cloudy, drizzling","None","","Humans, Dogs","Busy","",1,8,25,FALSE,NA,NA,FALSE
-"113","08F","PM",10122018,131,"60º F, sunny","Some","","Humans, Dogs","Calm","",1,8,25,FALSE,60,15.6,TRUE
-"114","08F","AM",10142018,145,"52º F, Partly Cloudy, Mostly Sunny","None","","Humans, Dogs, Owls, Small birds","Busy","Concert at Naumburg Bandshell",1,0,23,FALSE,52,11.1,TRUE
-"115","08G","AM",10122018,44,"","","","Humans","Calm","",1,0,23,FALSE,NA,NA,FALSE
-"116","08G","PM",10172018,242,"61º F, Sunny, Breezy","","","Humans, Dogs, Horses, Birds","Busy","",1,2,20,FALSE,61,16.1,TRUE
-"117","08H","PM",10142018,138,"57º F, Cloudy","Some","","Dogs, Pigeons, Small birds","Calm","",1,9,25,FALSE,57,13.9,FALSE
-"118","08H","AM",10172018,163,"50º F, clear, windy","None","","Humans, Dogs","Busy","",1,6,26,FALSE,50,10,TRUE
-"119","08I","PM",10132018,134,"56° F, Partly Cloudy","Some","","Humans, Dogs, Wood Thrush","Calm","",1,9,64,FALSE,56,13.3,FALSE
-"120","08I","AM",10062018,237,"77º F, cloudy","Some","","Humans, Dogs","Busy","",1,12,27,FALSE,77,25,FALSE
-"121","09A","PM",10102018,195,"77º F (humid) but lovely","None","","Humans, Dogs, Pigeons","Busy","Doggie play area",1,4,22,FALSE,77,25,FALSE
-"122","09B","AM",10102018,211,"70º F","","","Blue jay","Busy","",1,9,30,FALSE,70,21.1,FALSE
-"123","09C","AM",10062018,196,"68º F, cloudy","Some","","Humans, Dogs, Birds","Busy","",1,3,20,FALSE,68,20,FALSE
-"124","09C","PM",10062018,230,"65º F, Mostly Cloudy","Some","","Humans, Dogs, Birds","","",1,7,20,FALSE,65,18.3,FALSE
-"125","09D","PM",10082018,55,"drizzling","Some","","Humans, Dogs","Calm","",1,0,10,FALSE,NA,NA,FALSE
-"126","09D","AM",10082018,60,"66º F, overcast, misty","Some","","Humans, Dogs, Birds","Busy","",1,4,20,FALSE,66,18.9,FALSE
-"127","09E","AM",10082018,6,"overcast, damp","","","Humans, Dogs","Busy","",1,4,20,FALSE,NA,NA,FALSE
-"128","09E","PM",10142018,101,"57º F, cloudy","None","","Humans, Hawks, Dogs, Small birds","Busy","",1,3,30,FALSE,57,13.9,FALSE
-"129","09F","AM",10132018,78,"46º F, rain","None","","Humans, Dogs","Busy","",1,4,20,FALSE,46,7.8,FALSE
-"130","09F","PM",10142018,138,"57º F, crisp & mostly cloudy","Some","","Humans, Dogs, dogs off-leash :( , Birds","Calm","But loud music at edge",1,8,23,FALSE,57,13.9,TRUE
-"131","09G","PM",10072018,96,"81º F, Cloudy","Some","","Humans, Dogs, Pigeons","Busy","",1,6,34,FALSE,81,27.2,FALSE
-"132","09G","AM",10072018,97,"70º F, Humid. Cloudy.","Some","","Humans, Dogs, Horse drawn carriage. Woodpecker","Busy","",1,4,25,FALSE,70,21.1,FALSE
-"133","09H","PM",10182018,242,"52º F, Sunny","","","Humans, Dogs","Busy","",1,9,21,FALSE,52,11.1,TRUE
-"134","09I","PM",10102018,114,"77º F, Mostly sunny","","","Humans, Dogs","Busy","",1,7,24,FALSE,77,25,TRUE
-"135","10A","AM",10062018,8,"65º F, cloudy, light drizzle","None","","Humans, Dogs, Red Robins","Busy","",1,4,24,FALSE,65,18.3,FALSE
-"136","10A","PM",10142018,101,"57º F, cloudy","","","Humans, Dogs, Pigeons, Small birds, Rat, Mice","","",1,4,25,FALSE,57,13.9,FALSE
-"137","10B","PM",10142018,103,"58º F, overcast cool & crisp","None","","Humans, Dogs, Pigeons, Tiny birds on trees","Busy","",1,5,25,FALSE,58,14.4,TRUE
-"138","10C","AM",10182018,242,"43º F, Sunny, Breezy","Some","","Humans, Dogs","Calm","",1,4,22,FALSE,43,6.1,TRUE
-"139","10D","PM",10082018,55,"65º F, overcast","Some","","Humans, Dogs","Busy","",1,1,18,FALSE,65,18.3,FALSE
-"140","10D","AM",10082018,250,"66º F, cloudy","Some","","Humans","Busy","",1,5,21,FALSE,66,18.9,FALSE
-"141","10E","AM",10102018,211,"71º F, Cloudy, humid","Some","","Humans, Dogs","Busy","",1,2,25,FALSE,71,21.7,FALSE
-"142","10E","PM",10072018,224,"79º F, Partly Cloudy","Some","","Humans","Busy","",1,1,24,FALSE,79,26.1,FALSE
-"143","10F","AM",10072018,97,"71º F, Humid. Cloudy.","None","","Humans, Dogs, Pigeons, Chickadees, Tour groups","Busy","",1,3,25,FALSE,71,21.7,FALSE
-"144","10F","PM",10192018,221,"58º F, Partly, Cloudy","Some","","Humans, Dogs, Pigeons","Busy","CRAZY BUSY",1,12,30,FALSE,58,14.4,FALSE
-"145","10G","PM",10172018,242,"60º F, windy, clouds coming in. A couple drops of rain.","None","","Humans","Calm","",1,10,23,FALSE,60,15.6,FALSE
-"146","10H","PM",10072018,96,"81º F, Partly Cloudy. Humid.","Some","","Humans, Dogs, Pigeons, Horses","Busy","",1,2,25,FALSE,81,27.2,FALSE
-"147","10I","AM",10102018,67,"Partly cloudy, dewy","Some","","Humans, Dogs","Busy","",1,4,26,FALSE,NA,NA,FALSE
-"148","10I","PM",10132018,134,"56° F, Partly Cloudy","None","","Humans, Dogs","Busy","",1,1,25,FALSE,56,13.3,FALSE
-"149","11A","AM",10142018,13,"Mild (mid-50s), cloudy","Some","","Humans, Dogs, Robins, Small brown birds -- not sparrows","Busy","Noisy and thumpy Avon Walk music from east",1,0,22,FALSE,50,10,FALSE
-"150","11A","PM",10132018,229,"55º F, cloudy","Some","","Humans, Dogs, Rat (with an apple core), Horses, Robin","Busy","",1,5,25,FALSE,55,12.8,FALSE
-"151","11B","AM",10072018,35,"71º F, Overcast. Humid","Some","","Humans, Dogs, Pigeons, Horses","Busy","",1,5,30,FALSE,71,21.7,FALSE
-"152","11B","PM",10142018,234,"Cool, Cloudy","Some","","Humans, Dogs, Horses","Busy","",1,8,18,FALSE,NA,NA,FALSE
-"153","11C","AM",10072018,35,"70º F, Overcast. Humid.","None","","Humans, Dogs","Busy","",1,0,30,FALSE,70,21.1,FALSE
-"154","11C","PM",10182018,191,"53º F, Sunset","None","","Humans, Ducks, Blue Jay, Horse!","Calm","",1,1,26,FALSE,53,11.7,TRUE
-"155","11D","AM",10102018,83,"72º F, Glasses fogging humid","None","","Humans, Dogs, Blue jays, Robins","Calm","",1,8,20,FALSE,72,22.2,FALSE
-"156","11E","PM",10122018,132,"61º F, sunny","Some","","Humans, Dogs, Pigeons","Busy","",1,7,20,FALSE,61,16.1,TRUE
-"157","11E","AM",10132018,203,"48º F, rain (from light to steady)","","","Humans, Horses","Busy","",1,4,21,FALSE,48,8.9,FALSE
-"158","11F","AM",10132018,97,"49º F, rainy, overcast, kinda windy","None","","Humans, Dogs, Chickadees","Busy","",1,3,30,FALSE,49,9.4,FALSE
-"159","11G","AM",10122018,37,"60º F, partly cloudy, windy","Some","","Humans, Blue jays, Robins","Calm","",1,1,20,FALSE,60,15.6,FALSE
-"160","11G","PM",10132018,85,"55º F, cloudy","None","","Humans, Horses","Busy","",1,2,26,FALSE,55,12.8,FALSE
-"161","11H","AM",10102018,37,"70º F, Muggy","Some","","Humans, Sparrows","Calm","",1,9,20,FALSE,70,21.1,FALSE
-"162","11I","AM",10122018,166,"60º F, windy, partly cloudy","None","","Humans, Dogs","Calm","",1,2,20,FALSE,60,15.6,FALSE
-"163","12A","AM",10082018,123,"66º F, overcast, drizzling, no wind","Some","","Humans, Dogs","Busy","",1,2,20,FALSE,66,18.9,FALSE
-"164","12A","PM",10132018,229,"55º F, cloudy","Some","","Humans, Dogs, Rat","","",1,4,24,FALSE,55,12.8,FALSE
-"165","12B","PM",10182018,151,"50º F, Sunny, Brisk","Some","","Humans, Dogs","Busy","",1,1,20,FALSE,50,10,TRUE
-"166","12B","AM",10072018,260,"70º F, Cloudy","Some","","Dogs","Busy","",1,2,NA,FALSE,70,21.1,FALSE
-"167","12C","AM",10132018,203,"48º F, light & steady rain","","","Humans, Dogs, Pigeons, Ducks, Geese","Calm","",1,3,20,FALSE,48,8.9,FALSE
-"168","12C","PM",10172018,249,"partly cloudy, pleasant","Some","","Humans, Waterfowl","Calm","",1,1,22,FALSE,NA,NA,TRUE
-"169","12D","AM",10132018,28,"rainy","Some","","Humans, Dogs","Busy","",1,2,23,FALSE,NA,NA,FALSE
-"170","12D","PM",10142018,36,"56º F","None","","Humans, Dogs","Calm","",1,3,20,FALSE,56,13.3,FALSE
-"171","12E","AM",10172018,83,"51º F, sunny, clear","Some","","Humans, Dogs, Pigeons, Various bird types","Busy","",1,8,25,FALSE,51,10.6,TRUE
-"172","12E","PM",10182018,191,"53º F, Sunny","None","","Humans, Dogs, Birds, Ducks","Busy","",1,6,23,FALSE,53,11.7,TRUE
-"173","12F","PM",10072018,220,"79º F, Partly Cloudy","","","Humans, Dogs, Pigeons","Busy","",1,15,21,FALSE,79,26.1,FALSE
-"174","12F","AM",10202018,256,"55º F, Cloudy","Some","","Humans, Dogs, Pigeons","Busy","",1,6,35,FALSE,55,12.8,FALSE
-"175","12G","AM",10122018,166,"60º F, windy, cloudy","None","","Humans, Dogs, Blue jay, Sparrows","Calm","",1,5,20,FALSE,60,15.6,FALSE
-"176","12H","AM",10072018,235,"71º F, Cloud","Some","","Humans, Dogs, Mandarin Duck","Moderate","",1,0,20,FALSE,71,21.7,FALSE
-"177","12I","AM",10132018,8,"46º F, rainy, cold","None","","Humans, Dogs","Calm","",1,1,25,FALSE,46,7.8,FALSE
-"178","12I","PM",10172018,80,"60º F, sunny, very windy","None","","Humans, Dogs","Busy","",1,0,25,FALSE,60,15.6,TRUE
-"179","13A","AM",10172018,83,"49º F, sunny, not a cloud","None","","Humans, Hawks, Dogs, Pigeons, Sparrows, blue jays","Calm","",1,5,22,FALSE,49,9.4,TRUE
-"180","13A","PM",10142018,234,"cool, cloudy","None","","Humans, Dogs","Busy","",1,4,20,FALSE,NA,NA,FALSE
-"181","13B","AM",10082018,123,"66º F, overcast, no wind","Some","","Humans, Dogs, Ducks","Busy","",1,0,20,FALSE,66,18.9,FALSE
-"182","13B","PM",10082018,240,"70º F, misting","None","","Humans, Dogs, Sparrows, Rats","Busy","",1,2,20,FALSE,70,21.1,FALSE
-"183","13C","PM",10192018,47,"56º F, Overcast","Some","","Humans","Calm","",1,5,25,FALSE,56,13.3,FALSE
-"184","13C","AM",10102018,83,"71º F Cloudy and wicked humid","Some","","Humans, Dogs, Blue jay, Cardinal, Warbler","Calm, Busy","Sporadically punctuated busy",1,4,20,FALSE,71,21.7,FALSE
-"185","13D","PM",10182018,215,"55º F, Sunny","Some","","Humans, Dogs, Pigeons, Cats, Birds, Ducks","Busy","",1,14,27,FALSE,55,12.8,TRUE
-"186","13D","AM",10142018,252,"51º F, cloudy w/sun","Some","","Humans, Dogs","Calm","Loud from concert",1,11,22,FALSE,51,10.6,TRUE
-"187","13E","PM",10082018,184,"66º F, misty, cloudy, humid","Some","","Humans, Dogs","Busy","",1,11,30,FALSE,66,18.9,FALSE
-"188","13E","AM",10172018,224,"52º F, sunny & brisk","Some","","Humans, Birds (non-pigeon)","Calm","",1,13,50,FALSE,52,11.1,TRUE
-"189","13F","PM",10082018,127,"66º F, misty, light rain, cloudy","","","Humans","Busy","",1,5,20,FALSE,66,18.9,FALSE
-"190","13F","AM",10072018,145,"70-73º F","None","","Humans, Dogs, Small birds","Calm","",1,4,28,FALSE,70,21.1,FALSE
-"191","13G","AM",10132018,162,"50º F, rain","None","","Humans","Calm","",1,0,25,FALSE,50,10,FALSE
-"192","13G","PM",10082018,244,"65º F, overcast, light breeze","None","","Humans, Dogs, Sparrows, Robins","Moderate","",1,4,22,FALSE,65,18.3,FALSE
-"193","13H","PM",10102018,60,"80º F, sunny","Abundant","","Humans, Dogs","Busy","",1,9,25,FALSE,80,26.7,TRUE
-"194","13H","AM",10132018,240,"~60º F, rainy","Some","2-3 pieces","Humans, Dogs, Ducks","Calm","Tour at Alice in Wonderland)",1,1,20,FALSE,60,15.6,FALSE
-"195","13I","AM",10132018,8,"46º F","None","","Humans, Dogs, Ducks","Calm","",1,0,30,FALSE,46,7.8,FALSE
-"196","13I","PM",10082018,127,"66º F, misty, cloudy","Some","","Humans, Dogs, Mice","Busy","",1,1,20,FALSE,66,18.9,FALSE
-"197","14A","AM",10142018,13,"mid-50s, cloudy","None","","Humans, Dogs, Pigeons, Finches, Sparrows","Busy","Avon Walk",1,2,21,FALSE,50,10,FALSE
-"198","14A","PM",10142018,36,"57º F","Some","","Humans, Dogs, Small birds","Calm","",1,8,20,FALSE,57,13.9,FALSE
-"199","14B","AM",10072018,28,"67º F, Cloudy","Some","","Woodpecker","Busy","",1,3,NA,FALSE,67,19.4,FALSE
-"200","14B","PM",10142018,222,"57º F, overcast","Some","","Humans, Dogs, Rat, Ducks","Calm, Busy","Busy, calm off walkways",1,8,22,FALSE,57,13.9,FALSE
-"201","14C","PM",10062018,25,"67º F, Gloomy, overcast","Some","","Humans, Dogs, Pigeons","Calm","",1,3,30,FALSE,67,19.4,FALSE
-"202","14C","AM",10072018,254,"70º F, Cloudy","Some","","Humans, Dogs","Calm","",1,0,22,FALSE,70,21.1,FALSE
-"203","14D","AM",10142018,116,"52º F, mostly cloudy","None","","Humans, Dogs","Calm","Loud music from Bethesda Terrace",1,16,55,FALSE,52,11.1,FALSE
-"204","14D","PM",10192018,151,"60º F, Cloudy","Some","","Humans, Dogs","Busy","",1,16,35,FALSE,60,15.6,FALSE
-"205","14E","PM",10172018,80,"58º F, sunny, breezy","None","","Humans, Dogs","Calm","",1,5,25,FALSE,58,14.4,TRUE
-"206","14E","AM",10082018,203,"65º F, fog, clouds, mist","Some","","Humans","Calm","",1,23,40,FALSE,65,18.3,FALSE
-"207","14F","PM",10122018,24,"61º F, sunny, windy","Some","","Humans, Dogs","Calm","",1,9,25,FALSE,61,16.1,TRUE
-"208","14F","AM",10072018,172,"73º F","Some","","Humans, Dogs","Calm","",1,6,29,FALSE,73,22.8,FALSE
-"209","14G","AM",10122018,37,"60º F, partly cloudy, windy","None","","Humans, Dogs, Robins, Horses","Calm","",1,4,20,FALSE,60,15.6,FALSE
-"210","14H","PM",10122018,24,"61º F, sunny, windy, sun going behind trees","Some","","Humans, Dogs (Lots)","Busy","",1,8,20,FALSE,61,16.1,TRUE
-"211","14H","AM",10072018,235,"71-78º F, Cloudy","Some","","Humans, Dogs, Mandarin Ducks","","",1,4,25,FALSE,71,21.7,FALSE
-"212","14I","PM",10182018,70,"40º F, Sunny","Some","","Humans, Dogs, Pigeons, Rat","Calm","",1,6,25,FALSE,40,4.4,TRUE
-"213","14I","AM",10132018,240,"~60º F, rainy","None","","Humans, Dogs, Pigeons","Calm, Busy","Calm (in Park), Busy (on Road)",1,1,21,FALSE,60,15.6,FALSE
-"214","15A","PM",10172018,224,"52º F, cloudy, light rain drops, chilly","None","","Humans, Birds","Calm, Busy","Busy at sidewalk",1,1,20,FALSE,52,11.1,FALSE
-"215","15B","PM",10172018,206,"cool, windy","None","","Humans, Dogs, Birds","Busy","",1,5,40,FALSE,NA,NA,FALSE
-"216","15B","AM",10142018,209,"50º F, sunny","None","","Humans, Dogs","Busy","",1,3,20,FALSE,50,10,TRUE
-"217","15C","AM",10102018,203,"74º F Muggy & cloudy","None","","Humans, Dogs, Crickets","Calm","",1,3,37,FALSE,74,23.3,FALSE
-"218","15C","PM",10172018,249,"got dark very suddenly","Some","","mouse, Rats, Other birds","Calm","",1,5,40,FALSE,NA,NA,FALSE
-"219","15D","PM",10172018,163,"61º F, partly cloudy, then some showers","Some","","Humans, Birds, Mouse, Rat","Calm","",1,6,31,FALSE,61,16.1,FALSE
-"220","15E","AM",10132018,132,"47º F, raining","None","","Humans","Calm","",1,4,20,FALSE,47,8.3,FALSE
-"221","15E","PM",10082018,203,"64º F, cloudy","Some","","Humans","Moderate","",1,11,33,FALSE,64,17.8,FALSE
-"222","15F","PM",10102018,60,"80º F Sunny","","","Humans, Dogs","Busy","",1,7,29,FALSE,80,26.7,TRUE
-"223","15F","AM",10072018,145,"73º F, Cloudy","None","","Humans, Dogs","Calm","",1,10,30,FALSE,73,22.8,FALSE
-"224","15G","AM",10082018,67,"damp, misty, cloudy","Some","","Humans, Dogs","Busy","",1,6,23,FALSE,NA,NA,FALSE
-"225","15G","PM",10192018,138,"60º F, Mostly Sunny + Slightly Breezy","Some","","Humans, Dogs, Small birds","Calm","",1,12,23,FALSE,60,15.6,TRUE
-"226","15H","AM",10132018,97,"49º F, light rain, cloudy","None","","Humans, Dogs, Bluebird, Chickadees","Calm","",1,3,27,FALSE,49,9.4,FALSE
-"227","15H","PM",10082018,244,"67º F, overcast, light breeze","None","","Humans, Dogs","Calm","",1,7,21,FALSE,67,19.4,FALSE
-"228","15I","AM",10082018,67,"damp, humid, cloudy, dreary, misty, not raining, moist","Some","","Humans, Dogs, Sparrows, Crickets, Blue jay","Busy","",1,6,29,FALSE,NA,NA,FALSE
-"229","16A","AM",10132018,28,"rainy","","","Humans, Dogs","Calm","",1,2,23,FALSE,NA,NA,FALSE
-"230","16A","PM",10192018,88,"58º F, Partly Cloudy","None","","Humans, Dogs, Sparrows","Calm","",1,7,20,FALSE,58,14.4,FALSE
-"231","16B","PM",10172018,206,"cool, windy","None","","Humans, Dogs, Birds","Busy","",1,2,NA,FALSE,NA,NA,FALSE
-"232","16B","AM",10142018,209,"50º F, sunny","None","","Humans, Dogs","Busy","",1,2,19,FALSE,50,10,TRUE
-"233","16C","PM",10182018,1,"51º F, Dry and Clear","Some","","Humans, Birds (unknown), Chipmunk","Busy","",1,3,24,FALSE,51,10.6,TRUE
-"234","16C","AM",10142018,172,"50º F, partly cloudy","Some","","Humans, Dogs","Calm","",1,4,43,FALSE,50,10,FALSE
-"235","16D","PM",10102018,203,"76º F, Sunny, occasional breezes","None","","Humans, Dogs, Butterflies","Moderate","",1,13,28,FALSE,76,24.4,TRUE
-"236","16D","AM",10072018,254,"70º F, Cloudy","Abundant","","Humans","Calm","",1,6,21,FALSE,70,21.1,FALSE
-"237","16E","AM",10142018,35,"50º F, sunny","Abundant","","Humans, Dogs, Yoga Class","Calm","",1,10,40,FALSE,50,10,TRUE
-"238","16E","PM",10182018,267,"48º F, Partly Cloudly","Some","","Humans","Busy","",1,10,35,FALSE,48,8.9,FALSE
-"239","16F","PM",10132018,85,"55º F, clouds","Some","","Humans, Dogs, Raccoon (Dead)","Busy","",1,6,46,FALSE,55,12.8,FALSE
-"240","16F","AM",10082018,149,"68º F, moist","Some","","Humans","Calm","",1,3,30,FALSE,68,20,FALSE
-"241","16G","AM",10102018,37,"70º F Muggy and partly cloudy","None","","Humans, Dogs, Sparrows","Busy","",1,5,20,FALSE,70,21.1,FALSE
-"242","16G","PM",10172018,104,"62º F, sunny, light breeze","Some","","Humans, Dogs","Busy","",1,1,25,FALSE,62,16.7,TRUE
-"243","16H","AM",10072018,172,"72º F, Overcast","None","","Humans, Dogs","Calm","Calm, but lots of dogs",1,1,20,FALSE,72,22.2,FALSE
-"244","16I","AM",10082018,149,"70º F, moist","Some","","Humans","Calm","",1,4,25,FALSE,70,21.1,FALSE
-"245","17A","PM",10132018,141,"50s, sunny","None","","Humans","Busy","",1,3,20,FALSE,50,10,TRUE
-"246","17A","AM",10172018,255,"Low 50s, cool & sunny","Some","","Humans, Dogs, Pigeons, other Birds","Busy","",1,1,25,FALSE,50,10,TRUE
-"247","17B","PM",10122018,29,"60º F, Breezy","None","","Humans, Dogs, Mouse or Baby Rat","Busy","",1,3,22,FALSE,60,15.6,FALSE
-"248","17B","AM",10102018,166,"73º F, Sunny","None","","Humans, Dogs, Pigeons","Busy","",1,3,20,FALSE,73,22.8,TRUE
-"249","17C","PM",10132018,141,"50s, sunny","None","","Humans","Busy","",1,5,25,FALSE,50,10,TRUE
-"250","17D","PM",10082018,184,"66º F, misty, cloudy , humid","None","","Humans","Calm","",1,0,10,FALSE,66,18.9,FALSE
-"251","17D","AM",10082018,184,"67º F, misty, cloudy, humid","None","","Humans, Dogs","Calm","",1,7,20,FALSE,67,19.4,FALSE
-"252","17E","PM",10182018,178,"73º F","Some","","Humans, Cats","Moderate","Partially blocked due to contruction",1,3,20,FALSE,73,22.8,FALSE
-"253","17E","AM",10172018,247,"55º F, Sunny","None","","Birds, Ducks","Calm","",1,11,35,FALSE,55,12.8,TRUE
-"254","17F","PM",10202018,128,"61º F, Clear Sky","","","Humans","","",1,6,NA,FALSE,61,16.1,TRUE
-"255","17F","AM",10072018,173,"70º F, Cloudy","None","","Humans, Dogs","Moderate","",1,7,50,FALSE,70,21.1,FALSE
-"256","17G","AM",10182018,76,"40º F, Windy, Clear","Some","","Humans, Dogs","Busy","",1,1,24,FALSE,40,4.4,TRUE
-"257","17G","PM",10172018,104,"62º F, Sunny, light breeze & light sprinkle later on","None","","Humans, Dogs, Other birds","Busy","",1,4,25,FALSE,62,16.7,TRUE
-"258","17H","PM",10072018,87,"79º F, Cloudy","None","","Humans, Dogs","Busy","",1,2,20,FALSE,79,26.1,FALSE
-"259","17H","AM",10102018,255,"70º F, Humid and partly sunny","Some","","Humans, Dogs, Robin","Moderate","",1,0,25,FALSE,70,21.1,TRUE
-"260","17I","PM",10172018,202,"62º F, cloudy, windy","Abundant","","Humans, Dogs, Pigeons, Cats","Busy","",1,1,20,FALSE,62,16.7,FALSE
-"261","17I","AM",10142018,230,"49º F, calm & crisp","Some","","Humans, Dogs","Busy","With street noise",1,4,27,FALSE,49,9.4,TRUE
-"262","18A","PM",10182018,69,"49º F, Clear","Some","","Dogs, Robins, Mourning Dove, Sparrow","Busy","",1,1,20,FALSE,49,9.4,TRUE
-"263","18A","AM",10122018,211,"58º F, cloudy, very windy","Some","","Humans, Dogs, Robins, Blue jays","Calm","",1,2,30,FALSE,58,14.4,FALSE
-"264","18B","PM",10182018,95,"Sunny, Windy, Cool","","","","","",1,0,30,FALSE,NA,NA,TRUE
-"265","18B","AM",10172018,247,"57º F, sunny","None","","","Calm","",1,0,20,FALSE,57,13.9,TRUE
-"266","18C","PM",10182018,95,"","None","","Humans, Dogs","Busy","",1,9,40,FALSE,NA,NA,FALSE
-"267","18C","AM",10182018,224,"40º F, Cold, Sunny, Windy","None","","Humans, Dogs, Birds (lots)","Moderate","",1,2,20,FALSE,40,4.4,TRUE
-"268","18D","PM",10172018,138,"63º F, mostly sunny, off-&-on windy","Some","","Humans, Dogs, Small birds","Calm","",1,1,20,FALSE,63,17.2,TRUE
-"269","18E","PM",10062018,114,"65º F, drizzly","","","Humans, Dogs","Busy","",1,1,21,FALSE,65,18.3,FALSE
-"270","18E","AM",10122018,211,"58º F, cloudy, very windy","None","","Humans, Dogs, Robins (Many)","Calm","",1,0,23,FALSE,58,14.4,FALSE
-"271","18G","PM",10132018,203,"49º F, breezy, partly cloudy","None","","Humans, Dogs","","",1,4,20,FALSE,49,9.4,FALSE
-"272","18H","PM",10142018,201,"58º F, cool","None","","Humans","Busy","",1,3,20,FALSE,58,14.4,FALSE
-"273","18H","AM",10182018,239,"44º F, Sunny, Clear Sky, Gusty","None","","Humans","Calm","",1,2,25,FALSE,44,6.7,TRUE
-"274","18I","AM",10172018,37,"50º F, sunny","Abundant","","Humans, Dogs","Calm","",1,3,20,FALSE,50,10,TRUE
-"275","18I","PM",10072018,220,"79º F, Partly Cloudy","","","Humans, Dogs, Pigeons","Busy","",1,9,20,FALSE,79,26.1,FALSE
-"276","19A","PM",10132018,13,"~Low 50s, cold, partly cloudy, sunshine","Some","1 reusable bag","Humans, Dogs, Sparrows, Blue Finch-like Birds, Robins, Blackbirds","Busy","",1,6,26,FALSE,50,10,TRUE
-"277","19A","AM",10132018,209,"50º F, rain","None","","","Calm","Calm (in Park), Traffic",1,0,18,FALSE,50,10,FALSE
-"278","19B","AM",10192018,148,"46º F","Some","","Humans, Dogs, Birds, but less Robins, Sparrows, Crows, Sterlings, Doves","Busy","",1,2,25,FALSE,46,7.8,FALSE
-"279","19C","AM",10192018,148,"46º F, Sunny Breezy","Some","","Humans, Dogs, Robins, starling, Mourning dove, Finches, Sparrows","Busy","",1,0,25,FALSE,46,7.8,TRUE
-"280","19D","AM",10072018,252,"69º F","None","","Humans, Dogs","Busy","Busy on path",1,2,20,FALSE,69,20.6,FALSE
-"281","19D","PM",10082018,266,"68º F, misty","None","","Humans, Blue jays, Cardinals, Sparrows, Titmice","Moderate","",1,3,20,FALSE,68,20,FALSE
-"282","19E","PM",10182018,69,"49º F, Clear","None","","Dogs","Calm","",1,5,30,FALSE,49,9.4,TRUE
-"283","19E","AM",10072018,252,"69º F, Cloudy. A bit humid","None","","Dogs","Busy","Busy on suncuncting(?) path",1,0,20,FALSE,69,20.6,FALSE
-"284","19F","PM",10172018,151,"63º F, windy, cloudy","","","Humans, Dogs","Calm","",1,7,30,FALSE,63,17.2,FALSE
-"285","19F","AM",10072018,173,"29º C, Cloudy","None","","Dogs","Calm","",1,3,50,FALSE,29,-1.7,FALSE
-"286","19G","AM",10182018,17,"43º F, Sunny","Some","","Humans, Dogs","Busy","",1,0,25,FALSE,43,6.1,TRUE
-"287","19G","PM",10172018,202,"62º F, Partly Cloudy, very windy (attacked by flying leaves kind)","None","","Humans, Dogs","Busy","",1,3,24,FALSE,62,16.7,FALSE
-"288","19H","AM",10102018,255,"70º F, Humid and cloudy","None","","Humans, Dogs","Moderate","",1,5,20,FALSE,70,21.1,FALSE
-"289","19I","PM",10172018,151,"63º F, Breezy, Sunny","None","","Humans, Pigeons","Busy","",1,0,20,FALSE,63,17.2,TRUE
-"290","19I","AM",10172018,166,"51º F, sunny, windy","None","","Humans, Dogs","Busy","",1,0,20,FALSE,51,10.6,TRUE
-"291","20A","PM",10172018,138,"63º F, sunny then cloudy, wind gusts, a few raindrops","Some","","Humans, Dogs, Small birds","Calm","",1,1,23,FALSE,63,17.2,TRUE
-"292","20A","AM",10102018,166,"73º F, Cloudy and humid","Some","","Humans, Dogs, Pigeons, Birds","Calm","",1,2,20,FALSE,73,22.8,FALSE
-"293","20B","PM",10132018,13,"Low 50s, cold","Some","1 piece of plastic","Humans, Dogs, Pigeons, Robins, Blackbirds, Sparrows","Busy","",1,10,22,FALSE,50,10,FALSE
-"294","20B","AM",10072018,82,"70º F, Drizzly. Overcast.","None","","Humans, Robin, Seagulls - lots flying high.","Calm","",1,3,20,FALSE,70,21.1,FALSE
-"295","20C","AM",10182018,94,"Sunny, Blue Sky","None","","Humans, Dogs, Small birds","Busy","",1,0,23,FALSE,NA,NA,TRUE
-"296","20C","PM",10182018,178,"76º F, Sunny","None","","Humans, Dogs","Busy","",1,9,25,FALSE,76,24.4,TRUE
-"297","20D","PM",10142018,45,"57º F, overcast","None","","Humans, Dogs","Busy","Great lawn, (2/3 of this hectare fenced off for the season)",1,1,20,FALSE,57,13.9,FALSE
-"298","20D","AM",10072018,82,"70º F","None","","Humans, Dogs, Pigeons, Seagulls (3), Butterfly","Busy","",1,2,25,FALSE,70,21.1,FALSE
-"299","20E","AM",10142018,132,"49º F, sunny","None","","Humans, Dogs, Jays","Busy","Lots of dogs off leash",1,2,20,FALSE,49,9.4,TRUE
-"300","20F","PM",10072018,132,"78º F, Humid. Sunny. Filtered by trees","None","","Humans, Dogs, Sparrows, Robins","Moderate","",1,14,20,FALSE,78,25.6,TRUE
-"301","20F","AM",10142018,230,"49º F, calm & crisp","Some","","Humans, Dogs, Small birds","Busy","",1,3,23,FALSE,49,9.4,TRUE
-"302","20G","AM",10182018,17,"43º F, Partly Sunny, Breezy","Some","","Humans, Hawks, Dogs","Busy","",1,3,30,FALSE,43,6.1,TRUE
-"303","20G","PM",10132018,78,"54º F, cloudy","None","","Humans, Dogs, Pigeons, Robins","Busy","",1,3,20,FALSE,54,12.2,FALSE
-"304","20H","PM",10132018,203,"49º F, partly cloudy","","","Humans, Dogs","Calm","",1,0,23,FALSE,49,9.4,FALSE
-"305","20H","AM",10142018,240,"55º F, partly sunny","None","","","Busy","Construction site: no access until 2022",1,0,22,FALSE,55,12.8,TRUE
-"306","20I","PM",10182018,70,"40º F, Sunny, Windy","None","","Humans, Dogs, Pigeons","Busy","",1,0,19,FALSE,40,4.4,TRUE
-"307","20I","AM",10172018,166,"51º F, sunny, windy","None","","Humans, Dogs","Busy","",1,0,20,FALSE,51,10.6,TRUE
-"308","21B","PM",10172018,194,"77º F, with some breeze","Some","","Humans, Pigeons, Birds","Busy","Kids playing soccer",1,5,20,FALSE,77,25,FALSE
-"309","21C","AM",10142018,216,"54º F, partly cloudy","Some","","Humans, Dogs","Busy","",1,5,23,FALSE,54,12.2,FALSE
-"310","21D","PM",10082018,266,"68º F, misty","Some","","Humans, Dogs, Chimney swifts, Blue jay","Busy","",1,6,20,FALSE,68,20,FALSE
-"311","21E","PM",10122018,16,"61º F, sunny","None","","Bird","Calm","Empty, Roped Off",1,2,22,FALSE,61,16.1,TRUE
-"312","21E","AM",10172018,255,"low 50s, cool & sunny","None","","Humans, Dogs, Pigeons","Calm","",1,3,20,FALSE,50,10,TRUE
-"313","21F","PM",10182018,76,"50º F, Light wind, Clear","Some","","Humans, Dogs","Busy","",1,3,25,FALSE,50,10,TRUE
-"314","21F","AM",10182018,166,"44º F, Sunny, Windy","None","","Humans, Dogs, Robins","Busy","",1,8,20,FALSE,44,6.7,TRUE
-"315","21G","PM",10072018,87,"79º F, Some clouds","None","","Humans, Dogs","Busy","",1,4,25,FALSE,79,26.1,FALSE
-"316","21G","AM",10142018,240,"55º F, partly sunny","Some","","Humans, Dogs, Sparrows","Busy","",1,7,25,FALSE,55,12.8,TRUE
-"317","21H","AM",10172018,37,"50º F, Sunny","Some","","Humans, Dogs","Busy","",1,2,20,FALSE,50,10,TRUE
-"318","21H","PM",10182018,267,"52º F, Clear, Windy","Some","","Humans, Woodpecker","Calm","",1,4,15,FALSE,52,11.1,TRUE
-"319","21I","AM",10182018,37,"44º F, Sunny","Abundant","","Humans, Dogs, Pigeons","Calm, Busy","Busy near street, near empty on the playground.",1,0,20,FALSE,44,6.7,TRUE
-"320","21I","PM",10132018,205,"55º F, partly cloudy (sundown)","Some","","Humans, Dogs, Sparrows, Migratory birds (a distant V of 30-40 going south)","Busy","",1,0,20,FALSE,55,12.8,TRUE
-"321","22A","PM",10172018,194,"75º F, with some breeze","None","","Humans, Dogs","Busy","A lot of traffic noise",1,3,25,FALSE,75,23.9,FALSE
-"322","22B","AM",10132018,2,"~58º F, wet, drizzle","Some","","Humans, Dogs","Calm","",1,5,30,FALSE,58,14.4,FALSE
-"323","22B","PM",10142018,75,"50º F, Cloudy","Some","","Humans, Dogs, Woodpecker, Blue jay, Robins","Busy","",1,7,20,FALSE,50,10,FALSE
-"324","22C","AM",10132018,209,"50º F, rain","None","","Humans, Dogs","Calm","",1,3,17,FALSE,50,10,FALSE
-"325","22D","PM",10122018,16,"61º F, sunny","None","","Humans, Pigeons, Sparrows","Calm, Busy","",1,7,26,FALSE,61,16.1,TRUE
-"326","22D","AM",10082018,184,"67º F, misty, cloudy, humid","None","","Humans, Dogs","Calm","",1,0,35,FALSE,67,19.4,FALSE
-"327","22E","PM",10142018,75,"50º F","None","","","Calm","",1,2,20,FALSE,50,10,FALSE
-"328","22E","AM",10182018,224,"40s, Cold, Sunny, Windy","None","","Humans, Dogs, Birds","Calm","",1,0,20,FALSE,40,4.4,TRUE
-"329","22F","PM",10142018,201,"58º F, cool","","","Humans","Busy","",1,8,20,FALSE,58,14.4,FALSE
-"330","22G","AM",10182018,76,"40º F, Windy, Clear","None","","Humans, Dogs","Medium","",1,5,24,FALSE,40,4.4,TRUE
-"331","22G","PM",10182018,215,"53º F, Sunny","Some","","Humans, Dogs, Birds","Busy","",1,3,25,FALSE,53,11.7,TRUE
-"332","22H","AM",10182018,37,"44º F, Sunny, Windy","","","Humans, Dogs, Pigeons","Busy","",1,0,20,FALSE,44,6.7,TRUE
-"333","22H","PM",10072018,132,"78º F, More overcast","Some","","Humans, Dogs, Rats, Sparrows","Busy","",1,4,20,FALSE,78,25.6,FALSE
-"334","22I","PM",10132018,78,"55º F, partly cloudy","Some","","Humans, Dogs, Pigeons, Birds (galore: House sparrows, House finch, Blue jay, etc.)","Busy","",1,0,20,FALSE,55,12.8,FALSE
-"335","23A","AM",10182018,94,"Sunny","None","","Humans, Dogs","Calm","",1,5,25,FALSE,NA,NA,TRUE
-"336","23B","PM",10122018,29,"60º F, Breezy","None","","Humans, Dogs, Robins, Jays","Busy","",1,7,26,FALSE,60,15.6,FALSE
-"337","23B","AM",10192018,57,"48º F, Chilly, Mild","None","","Humans, Dogs, Falcons","Moderate","",1,0,24,FALSE,48,8.9,FALSE
-"338","23C","PM",10142018,45,"57º F, overcast","Some","","Humans, Dogs, Horse (saw droppings)","Busy","Lots of foot and bike traffic on paths",1,4,21,FALSE,57,13.9,FALSE
-"339","23C","AM",10192018,57,"48º F, Chilly, Mild","None","","Humans, Dogs, Falcons","Busy","Noisy",1,1,23,FALSE,48,8.9,FALSE
-"340","23D","AM",10132018,2,"~56º F, drizzle","None","","Humans, Dogs, Ducks","Busy","",1,1,25,FALSE,56,13.3,FALSE
-"341","23E","AM",10142018,216,"54º F, partly cloudy","Some","","Humans, Dogs, Birds","Busy","",1,0,27,FALSE,54,12.2,FALSE
-"342","23E","PM",10062018,265,"drizzling, cloudy","Some","","Humans, Dogs, Pigeons, Small birds","Calm","",1,1,35,FALSE,NA,NA,FALSE
-"343","23F","AM",10182018,166,"44º F, Sunny, Windy","None","","Humans, Dogs, Sparrows, Crows, Cardinal","Busy","",1,1,20,FALSE,44,6.7,TRUE
-"344","23F","PM",10132018,205,"55º F, partly cloudy (with sun)","Some","","Humans, Dogs, Blue Jay, Rat, Bee, Sparrow","Moderate","Busy near gate house, quiet on and south of Transverse, reservoir path medium",1,4,NA,FALSE,55,12.8,TRUE
-"345","23G","AM",10182018,239,"44º F, Sunny, Clear Sky, Windy (Gusts(","Some","","Humans, Few and calls of larger birds, but not visible","Busy","",1,0,25,FALSE,44,6.7,TRUE
-"346","23H","PM",10192018,45,"60º F, Partly Cloudy","Some","","Humans, Dogs","Calm, Busy","Busy on Running Path",1,1,17,FALSE,60,15.6,FALSE
-"347","23H","AM",10142018,240,"55º F, partly sunny","Some","","Humans, Dogs, Runners","Busy","",1,0,17,FALSE,55,12.8,TRUE
-"348","23I","AM",10192018,23,"46º F, Sunny, no clouds","None","","Humans, Dogs, Small birds","Busy","",1,1,45,FALSE,46,7.8,TRUE
-"349","23I","PM",10192018,45,"60º F, Partly Cloudy","None","","Humans, Dogs, Ducks","Busy","Busy",1,3,25,FALSE,60,15.6,FALSE
-"350","24A","AM",10142018,170,"50º F, Sunny, Clear","None","","Humans, Dogs","Busy","5k",1,2,25,FALSE,50,10,TRUE
-"351","24B","PM",10102018,65,"70s, sunny, humid","Some","","Humans, Dogs, Birds","Busy","",1,0,20,FALSE,70,21.1,TRUE
-"352","24B","AM",10132018,243,"50º F, rain, very cloudy","None","","Humans, Dogs, Birds","Busy","",1,1,30,FALSE,50,10,FALSE
-"353","24C","AM",10102018,104,"73º F, Vaguely sunny","None","","Pigeons, Other birds","Busy","",1,0,35,FALSE,73,22.8,TRUE
-"354","24C","PM",10172018,115,"62º F, sunny, windy","","","","","",1,0,25,FALSE,62,16.7,TRUE
-"355","24I","AM",10192018,250,"45º F, Sunny, Windy","Some","","Humans, Dogs","Busy","",1,1,30,FALSE,45,7.2,TRUE
-"356","25A","AM",10132018,243,"50º F, drizzle, light rain, overcast","None","","Humans, Dogs, Other Birds","Busy","Busy (road)",1,5,40,FALSE,50,10,FALSE
-"357","25B","AM",10142018,28,"Partly cloudy","","","Humans, Dogs, Warblers","","",1,0,NA,FALSE,NA,NA,FALSE
-"358","25B","PM",10072018,41,"80º F, Sunny. Humid.","None","","Humans","Busy","",1,2,20,FALSE,80,26.7,TRUE
-"359","25I","PM",10072018,155,"Humid","Some","","","Busy","",1,8,45,FALSE,NA,NA,FALSE
-"360","25I","AM",10122018,204,"60º F, windy","None","","Humans, Dogs, Pigeons, Song birds","Calm","",1,3,35,FALSE,60,15.6,FALSE
-"361","26A","AM",10142018,248,"51º F, Mostly Cloudy, Light Breeze","None","","Humans, Dogs","Busy","",1,2,20,FALSE,51,10.6,FALSE
-"362","26B","AM",10102018,104,"70º F Humid and cloudy","None","","Humans, Dogs, Pigeons","Busy","",1,1,30,FALSE,70,21.1,FALSE
-"363","26B","PM",10172018,250,"62º F, sunny, windy","Some","","Humans, Dogs, Pigeons, Ducks","Busy","",1,0,20,FALSE,62,16.7,TRUE
-"364","26I","PM",10102018,211,"79º F, Part sunny","Some","","Humans, Dogs","Busy","",1,6,20,FALSE,79,26.1,TRUE
-"365","26I","AM",10102018,224,"73º F, Partly cloudy, muggy, occasional cool breeze","Some","","Humans, Dogs, Seagull","Busy","",1,2,26,FALSE,73,22.8,FALSE
-"366","27A","AM",10082018,97,"65º F, overcast, cloudy, light drizzle","Some","","Humans, Dogs, Chickadees","Calm","",1,2,25,FALSE,65,18.3,FALSE
-"367","27A","PM",10062018,265,"drizzling cloudy","None","","Humans, Pigeons","Busy","",1,1,32,FALSE,NA,NA,FALSE
-"368","27B","AM",10142018,170,"49º F, Sunny, Clear","Some","","Humans, Dogs, Birds","Busy","5k race",1,0,23,FALSE,49,9.4,TRUE
-"369","27C","AM",10142018,248,"53º F, mostly sunny, calm","None","","Humans, Turtle (in water)","Busy","",1,0,5,FALSE,53,11.7,TRUE
-"370","27C","PM",10122018,250,"61º F, sunny, windy","None","","Humans","Busy","",1,0,20,FALSE,61,16.1,TRUE
-"371","27I","AM",10072018,102,"Cool","None","","Butterfly","Busy","Heavy human congestion",1,4,42,FALSE,NA,NA,FALSE
-"372","28A","PM",10072018,40,"80º F, Overcast. Humid.","Abundant","","Humans, Dogs, Birds","Busy","",1,5,20,FALSE,80,26.7,FALSE
-"373","28A","AM",10142018,124,"50º F, Sunny & Cloudy","Some","","","Calm","",1,1,25,FALSE,50,10,TRUE
-"374","28B","AM",10072018,122,"71º F, Overcast. Breezy","Some","","Humans, Dogs, Pigeons","Busy","",1,1,25,FALSE,71,21.7,FALSE
-"375","28B","PM",10102018,161,"79º F, Humid, sunny","Some","","Humans, Dogs, Pigeons","Busy","",1,2,30,FALSE,79,26.1,TRUE
-"376","28C","AM",10142018,242,"50ish, sunny, calm","None","","Humans, Dogs, Song birds","Busy","",1,2,22,FALSE,50,10,TRUE
-"377","28C","PM",10062018,257,"","","","","","",1,2,20,FALSE,NA,NA,FALSE
-"378","28D","PM",10192018,219,"59º F, P/Cloudy, Light Wind","Some","","Humans, Dogs, Pigeons, Sparrows, Robins, Grackles","Busy","",1,2,20,FALSE,59,15,FALSE
-"379","28D","AM",10122018,250,"59º F, windy","None","","Humans, Dogs, Robins, Blue jay","Busy","",1,6,21,FALSE,59,15,FALSE
-"380","28I","PM",10072018,170,"78º F","None","","Humans, Dogs, Birds","Busy","",1,1,26,FALSE,78,25.6,FALSE
-"381","28I","AM",10132018,230,"50º F, overcast, wet, light rain","","","Humans, Dogs","Busy","",1,1,24,FALSE,50,10,FALSE
-"382","29A","PM",10192018,242,"59º F, Sunny","Some","","Humans, Dogs, Birds","Busy","",1,3,20,FALSE,59,15,TRUE
-"383","29A","AM",10132018,248,"50º F, light rain, calm","Some","","Humans, Dogs","Busy","",1,1,25,FALSE,50,10,FALSE
-"384","29B","PM",10102018,65,"70s, Sunny, humid","None","","Humans, Dogs, Birds","Busy","",1,5,25,FALSE,70,21.1,TRUE
-"385","29B","AM",10072018,170,"70º F, Overcast. Moist.","Some","","Humans, Dogs, Robins","Busy","",1,2,20,FALSE,70,21.1,FALSE
-"386","29C","PM",10062018,9,"Cool, cloudy & light drizzle","None","","Humans, Dogs, Song birds","Busy","",1,2,23,FALSE,NA,NA,FALSE
-"387","29C","AM",10072018,122,"70º F","Some","","Humans, Dogs, Pigeons","Calm","",1,6,20,FALSE,70,21.1,FALSE
-"388","29D","AM",10142018,28,"","","","","","",1,6,NA,FALSE,NA,NA,FALSE
-"389","29D","PM",10102018,250,"77º F, Sunny","None","","Humans, Dogs","Busy","",1,2,20,FALSE,77,25,TRUE
-"390","29E","AM",10172018,19,"51º F, clear & sunny","Some","","Humans, Unknown birds","Busy","",1,0,22,FALSE,51,10.6,TRUE
-"391","29E","PM",10062018,155,"Misty, Rain, Cool","None","","Humans, Dogs","Moderate","Tennis courts and joggers",1,0,20,FALSE,NA,NA,FALSE
-"392","29H","PM",10062018,56,"65º F, Foggy","Some","","Humans, Ducks","Calm","",1,2,22,TRUE,65,18.3,FALSE
-"393","29H","AM",10132018,230,"50º F, drizzle, overcast","Some","","Humans (runners), Dogs (1 off-leash), Seagulls?","Calm","",1,0,20,FALSE,50,10,FALSE
-"394","29I","PM",10072018,200,"80º F, Overcast","Some","","Humans, Dogs, Pigeons, Cats","Busy","",1,1,26,FALSE,80,26.7,FALSE
-"395","29I","AM",10192018,250,"45º F, Sunny, Windy","Some","","Humans, Dogs, Hummingbird??","Busy","",1,0,20,FALSE,45,7.2,TRUE
-"396","30A","AM",10102018,18,"22º C, Cloudy and bright","None","","Humans, Dogs, Pigeons, Midges","Busy","",1,1,25,FALSE,22,-5.6,TRUE
-"397","30A","PM",10202018,250,"62º F, Sunny","Some","","Humans, Dogs","Busy","",1,4,20,FALSE,62,16.7,TRUE
-"398","30B","PM",10192018,19,"59º F","Some","","Humans, Dogs, Birds (Other)","Busy","",1,9,22,FALSE,59,15,FALSE
-"399","30B","AM",10072018,170,"70º F, Overcast. Moist.","Some","","Humans, Dogs, Assorted Birds","Busy","",1,12,20,FALSE,70,21.1,FALSE
-"400","30C","PM",10082018,122,"65º F, misting","Abundant","","Humans, Dogs","Busy","",1,1,20,FALSE,65,18.3,FALSE
-"401","30C","AM",10142018,124,"50º F, Cloudy","None","","Humans, Dogs","Busy","",1,2,21,FALSE,50,10,FALSE
-"402","30D","PM",10072018,40,"80º F, Sunny. Humid.","None","","Humans, Dogs, Lots of Birds","Busy","",1,0,20,FALSE,80,26.7,TRUE
-"403","30D","AM",10172018,60,"51º F, sunny","None","","Humans, Dogs","Busy","",1,2,30,FALSE,51,10.6,TRUE
-"404","30E","AM",10082018,97,"66º F, drizzle, overcast","None","","Humans, Dogs, Pigeons","Busy","",1,3,28,FALSE,66,18.9,FALSE
-"405","30E","PM",10082018,122,"65º F, misting","Some","","Humans, Dogs, Pigeons","Busy","",1,1,23,FALSE,65,18.3,FALSE
-"406","30F","PM",10072018,200,"80º F, Overcast","None","","Humans, Dogs, Pigeons","","",1,1,20,FALSE,80,26.7,FALSE
-"407","30F","AM",10192018,242,"30º F","None","","Humans, Dogs","Busy","",1,0,20,FALSE,30,-1.1,FALSE
-"408","30G","AM",10132018,170,"50º F, cold, drizzly, overcast","None","","Humans, Blue jay","Busy","",1,0,20,FALSE,50,10,FALSE
-"409","30G","PM",10102018,211,"76º F, Sunny, breezy","None","","Humans, Dogs","Busy","",1,0,20,FALSE,76,24.4,TRUE
-"410","30H","AM",10072018,102,"Muggy, but cool. Sprinkling.","None","","","Busy","",1,3,20,FALSE,NA,NA,FALSE
-"411","30I","AM",10132018,17,"49º F, rain showers, calm","","","","","",1,0,35,FALSE,49,9.4,FALSE
-"412","31A","AM",10102018,18,"25º C, Sunny with clouds","Some","","Humans, Dogs, Blackbird and other birds","Calm","",1,5,25,FALSE,25,-3.9,TRUE
-"413","31A","PM",10172018,250,"62º F, sunny, windy","Some","","Humans, Dogs, Pigeons, Sparrows","Busy","",1,4,20,FALSE,62,16.7,TRUE
-"414","31B","PM",10072018,41,"80º F, Overcast. Humid.","Some","","","Busy","",1,4,20,FALSE,80,26.7,FALSE
-"415","31B","AM",10172018,60,"51º F, sunny, windy","None","","Humans, Dogs","Busy","",1,3,30,FALSE,51,10.6,TRUE
-"416","31C","AM",10172018,19,"49º F, clear & sunny","Some","","Humans, Dogs, Falcons, unknown bird","Calm","",1,1,24,FALSE,49,9.4,TRUE
-"417","31C","PM",10102018,250,"79º F, Sunny","Some","","Humans, Dogs, Robins","Calm","",1,3,20,FALSE,79,26.1,TRUE
-"418","31D","PM",10062018,126,"65º F, dew point 62º F,  misty, light wind","Some","","Humans, Dogs","Calm","",1,4,22,FALSE,65,18.3,FALSE
-"419","31D","AM",10142018,243,"50º F, Calm, Fair Sky - Sunny","Some","","Humans, Dogs","Busy","",1,7,30,FALSE,50,10,TRUE
-"420","31E","AM",10142018,67,"49º F, Partly Cloudy, Chilly","Some","","Humans, Hawks, Dogs","Calm","",1,1,25,FALSE,49,9.4,FALSE
-"421","31E","PM",10062018,126,"65º F, 62º F, dewpoint, light wind, misty","Some","","Humans, Dogs","Calm","",1,9,20,FALSE,65,18.3,FALSE
-"422","31F","PM",10072018,155,"Humid","Some","","Humans, Dogs, Pigeons","Calm","",1,5,25,FALSE,NA,NA,FALSE
-"423","31F","AM",10132018,170,"50º F, cold, drizzly, overcast, calm","None","","Humans, Dogs, Birds","Calm","",1,1,25,FALSE,50,10,FALSE
-"424","31G","PM",10072018,170,"78º F, Overcast","None","","Humans, Dogs, Birds","Calm","",1,1,26,FALSE,78,25.6,FALSE
-"425","31G","AM",10192018,242,"46º F,  Windy, Shady","Abundant","","Humans, Dogs","Busy","",1,0,20,FALSE,46,7.8,FALSE
-"426","31H","AM",10132018,17,"50º F, cloudy, calm","None","","Humans, Dogs, Sparrows, Jays","Busy","",1,0,20,FALSE,50,10,FALSE
-"427","31H","PM",10082018,217,"drizzling","None","","Humans","Busy","",1,5,25,FALSE,NA,NA,FALSE
-"428","31I","AM",10122018,204,"60º F, windy, cloudy","None","","Humans, Dogs, Pigeons","Busy","",1,0,20,FALSE,60,15.6,FALSE
-"429","31I","PM",10192018,219,"58º F, P Cloudy","Some","","Humans, Dogs","Busy","",1,4,20,FALSE,58,14.4,FALSE
-"430","32A","AM",10182018,247,"44º F, Sunny, Breezy","None","","Humans, Hawks, Dogs","Moderate","",1,5,20,FALSE,44,6.7,TRUE
-"431","32A","PM",10132018,258,"","","","","","",1,9,23,FALSE,NA,NA,FALSE
-"432","32B","AM",10172018,40,"50º F, clear/sunny","Some","","Humans, Dogs, other Birds","Busy","",1,4,20,FALSE,50,10,TRUE
-"433","32B","PM",10102018,125,"81º F, Sunny","None","","Humans, Dogs, Chipmunk","Busy","",1,6,35,FALSE,81,27.2,TRUE
-"434","32C","AM",10142018,67,"51º F, Partly Cloudy","Abundant","","Humans, Dogs","Calm","",1,6,22,FALSE,51,10.6,FALSE
-"435","32C","PM",10132018,171,"60º F, partly sunny","None","","Humans, Dogs","Calm","",1,13,25,FALSE,60,15.6,TRUE
-"436","32D","PM",10062018,212,"65º F, cloudy","None","","Humans, Dogs, Small birds","Moderate","",1,9,20,FALSE,65,18.3,FALSE
-"437","32E","PM",10172018,125,"61º F, cloudy","Some","","Humans, Dogs","Busy","",1,16,25,FALSE,61,16.1,FALSE
-"438","32E","AM",10072018,154,"70º F, Overcast. Slight mist.","","","Humans, Dogs","Calm","",1,14,20,FALSE,70,21.1,FALSE
-"439","32F","PM",10082018,104,"66º F, cloudy","Some","","Humans, Dogs","Busy","",1,8,30,FALSE,66,18.9,FALSE
-"440","32F","AM",10122018,114,"59º F, partly cloudy, windy","","","Humans, Dogs","Calm","",1,7,18,FALSE,59,15,FALSE
-"441","32G","PM",10132018,222,"56° F, partly cloudy","Some","1 plastic bag","Humans (lots of bikers), Dogs, Small birds","Busy","",1,3,21,FALSE,56,13.3,FALSE
-"442","32G","AM",10102018,264,"73º F","","","Humans, Hawks, Dogs","Calm","",1,2,25,FALSE,73,22.8,FALSE
-"443","32H","PM",10062018,81,"65º F, cloudy","Some","","Humans","Calm","",1,3,30,FALSE,65,18.3,FALSE
-"444","32H","AM",10102018,223,"72º F, Overcast","None","","Humans, Dogs, Other Song birds","Moderate","",1,1,22,FALSE,72,22.2,FALSE
-"445","32I","AM",10132018,61,"49º F, light rain","None","","Humans, Dogs","Calm","",1,6,50,FALSE,49,9.4,FALSE
-"446","32I","PM",10072018,183,"81F Partly cloudy. Humid.","None","","Humans, Dogs","Busy","",1,3,NA,FALSE,81,27.2,FALSE
-"447","33A","PM",10182018,244,"Clear Skies, Breezy","Some","","Humans, Dogs, Song birds","Calm","",1,4,26,FALSE,NA,NA,TRUE
-"448","33B","PM",10102018,125,"81º F, Sunny","None","","Humans","Busy","",1,12,27,FALSE,81,27.2,TRUE
-"449","33B","AM",10102018,199,"70º F, Nice, overcast","None","","Humans, Dogs","Calm","",1,6,30,FALSE,70,21.1,TRUE
-"450","33C","PM",10072018,81,"78º F, Cloudy","Some","","Humans, Dogs, Birds","Busy","",1,4,20,FALSE,78,25.6,FALSE
-"451","33C","AM",10122018,104,"59º F, mostly cloudy, windy (sunny by 9:30)","None","","Humans, Dogs","Calm","",1,2,25,FALSE,59,15,TRUE
-"452","33D","PM",10062018,35,"65º F, Overcast Drizzly","None","","Humans","Busy","Active Tennis and use of fields",1,3,30,FALSE,65,18.3,FALSE
-"453","33D","AM",10172018,40,"51º F, clear, sunny, breezy","None","","Humans","Calm","",1,9,20,FALSE,51,10.6,TRUE
-"454","33E","AM",10142018,10,"50º F, mostly sunny","None","","Humans, Dogs, Birds, Humans playing tennis","Calm","Except the tennis court was loud",1,13,20,FALSE,50,10,TRUE
-"455","33E","PM",10122018,250,"61º F, sunny, windy","Some","","Humans, Dogs, Sparrows, Woodpecker","Busy","",1,9,21,FALSE,61,16.1,TRUE
-"456","33F","PM",10122018,19,"60º F, sunny, clear","None","","Humans, Dogs, Warbler (Internet says magnolia warbler), Unknown grey/brown bird","Calm","",1,6,27,FALSE,60,15.6,TRUE
-"457","33F","AM",10082018,233,"65º F, drizzling","None","","Humans, Dogs, blue jay","Calm","",1,2,25,FALSE,65,18.3,FALSE
-"458","33G","PM",10062018,41,"Calm","Some","","","Calm","",1,2,20,FALSE,NA,NA,FALSE
-"459","33G","AM",10132018,145,"50º F, light rain","None","","Humans, Dogs, Small birds","Busy","",1,3,22,FALSE,50,10,FALSE
-"460","33H","AM",10192018,114,"46º F, Sunny, Breezy","","","Humans, Dogs","Calm","",1,2,20,FALSE,46,7.8,TRUE
-"461","33H","PM",10122018,248,"61º F, clear, breezy","Some","","Humans, Hawks, Dogs","Busy","",1,0,25,FALSE,61,16.1,TRUE
-"462","33I","PM",10062018,81,"65º F, drizzling","Some","","Humans, Dogs","Calm","",1,9,25,FALSE,65,18.3,FALSE
-"463","33I","AM",10082018,233,"66º F, Drizzly","Some","","Humans, Dogs, Rat","Calm","",1,5,30,FALSE,66,18.9,FALSE
-"464","34A","AM",10122018,104,"59º F, windy, sunny","None","","Humans, Dogs, Pigeons, Birds (Assorted)","Calm","",1,3,25,FALSE,59,15,TRUE
-"465","34A","PM",10132018,171,"60º F (?), partly cloudy","None","","Humans, Dogs","Calm","",1,5,21,FALSE,60,15.6,FALSE
-"466","34B","PM",10072018,81,"78º F, Cloudy","Some","","Humans, Dogs","Busy","",1,1,30,FALSE,78,25.6,FALSE
-"467","34C","PM",10122018,77,"61º F, sunny, light breeze","None","","Humans, Dogs","Calm","People on path, not in fields",1,4,23,FALSE,61,16.1,TRUE
-"468","34C","AM",10072018,154,"70º F, Overcast","","","","Calm","",1,2,22,FALSE,70,21.1,FALSE
-"469","34D","PM",10072018,1,"80º F, Humid. Overcast.","None","","Humans, Dogs","Busy","",1,3,26,FALSE,80,26.7,FALSE
-"470","34E","PM",10062018,212,"65º F, Drizzle","None","","Humans, Dogs, Falcons, Small birds","Calm","",1,2,25,FALSE,65,18.3,FALSE
-"471","34E","AM",10182018,247,"45º F, Brisk","None","","","","",1,0,20,FALSE,45,7.2,FALSE
-"472","34F","AM",10072018,10,"70º F, Overcast","None","","Humans, Dogs, Butterflies, Birds with red chest","Calm","",1,1,20,FALSE,70,21.1,FALSE
-"473","34F","PM",10122018,35,"clear blue sky, breezy, getting cold","Some","","Humans, Dogs","Calm","",1,1,30,FALSE,NA,NA,TRUE
-"474","34G","PM",10062018,46,"drizzling","Some","","Humans, Dogs, Many Small birds","Calm","",1,2,20,FALSE,NA,NA,FALSE
-"475","34G","AM",10182018,60,"","","","","","",1,0,NA,FALSE,NA,NA,FALSE
-"476","34H","PM",10062018,46,"sprinkling","Some","","Humans, Dogs, Children in costume","Calm","",1,7,20,FALSE,NA,NA,FALSE
-"477","34H","AM",10072018,237,"76º F, Cloudy","Some","","Humans, Dogs, Pigeons, Robins, Woodpeckers","Busy","",1,1,25,FALSE,76,24.4,FALSE
-"478","34I","PM",10102018,42,"77-80º F","Some","","","Calm","",1,7,47,FALSE,77,25,FALSE
-"479","34I","AM",10122018,114,"59º F, misty, windy","Some","","Humans","Busy","",1,4,20,FALSE,59,15,FALSE
-"480","35A","AM",10142018,10,"50º F, mostly sunny","None","","Humans, Dogs, Birds","","Some dogs off leashes next to roads",1,8,22,FALSE,50,10,TRUE
-"481","35A","PM",10132018,81,"54º F, partly cloudy","None","","Humans, Dogs","Calm","",1,12,20,FALSE,54,12.2,FALSE
-"482","35B","PM",10132018,45,"56° F, Partly Cloudy","None","","Humans, Dogs, Rats, Ducks, Canada Geese","Calm","Foot traffic on the path",1,7,28,FALSE,56,13.3,FALSE
-"483","35B","AM",10102018,223,"73º F, Cloud/Overcast, beginning to clear, humid","None","","Humans, Dogs, Sparrows","Calm","",1,4,22,FALSE,73,22.8,TRUE
-"484","35C","AM",10072018,209,"70º F, Overcast","None","","Humans, Dogs","Busy","",1,6,21,FALSE,70,21.1,FALSE
-"485","35C","PM",10132018,248,"56° F, Partly Cloudy, Breeze","","","Humans, Dogs","Busy","",1,8,23,FALSE,56,13.3,FALSE
-"486","35D","AM",10192018,186,"45º F, Sunny, Windy","None","","Humans, Dogs, Birds, No Pigeons","Busy","Chainsaw in distance, park golf carts zipping around, joggers",1,2,20,FALSE,45,7.2,TRUE
-"487","35D","PM",10132018,258,"","","","","","",1,9,23,FALSE,NA,NA,FALSE
-"488","35E","PM",10062018,35,"68º F, Overcast Misty","Some","","Humans, Dogs","Busy","",1,7,30,FALSE,68,20,FALSE
-"489","35E","AM",10202018,114,"55º F, Overcast, Breezy","Some","","Humans, Hawks, Dogs","Calm","",1,4,21,FALSE,55,12.8,FALSE
-"490","35F","PM",10122018,19,"61º F, sunny, clear","None","","Humans, Hawks, Dogs, Blue jay","Calm","",1,3,27,FALSE,61,16.1,TRUE
-"491","35F","AM",10072018,237,"74º F, Cloudy","Some","","Humans, Dogs","Busy","",1,1,1,FALSE,74,23.3,FALSE
-"492","35G","AM",10072018,10,"70º F, Overcast","Some","","Humans, Dogs, Birds.","Busy","",1,2,20,FALSE,70,21.1,FALSE
-"493","35G","PM",10062018,196,"64 F Cloudy & misty","","","","Moderate","",1,1,20,FALSE,64,17.8,FALSE
-"494","35H","AM",10132018,61,"49º F, light rain","None","","Humans, Dogs","Calm","",1,2,23,FALSE,49,9.4,FALSE
-"495","35H","PM",10122018,248,"61º F, clear sky, breezy","None","","Humans, Dogs","Busy","",1,0,25,FALSE,61,16.1,TRUE
-"496","35I","PM",10062018,41,"68º F, misty, humid","Some","","Humans, Dogs, Field mouse, Chipmunk","Calm","Hilly, rocky terrain",1,2,20,FALSE,68,20,FALSE
-"497","35I","AM",10132018,145,"50º F, light rain","Some","","Humans, Dogs, Small birds","Calm","Calm in hectare, but cars on [road]",1,1,23,FALSE,50,10,FALSE
-"498","36A","AM",10182018,2,"45º F, Brisk, Clear","None","","Humans, Dogs, Birds, Sparrows","Calm","",1,2,23,FALSE,45,7.2,TRUE
-"499","36A","PM",10132018,243,"56º F, mostly sunny, very slight breeze","Some","","Humans, Dogs, Pigeons, Chipmunk (?), Crickets","Busy","Busy (bypassers)",1,9,67,FALSE,56,13.3,TRUE
-"500","36B","AM",10132018,41,"50º F, rainy","Some","","Humans, Dogs, Ducks","Calm","",1,4,23,FALSE,50,10,FALSE
-"501","36B","PM",10132018,81,"54º F, partly cloudy","None","","Humans, Birds (lots of screeching, not sure what kind of birds)","Calm","",1,5,20,FALSE,54,12.2,FALSE
-"502","36C","PM",10132018,45,"56° F, Partly Cloudy","None","","Humans, Dogs, Dogs (on path), Ducks & Geese (in pool)","Calm, Busy","Busy on West Dr",1,6,25,FALSE,56,13.3,FALSE
-"503","36C","AM",10142018,243,"50º F, Calm, Fair, Sunny","None","","Humans, Birds","Calm, Busy","Calm in woods, busy outside with fund walk",1,4,40,FALSE,50,10,TRUE
-"504","36D","PM",10072018,1,"81º F, Humid. Overcast.","Some","","Humans, Dogs, Turtle, Chipmunks","Calm","",1,2,32,FALSE,81,27.2,FALSE
-"505","36D","AM",10072018,209,"70º F, Overcast","Some","","Humans, Dogs, Chipmunks","Calm","",1,1,34,FALSE,70,21.1,FALSE
-"506","36E","AM",10132018,41,"50º F, rainy","","","Humans, Dogs, Chipmunk","Moderate","Lots of runners",1,3,20,FALSE,50,10,FALSE
-"507","36E","PM",10122018,77,"61º F, sunny, light breeze","Some","","Humans, Dogs, Rat","Calm","People on path",1,2,25,FALSE,61,16.1,TRUE
-"508","36F","PM",10122018,35,"61º F, no clouds, clear sky, breeze","None","","Humans, Robin","Busy","",1,7,25,FALSE,61,16.1,TRUE
-"509","36F","AM",10172018,183,"50º F, sunny, clear","None","","Humans, Dogs","Calm","Squeaky toys",1,5,20,FALSE,50,10,TRUE
-"510","36G","AM",10182018,60,"","","","","","",1,0,NA,FALSE,NA,NA,FALSE
-"511","36G","PM",10122018,250,"61º F, sunny, windy","Some","","Humans, Dogs, Pigeons, Robins","Busy","",1,2,20,FALSE,61,16.1,TRUE
-"512","36H","PM",10082018,104,"66º F, foggy, drizzly","None","","Humans, Hawks, Dogs","Busy","",1,2,40,TRUE,66,18.9,FALSE
-"513","36H","AM",10102018,264,"72º F, Mostly cloudy, calm","None","","Dogs, lots of Blue jays & Gackels","Calm","",1,2,26,FALSE,72,22.2,FALSE
-"514","36I","AM",10172018,183,"50º F, sunny, clear","Some","","Humans, Dogs, Many song birds: Wrens, Finches, Blue jays, Mourning dove","Calm","Traffic noises nearby",1,8,23,FALSE,50,10,TRUE
-"515","36I","PM",10072018,183,"81º F, partly cloudy. Humid","None","","Humans, Dogs, Blue jays. Robins, Sparrows","Busy","",1,13,30,FALSE,81,27.2,FALSE
-"516","37A","AM",10122018,248,"59º F, partly cloudy, breeze","","","Morning Dove, Crows","Calm","",1,1,23,FALSE,59,15,FALSE
-"517","37B","AM",10182018,120,"45º F, Clear, Cold","None","","Humans, Dogs, Birds","Calm","",1,6,25,FALSE,45,7.2,TRUE
-"518","37B","PM",10132018,128,"55° F, mostly cloudy","","","Dogs","Calm","",1,5,25,FALSE,55,12.8,FALSE
-"519","37C","PM",10132018,242,"55° F, Mostly Cloudy, Cool, Breezy","","","Chipmunks (2)","Busy","",1,5,20,FALSE,55,12.8,FALSE
-"520","37C","AM",10122018,248,"59º F, mostly cloudy, windy","Some","Beer party can debris","Humans, Blue Jay, Warbler","Calm","",1,4,24,FALSE,59,15,FALSE
-"521","37D","AM",10182018,2,"45º F, Clear","None","","Humans, Falcon, Chipmunks","Calm","",1,2,31,FALSE,45,7.2,TRUE
-"522","37D","PM",10142018,209,"57º F, overcast","Some","","Humans, Chipmunks","Calm","",1,8,26,FALSE,57,13.9,FALSE
-"523","37E","PM",10062018,40,"65º F, misty overcast","Some","","Humans, Chipmunks, Lots of little birds","Calm","",1,9,20,FALSE,65,18.3,FALSE
-"524","37E","AM",10132018,252,"50º F, light rain","None","","Humans, Dogs, Birds","Calm","",1,5,22,FALSE,50,10,FALSE
-"525","37F","AM",10102018,120,"Overcast & humid but cool","Some","","Humans, Dogs, Gull, Birds","Busy","",1,1,25,FALSE,NA,NA,FALSE
-"526","37F","PM",10142018,243,"59º F, overcast, SW 6 mph","None","","Humans","Busy","",1,3,24,FALSE,59,15,FALSE
-"527","37G","PM",10072018,114,"81º F, p/c. Humid","","","Humans, Dogs","Busy","",1,9,24,FALSE,81,27.2,FALSE
-"528","37H","PM",10062018,34,"65º F, misty, overcast","None","","Humans, Dogs","Calm","Lots of humans walking quietly",1,6,23,FALSE,65,18.3,FALSE
-"529","37H","AM",10182018,84,"45º F, Very Sunny, Chilly","","","Humans, Dogs, Mourning doves (sic), Sparrows","Calm","",1,4,27,FALSE,45,7.2,TRUE
-"530","37I","AM",10102018,120,"Overcast & humid but cool","None","","Humans, Dogs, Birds, Chipmunks","Calm","",1,5,25,FALSE,NA,NA,FALSE
-"531","37I","PM",10062018,172,"~65º F, Misting & Cloudy","None","","Humans, Dogs, Chipmunks (5+)","Calm","",1,2,22,FALSE,65,18.3,FALSE
-"532","38A","AM",10192018,186,"45º F, Sunny Windy","None","","Humans, Birds, No Pigeons","Busy","Traffic, lawn mowing in 39A, kids on lawn in 39.",1,5,25,FALSE,45,7.2,TRUE
-"533","38A","PM",10132018,210,"55º F, partly cloudly","Some","","Humans, Dogs, Pigeons","Calm","",1,5,23,FALSE,55,12.8,FALSE
-"534","38B","AM",10192018,7,"45º F, Sunny, Cold Breeze","None","","Humans, Dogs","","",1,5,25,FALSE,45,7.2,TRUE
-"535","38B","PM",10182018,114,"53º F, Sunny, Light Breeze","None","","Humans, Hawks, Dogs","Busy","Lots of school kids",1,2,24,FALSE,53,11.7,TRUE
-"536","38C","AM",10192018,7,"45º F, Sunny, Cold Breeze Wind","None","","Humans, Dogs","Calm","",1,11,25,FALSE,45,7.2,TRUE
-"537","38C","PM",10142018,217,"58º F, Cloudy","None","","Humans, Sparrows","Busy","",1,10,25,FALSE,58,14.4,FALSE
-"538","38D","PM",10062018,40,"65º F, Misty, overcast","Some","","Humans, Small birds, Chipmunks","Moderate","",1,4,20,FALSE,65,18.3,FALSE
-"539","38D","AM",10172018,135,"50º F, clear, sunny","None","","Humans, Dogs, Migratory birds","Calm","",1,6,32,FALSE,50,10,TRUE
-"540","38E","AM",10102018,105,"72º F, Bit cloudier","Some","","Chipmunks","Calm","",1,12,20,FALSE,72,22.2,FALSE
-"541","38E","PM",10142018,243,"59º F, overcast, SW 6 mph","None","","Humans, Chippys, Birds","Busy","",1,5,35,FALSE,59,15,FALSE
-"542","38F","AM",10182018,114,"45º F, Clear","Some","","Humans, Dogs","","",1,6,23,FALSE,45,7.2,TRUE
-"543","38F","PM",10132018,222,"56º F, partly cloudy","None","","Humans, Small birds, Chipmunks","Calm, Busy","Only small chunk near road was busy, the rest was unoccupied",1,6,22,FALSE,56,13.3,FALSE
-"544","38G","PM",10202018,87,"61º F, Sunny and Clear","None","","Humans","Calm","",1,11,25,FALSE,61,16.1,TRUE
-"545","38G","AM",10182018,114,"45º F, Sunny","","","Humans, Dogs","Busy","",1,0,20,FALSE,45,7.2,TRUE
-"546","38H","PM",10122018,64,"61º F, breeze, blue sky","Abundant","","Humans, Birds","Calm","",1,1,30,FALSE,61,16.1,TRUE
-"547","38H","AM",10192018,114,"46º F, Sunny","Some","","Humans, Hawks, Dogs","Calm","",1,1,22,FALSE,46,7.8,TRUE
-"548","38I","AM",10192018,37,"45º F, Sunny, Breezy","None","","Humans, So many Birds!","Calm","",1,2,20,FALSE,45,7.2,TRUE
-"549","38I","PM",10142018,100,"57º F, overcast","Some","","Humans, Dogs, Rats, Chipmunks","Busy","",1,4,25,FALSE,57,13.9,FALSE
-"550","39A","PM",10142018,238,"57º F, overcast","Some","","Humans, Dogs","Busy","",1,3,23,FALSE,57,13.9,FALSE
-"551","39A","AM",10132018,252,"50º F, light rain","None","","Humans","Calm","",1,1,20,FALSE,50,10,FALSE
-"552","42D","AM",10142018,215,"50º F, mostly sunny","Some","","Humans, Dogs, Pigeons","Busy","",1,3,25,FALSE,50,10,TRUE
-"553","39B","PM",10142018,183,"57º F, Cloudy","None","","Humans, Hawks, Dogs, Chipmunks, Blue jays","Calm, Busy","Calm in woods, busy, music nearby w/ tambourines, chanting, just outside so. edge of hectare",1,6,20,FALSE,57,13.9,FALSE
-"554","39B","AM",10182018,262,"45º F, Clear, Brisk","","","Humans, Dogs","Busy","",1,1,26,FALSE,45,7.2,TRUE
-"555","39C","AM",10172018,120,"50º F, clear, sunny","None","","Humans, Dogs","Busy","",1,4,30,FALSE,50,10,TRUE
-"556","39C","PM",10062018,196,"64º F, Cloudy & Misty","","","Hawks, Chipmunk","Moderate","",1,4,20,FALSE,64,17.8,FALSE
-"557","39D","PM",10122018,22,"61º F, clear sky, windy","Some","","Humans, Chipmunk, Warbler","Calm","",1,4,32,FALSE,61,16.1,TRUE
-"558","39D","AM",10082018,224,"67º F, cloudy, drizzling","Some","","Humans","Calm","",1,6,33,FALSE,67,19.4,FALSE
-"559","39E","PM",10132018,3,"59º F, sunny, slightly cloudy","Abundant","","Humans, Dogs, Birds, Chipmunks","Calm","",1,2,26,FALSE,59,15,TRUE
-"560","39E","AM",10182018,120,"45º F, Clear, Brisk","Some","","Humans, Dogs, Birds","Busy","",1,5,28,FALSE,45,7.2,TRUE
-"561","39F","AM",10142018,17,"51º F, mostly sunny","None","","Humans, Dogs, Chipmunks","Calm, Busy","""no woods""",1,5,25,FALSE,51,10.6,TRUE
-"562","39F","PM",10062018,34,"65º F, misty, overcast","None","","Humans, Dogs","Calm","",1,4,21,FALSE,65,18.3,FALSE
-"563","39G","AM",10182018,244,"45º F, Windy, Clear Skies","Some","","Humans, Song birds","Calm","",1,2,24,FALSE,45,7.2,TRUE
-"564","39H","PM",10132018,236,"55° F, mostly cloudy","None","","Humans, Hawks, Dogs","Busy","",1,3,25,FALSE,55,12.8,FALSE
-"565","39H","AM",10072018,259,"","","","Humans, Dogs","Busy","",1,4,NA,FALSE,NA,NA,FALSE
-"566","39I","AM",10192018,37,"45º F, Sunny, Breezy","None","","Humans, Hawks, Dogs","Calm","",1,0,25,FALSE,45,7.2,TRUE
-"567","40A","PM",10142018,99,"57º F, overcast","","","Humans","","",1,6,NA,FALSE,57,13.9,FALSE
-"568","40A","AM",10102018,105,"72º F, Absolute perfection","Some","","Robins?","Moderate","Noise pollution",1,4,25,FALSE,72,22.2,TRUE
-"569","40B","AM",10192018,253,"47º F, Sunny, Breezy","Some","","Humans, Dogs","Calm","",1,9,40,FALSE,47,8.3,TRUE
-"570","40C","AM",10172018,135,"50º F, clear, sunny","None","","Humans, Chipmunk, migratory birds","Calm","",1,7,23,FALSE,50,10,TRUE
-"571","40D","AM",10132018,40,"50º F, light rain","Abundant","","Humans (a trail runner)","Calm","",1,7,20,FALSE,50,10,FALSE
-"572","40D","PM",10132018,210,"56º F, Partly Cloudy","Abundant","","Humans, Dogs, Chipmunk","Calm","",1,7,27,FALSE,56,13.3,FALSE
-"573","40E","AM",10142018,215,"50º F, mostly sunny","Some","","Humans, Hawks, Dogs","Busy","",1,4,25,FALSE,50,10,TRUE
-"574","40F","AM",10182018,84,"45º F, Clear, Sunny","","","Humans, Dogs, Ducks, Mainly female mallards, Canadian geese, also Small birds Sparrows?","Calm","",1,0,27,FALSE,45,7.2,TRUE
-"575","40F","PM",10062018,172,"~65º F, cloudy misting","Some","","Dogs","Calm","",1,3,28,FALSE,65,18.3,FALSE
-"576","40G","AM",10072018,54,"70º F, Overcast","","","Humans, Dogs, Finches","Calm","",1,2,NA,FALSE,70,21.1,FALSE
-"577","40H","PM",10082018,49,"overcast, dusk","None","","Humans, Dogs, Woodpecker, Chipmunk","Calm","",1,0,25,FALSE,NA,NA,FALSE
-"578","40H","AM",10172018,104,"52º F, breezy, sunny","None","","Humans, Dogs, Geese","Calm","",1,2,20,FALSE,52,11.1,TRUE
-"579","40I","AM",10182018,27,"45º F, Clear","","","Humans, Hawks, Ducks","Busy","",1,2,20,FALSE,45,7.2,TRUE
-"580","41A","PM",10072018,30,"81º F, Partly Cloudy","Some","","Humans, Dogs, Pigeons, Chipmunks","Busy","",1,6,25,FALSE,81,27.2,FALSE
-"581","41A","AM",10132018,40,"50º F, light rain","Abundant","","Humans, Dogs, Birds, Chipmunks","Calm","",1,1,20,FALSE,50,10,FALSE
-"582","41B","PM",10142018,111,"57º F, overcast","Some","","Dogs, Chipmunks (at least 3)","Calm","",1,5,45,FALSE,57,13.9,FALSE
-"583","41C","PM",10072018,30,"81º F, Partly Cloudy","","","Humans, Birds. Chipmunks","","",1,4,25,FALSE,81,27.2,FALSE
-"584","41C","AM",10172018,120,"50º F, clear, sunny","Abundant","","Humans, Dogs, Birds","Calm","",1,7,30,FALSE,50,10,TRUE
-"585","41D","PM",10142018,26,"57º F, cloudy","Some","","Humans, Hawks, Dogs, Chipmunk","Calm","",1,5,30,FALSE,57,13.9,FALSE
-"586","41D","AM",10142018,176,"50º F, mostly sunny","Some","","Humans, Dogs","Calm","",1,5,NA,FALSE,50,10,TRUE
-"587","41E","AM",10072018,114,"71º F, o/c","Some","","Humans, Dogs","Busy","Runners",1,6,25,FALSE,71,21.7,FALSE
-"588","41F","PM",10192018,114,"60º F, p/c bluh","","","Humans","","",1,2,NA,FALSE,60,15.6,FALSE
-"589","41F","AM",10192018,183,"45º F, Sunny, Breezy","None","","Humans, Dogs, Geese, Mallard Nests","Calm, Busy","Started busy, then very calm",1,0,21,FALSE,45,7.2,TRUE
-"590","41G","PM",10142018,10,"57º F, overcast","Some","","Humans, Ducks, Birds","Calm","",1,0,20,FALSE,57,13.9,FALSE
-"591","41G","AM",10132018,114,"50º F, sprinkling","Some","","Humans, Dogs","Calm","",1,2,20,FALSE,50,10,FALSE
-"592","41H","PM",10082018,49,"cool, overcast","","","Humans, Dogs, Pigeons, Turtles, Ducks, Geese","","",1,0,15,FALSE,NA,NA,FALSE
-"593","41H","AM",10172018,104,"51º F, sunny, light breeze","Some","","Humans, Dogs, Geese","Calm","",1,0,30,FALSE,51,10.6,TRUE
-"594","41I","AM",10182018,27,"45º F, Clear","","","Humans, Dogs, Pigeons","Busy","",1,2,20,FALSE,45,7.2,TRUE
-"595","41I","PM",10172018,114,"63º F, partly cloudy, breezy","Some","","Humans, Dogs, Pigeons, Geese, Ducks","Busy","",1,1,22,FALSE,63,17.2,FALSE
-"596","42A","PM",10142018,12,"57º F, mostly cloudy","Some","","Humans, Dogs, Sparrows","Busy","He took a 20-minute lunch break in the middle of shift.",1,1,28,FALSE,57,13.9,FALSE
-"597","42A","AM",10192018,253,"45º F, Sunny Breezy","Some","","Humans, Dogs, Pigeons, Rat, Chipmunk","Calm","",1,1,30,FALSE,45,7.2,TRUE
-"598","42B","PM",10082018,134,"64º F, cloudy, slight drizzle, humid","Some","","Humans, Dogs","Busy","",1,0,25,FALSE,64,17.8,FALSE
-"599","42C","AM",10072018,114,"71º F","","","Humans, Dogs","Busy","",1,4,27,FALSE,71,21.7,FALSE
-"600","42C","PM",10132018,128,"55° F, mostly cloudy","Some","","Humans, Dogs, Chipmunk","Busy","",1,6,26,FALSE,55,12.8,FALSE
-"601","42D","PM",10132018,3,"55º F, cloudy (mostly)","Abundant","On street","Humans, Dogs, Birds, Chipmunks, Rats","Calm","",1,4,28,FALSE,55,12.8,FALSE
-"602","19H","PM",10082018,164165,"cloudy","","","","Calm","",2,1,5,FALSE,NA,NA,FALSE
-"603","42E","PM",10122018,22,"61º F, clear sky, windy","Some","","Humans, Dogs, Pigeons","Busy","",1,6,20,FALSE,61,16.1,TRUE
-"604","42E","AM",10082018,224,"65º F, cloudy, drizzling","Abundant","","Humans","Busy","Construction just outside sector",1,0,21,FALSE,65,18.3,FALSE
-"605","42F","AM",10192018,194,"66º F, Calm and some Breeze","Abundant","","Humans, Dogs, Geese","Busy","",1,2,20,FALSE,66,18.9,FALSE
-"606","42G","AM",10182018,244,"45º F, Breezy, Clear Skies","","","Humans, Dogs, Pigeons, other Song birds","Calm","",1,3,25,FALSE,45,7.2,TRUE
-"607","42H","PM",10142018,39,"57º F, overcast","Some","","Humans, Dogs, Pigeons","Busy","",1,5,30,FALSE,57,13.9,FALSE
-"608","42H","AM",10192018,194,"66º F, Calm, Sunny","Some","","Humans, Dogs, Birds","Calm","",1,2,25,FALSE,66,18.9,TRUE
-"609","42I","PM",10142018,79,"57º F, cloudy","None","","Humans, Dogs, Pigeons, Sparrows","Calm","",1,3,25,FALSE,57,13.9,FALSE
-"610","42I","AM",10192018,183,"45º F, Sunny, Breezy","None","","Humans, Dogs, Geese (a few)","Calm","",1,0,20,FALSE,45,7.2,TRUE
-"611","9I","AM",10142018,145,"54º F, mostly sunny","Some","","Humans, Dogs, Pigeons, Small birds","Busy","",1,9,22,FALSE,54,12.2,TRUE
-"612","01C","AM",10122018,225226,"cool, sunny","Some","","Humans, Dogs, Cats","Calm","",2,2,30,FALSE,NA,NA,TRUE
-"613","01D","PM",10072018,3334,"80º F, Cloudy","None","","Humans, Dogs, Pigeons, Sparrows","","",2,7,25,FALSE,80,26.7,FALSE
-"614","01E","PM",10072018,3334,"80º F, Sunny","None","","Humans, Dogs, Pigeons,  Robins. Blue jays","Busy","",2,3,20,FALSE,80,26.7,TRUE
-"615","01I","PM",10122018,225226,"cold, sunny","Some","","Humans, Hawks, Dogs, Pigeons, Cats","Busy","",2,4,70,FALSE,NA,NA,TRUE
-"616","02B","PM",10132018,245246,"54° F, Sunny, Breezy","None","","Humans, Dogs, Pigeons, Robins, Sparrows","Calm, Busy","West Drive Busy",2,9,22,FALSE,54,12.2,TRUE
-"617","02B","AM",10102018,6263,"70º F Partly cloudy","Some","","Humans, Dogs, Pigeons","Busy","",2,8,25,FALSE,70,21.1,FALSE
-"618","02C","PM",10132018,245246,"54° F, Sunny, Breezy","None","","Humans, Robins, Sparrows","Calm, Busy","Fenced Areas / West Drive",2,12,24,FALSE,54,12.2,TRUE
-"619","02F","PM",10142018,9798,"57º F, cloudy","None","","Humans, Dogs, Pigeons, Chickadees","Busy","",2,12,23,FALSE,57,13.9,FALSE
-"620","03A","AM",10122018,225226,"sunny, cool","None","","Humans (Notes), Dogs, Cats","Calm","",2,3,45,FALSE,NA,NA,TRUE
-"621","03B","AM",10102018,6263,"70º F Cloudy","Some","","Humans, Dogs","Busy","",2,10,30,FALSE,70,21.1,FALSE
-"622","03F","PM",10132018,3031,"13° C, Partly Cloudy","","","Humans, Dogs, Birds","Busy","",2,7,20,FALSE,13,-10.6,FALSE
-"623","03H","PM",10142018,9798,"57º F, cloudy","Some","","Humans, Dogs, Pigeons, Chickadees","Busy","",2,7,25,FALSE,57,13.9,FALSE
-"624","04C","AM",10062018,73,"65º F, cloudy","None","","Humans, Dogs","Calm","",2,5,20,FALSE,65,18.3,FALSE
-"625","04F","PM",10132018,3031,"13° C, Partly Cloudy","None","","Humans, Dogs, Birds, Rats (Fat), Inchworm","Busy","",2,4,20,FALSE,13,-10.6,FALSE
-"626","06E","AM",10142018,146147,"50º F, mostly sunny","Some","","Humans, Dogs, Small birds","Calm","",2,1,22,FALSE,50,10,TRUE
-"627","07C","PM",10202018,189190,"62º F, Sunny","None","","Humans, Dogs, Sparrows, Other Birds","Calm","",2,6,23,FALSE,62,16.7,TRUE
-"628","07E","PM",10132018,112113,"56° F, Cloudy, Light Wind","None","","Humans, Dogs, Sparrows","Busy","",2,5,39,FALSE,56,13.3,FALSE
-"629","07H","AM",10062018,5051,"60s, cloudy, slight drizzle","Some","","Sparrows, Butterflies","Busy","",2,16,30,FALSE,60,15.6,FALSE
-"630","08C","PM",10132018,197198,"54° F, Bit Breezy, Cool","Some","","Humans, Dogs, Pigeons","Calm","",2,8,22,FALSE,54,12.2,FALSE
-"631","09B","PM",10132018,197198,"54° F, Breeze, Cool","None","","Humans, Dogs, Rats (Notes)","Calm","",2,10,22,FALSE,54,12.2,FALSE
-"632","09H","AM",10062018,2526,"64º F, cloudy","Some","","Humans, Dogs","Busy","",2,6,20,FALSE,64,17.8,FALSE
-"633","10B","AM",10062018,7172,"","Some","","Humans, Dogs, Pigeons","Busy","",2,4,35,FALSE,NA,NA,FALSE
-"634","10C","PM",10132018,112113,"56° F, Cloudy","Some","","Humans, Dogs, Sparrow, Starlings, Cardinals, Crows","Busy","",2,4,27,FALSE,56,13.3,FALSE
-"635","10G","AM",10062018,136137,"64º F, overcast","Some","","Humans, Dogs, Sparrows","Busy","",2,11,58,FALSE,64,17.8,FALSE
-"636","10H","AM",10142018,146147,"50º F, cloudy","None","","Humans, Dogs, Small birds","Busy","",2,6,23,FALSE,50,10,FALSE
-"637","11D","PM",10062018,2829,"65º F","None","","Humans, Dogs, Horses","Busy","",2,5,25,FALSE,65,18.3,FALSE
-"638","11H","PM",10132018,129130,"55º F, sunny","Abundant","","Humans","Busy","",2,4,20,FALSE,55,12.8,TRUE
-"639","11I","PM",10122018,4243,"58-60º F, sunny","None","","Humans, Dogs, Birds, Mice","Calm","",2,7,23,FALSE,58,14.4,TRUE
-"640","14G","PM",10132018,129130,"55º F, sunny","Abundant","","Humans","Busy","",2,1,20,FALSE,55,12.8,TRUE
-"641","15A","AM",10072018,2021,"71º F, Humid. Cloudy.","Some","","Humans, Dogs, Sparrows. Butterflies","Busy","",2,2,20,FALSE,71,21.7,FALSE
-"642","15D","AM",10072018,2021,"71º F, humid cloudy","Some","","Humans, Dogs","Calm","",2,8,NA,FALSE,71,21.7,FALSE
-"643","15I","PM",10122018,4243,"58-60º F, sunny","Some","","Humans, Dogs, Birds","Busy","",2,7,25,FALSE,58,14.4,TRUE
-"644","16H","PM",10142018,5253,"cool, dusk","Some","","Humans, Dogs, Birds","Calm, Busy","",2,5,25,FALSE,NA,NA,FALSE
-"645","16I","PM",10142018,5253,"cool, dusk","Some","","Humans, Dogs, Birds","Calm","",2,0,20,FALSE,NA,NA,FALSE
-"646","17C","AM",10182018,213214,"Low 40s, Windy, Sunny","None","","Dogs, Birds","Calm","",2,0,25,FALSE,40,4.4,TRUE
-"647","18D","AM",10182018,213214,"Low 40s, Windy, Sunny","Some","","Humans","Busy","",2,4,25,FALSE,40,4.4,TRUE
-"648","18F","PM",10082018,164165,"cloudy, misting rain","None","","Humans, Dogs, Mallard, Sparrow","Busy","",2,2,16,FALSE,NA,NA,FALSE
-"649","18F","AM",10142018,8990,"49º F","None","","Humans, Dogs, Birds","Busy","",2,2,24,FALSE,49,9.4,FALSE
-"650","18G","AM",10142018,8990,"49º F, sunny","None","","Birds","Calm","",2,3,25,FALSE,49,9.4,TRUE
-"651","19B","PM",10182018,9192,"51º F, Clear","None","","Humans, Dogs, Birds, Robins, Mourning Doves","Busy","",2,5,30,FALSE,51,10.6,TRUE
-"652","19C","PM",10182018,207208,"51º F, Clear","None","","Humans, Hawks, Dogs, Pigeons, Robin","Busy","",2,8,30,FALSE,51,10.6,TRUE
-"653","20E","PM",10062018,8586,"65º F, light drizzle","None","","Humans","Calm","",2,0,15,FALSE,65,18.3,FALSE
-"654","21A","AM",10192018,213214,"Clear, Calm, No wind","Some","","Humans, Dogs, Birds","Calm","",2,9,25,FALSE,NA,NA,TRUE
-"655","21A","PM",10062018,8586,"65º F, Drizzle","Abundant","","Humans, Dogs","Busy","",2,0,27,FALSE,65,18.3,FALSE
-"656","21B","AM",10192018,213214,"Mid 40s, Clear, No Wind","Some","","Humans, Dogs, Pigeons, Birds","Calm","",2,7,25,FALSE,40,4.4,TRUE
-"657","21C","PM",10062018,1415,"65º F, Slightly Drizzling","Some","","Humans","Busy","",2,1,25,FALSE,65,18.3,FALSE
-"658","21D","AM",10082018,156157,"70º F, cloudy, misty","None","","Humans, Dogs, Birds","Busy","",2,6,20,FALSE,70,21.1,FALSE
-"659","22A","AM",10082018,156157,"70º F, cloudy","Some","","Dogs, Birds","Busy","",2,6,20,FALSE,70,21.1,FALSE
-"660","22C","PM",10062018,1415,"65º F, Drizzling","None","","Humans, Dogs","Busy","",2,13,30,FALSE,65,18.3,FALSE
-"661","22F","AM",10072018,5859,"72º F, Foggy","Some","","Humans, Dogs, Sparrow","Moderate","In between",2,7,20,TRUE,72,22.2,FALSE
-"662","22I","AM",10072018,5859,"72º F, Foggy","Some","","Humans, Dogs, Starlings, Sparrows, Blue jays","Busy","",2,3,20,TRUE,72,22.2,FALSE
-"663","23A","PM",10072018,192193,"","Some","","Humans, Dogs","Busy","",2,0,20,FALSE,NA,NA,FALSE
-"664","23D","PM",10072018,192193,"","Some","","Humans, Rats (by reservoir)","Busy","",2,0,20,FALSE,NA,NA,FALSE
-"665","23G","PM",10122018,3032,"artsy lighting, breezy","Some","","Humans","Calm","",2,0,20,FALSE,NA,NA,FALSE
-"666","24A","PM",10072018,3132,"80º F, Humid. Overcast. No rain.","None","","Humans, Dogs, Little Birds","Moderate","In between calm and busy",2,5,23,FALSE,80,26.7,FALSE
-"667","24I","PM",10072018,45,"Humid. Overcast.","None","","Humans, Dogs, Birds","Calm","",2,0,30,FALSE,NA,NA,FALSE
-"668","25A","PM",10072018,3132,"79º F, Humid. Overcast. No rain.","None","","Humans, Dogs, Raccoons, Little Birds, Raccoon sleeping in tree","Calm, Busy","Calm on grass. Busy on road.",2,1,21,FALSE,79,26.1,FALSE
-"669","27B","PM",10062018,155,"Misty, rain, cool","None","","Pigeons, Robins","Calm","",2,2,20,FALSE,NA,NA,FALSE
-"670","27I","PM",10202018,3334,"60º F, Sunny","Some","","Humans, Dogs, Pigeons","Busy","",2,5,20,FALSE,60,15.6,TRUE
-"671","30H","PM",10062018,159160,"Raining","","","Ducks","","",2,1,11,FALSE,NA,NA,FALSE
-"672","30I","PM",10062018,159160,"","","","","","",2,7,23,FALSE,NA,NA,FALSE
-"673","32D","AM",10132018,187188,"48º F, sprinkling","","","Humans, Dogs","Busy","",2,6,20,FALSE,48,8.9,FALSE
-"674","33A","AM",10082018,139140,"65º F, drizzle","","","","","",2,1,30,FALSE,65,18.3,FALSE
-"675","34B","AM",10132018,187188,"50º F, light rain","","","Humans","Busy","",2,3,23,FALSE,50,10,FALSE
-"676","34D","AM",10082018,139140,"65º F, drizzle","Some","","Humans","Calm","",2,3,25,FALSE,65,18.3,FALSE
-"677","37A","PM",10132018,250251,"55º F, mostly cloudy","Abundant","","Humans, Dogs, Chipmunk, Sparrow","Calm","",2,2,20,FALSE,55,12.8,FALSE
-"678","37G","AM",10142018,139140,"50º F, mostly sunny","","","Humans, Dogs","Calm","",2,6,27,FALSE,50,10,TRUE
-"679","39G","PM",10132018,6768,"Sunny, cloudy, chilly, damp, slightly warm","Some","","Humans, Sleeping possum, Chipmunk, Blue jay","Calm","",2,7,24,FALSE,NA,NA,TRUE
-"680","39I","PM",10132018,174175,"53º F, mostly cloudy","","","Humans, Dogs, Pigeons, Blue jays, American Robin, Chipmunk","Busy","",2,4,23,FALSE,53,11.7,FALSE
-"681","40B","PM",10142018,152153,"57º F, cloudy","None","","Humans, Hawks, Chipmunks","Calm","",2,8,35,FALSE,57,13.9,FALSE
-"682","40C","PM",10062018,174175,"Overcast lite rain","","","Humans, Dogs, Chimney Swifts, Birds, Chipmunk","Calm","",2,8,25,FALSE,NA,NA,FALSE
-"683","40E","PM",10172018,139140,"63º F, Partly Cloudy","","","","","",2,3,NA,FALSE,63,17.2,FALSE
-"684","40G","PM",10132018,174175,"55º F, partly cloudy","","","Humans, Pigeons, Chipmunk","Calm","",2,6,22,FALSE,55,12.8,FALSE
-"685","40I","PM",10132018,6768,"55º F, partly cloudy, chilly, breezy, some sun","Some","","Humans, Hawks, Dogs, Pigeons, Duck","Busy","",2,1,25,FALSE,55,12.8,TRUE
-"686","41B","AM",10102018,74,"Humid","Some","","","Calm","",2,11,32,FALSE,NA,NA,FALSE
-"687","41E","PM",10132018,250251,"55º F, partly cloudy","Some","","Humans, Dogs, Chipmunk, Sparrows","Calm, Busy","Calm (in forest), Busy (near road)",2,5,21,FALSE,55,12.8,FALSE
-"688","42B","AM",10142018,176,"","None","","Humans, Dogs","Calm","",2,2,NA,FALSE,NA,NA,FALSE
-"689","42F","PM",10172018,139140,"62º F, Partly Sunny/Cloudy","","","Mallards, Canadian Geese","","",2,4,NA,FALSE,62,16.7,TRUE
-"690","42G","PM",10142018,3839,"overcast","Some","","Humans, Hawks, Dogs, Pigeons, Geese","Busy","",2,3,25,FALSE,NA,NA,FALSE
-"691","04G","AM",10062018,142143144,"65º F, cloudy, sprinkling of rain","None","","Humans, Dogs, Horses","Busy","",3,5,24,FALSE,65,18.3,FALSE
-"692","06G","AM",10082018,48,"68º F, humid","None","","Humans, Dogs","Calm","",3,6,20,FALSE,68,20,FALSE
-"693","07F","AM",10082018,48,"68º F, chilly, humid","Some","","Humans, Dogs","Calm","",3,17,22,FALSE,68,20,FALSE
-"694","08A","AM",10132018,179180181,"55º F, rainy","Some","","Pigeons","Calm","",3,6,20,FALSE,55,12.8,FALSE
-"695","08B","AM",10072018,227,"70º F, Muggy","None","","Humans, Dogs, Pigeons, Doves. Grackle Birds","Busy","",3,9,25,FALSE,70,21.1,FALSE
-"696","09A","AM",10132018,179180181,"","Some","","Humans, Dogs, Pigeons, Rats, Blue jays","Busy","",3,12,20,FALSE,NA,NA,FALSE
-"697","11F","PM",10062018,168,"","Some","","Humans, Dogs, Pigeons","Busy","",3,3,26,FALSE,NA,NA,FALSE
-"698","12G","PM",10072018,106.107108,"80º F","None","","Humans, Cat bird","Busy","",3,7,29,FALSE,80,26.7,FALSE
-"699","12H","PM",10072018,106.107108,"79º F","None","","Humans, Sparrows","Busy","",3,8,30,FALSE,79,26.1,FALSE
-"700","26A","PM",10062018,185,"","","","Horse, Pony","","",3,6,30,FALSE,NA,NA,FALSE
+"","Hectare","Shift","Date","Anonymized.Sighter","Sighter.Observed.Weather.Data","Litter","Litter.Notes","Other.Animal.Sightings","Hectare.Conditions","Hectare.Conditions.Notes","Number.of.sighters","Number.of.Squirrels","Total.Time.of.Sighting","temperature_fahrenheit","temperature_celsius"
+"1","01A","AM",10072018,110,"70º F, Foggy","Some","","Humans, Pigeons","Busy","",1,4,22,70,21.1
+"2","01A","PM",10142018,177,"54º F, overcast","Abundant","","Humans, Pigeons","Busy","",1,7,26,54,12.2
+"3","01B","AM",10122018,11,"60º F, sunny","Some","","Humans, Dogs, Pigeons, Horses","Busy","",1,17,23,60,15.6
+"4","01B","PM",10192018,109,"59.8º F, Sun, Cool","Some","","Humans, Dogs, Pigeons, Sparrow, Blue jay","Busy","",1,10,35,59,15
+"5","01C","PM",10132018,241,"55° F, Partly Cloudy","None","","Humans, Dogs, Pigeons, Birds","Busy","",1,10,25,55,12.8
+"6","01D","AM",10062018,250,"66º F, cloudy, light drizzle","Some","","Humans","Calm","",1,9,35,66,18.9
+"7","01E","AM",10062018,218,"65º F approx, misty","Some","","Humans","Calm","",1,5,26,65,18.3
+"8","01F","AM",10102018,123,"74º F, Partly cloudy, no wind","None","","Humans, Dogs, Ducks","Calm","",1,5,20,74,23.3
+"9","01F","PM",10192018,241,"59º F, Clear","None","","Humans, Dogs, Pigeons, Birds","Busy","",1,3,24,59,15
+"10","01G","PM",10102018,151,"77º F, Warm, sunny, humid","None","","Humans, Dogs, Cats, Raccoons","Busy","",1,3,28,77,25
+"11","01G","AM",10062018,232,"64º F, cloudy, light drizzle","None","","Humans, Dogs, Pigeons, Ducks, Bluejay, Sparrow, Starling","Busy","",1,4,25,64,17.8
+"12","01H","PM",10132018,27,"56° F, Cloudy","None","","Humans","Busy","",1,2,28,56,13.3
+"13","01H","AM",10122018,224,"59º F, mostly sunny, windy","Some","","Humans, Pigeons, Small birds","Busy","",1,2,27,59,15
+"14","01I","AM",10072018,8,"71º F, Cloudy","Some","","Humans, Dogs, Pigeons, Horses","Calm","",1,0,28,71,21.7
+"15","02A","AM",10102018,66,"73º F, Cloudy, 85% humidity","Abundant","","Humans, Dogs","Busy","",1,9,25,73,22.8
+"16","02A","PM",10192018,109,"55º F, Sun","Some","","Humans, Dogs, Pigeons, Downy Woodpecker, Sparrows","Calm","",1,6,30,55,12.8
+"17","02C","AM",10102018,66,"70º F","None","","Humans, Small birds","Busy","",1,9,25,70,21.1
+"18","02D","AM",10072018,116,"71º F, cloudy","None","","Humans, Dogs","Calm","",1,6,25,71,21.7
+"19","02D","PM",10122018,134,"61º F, sunny","None","","Humans","Busy","",1,2,35,61,16.1
+"20","02E","AM",10102018,167,"73º F","","","Humans, Hawks, Dogs","Calm","",1,7,20,73,22.8
+"21","02E","PM",10142018,177,"58º F, overcast","Some","","Humans, Dogs","Busy","",1,5,22,58,14.4
+"22","02F","AM",10062018,126,"64º F, slight wind, dew point 59, misty","Some","","Humans, Dogs","Calm","",1,5,25,64,17.8
+"23","02G","AM",10102018,60,"73º F, Overcast","None","","Humans, Dogs","Busy","",1,4,20,73,22.8
+"24","02G","PM",10072018,119,"80º F, Humid. Party. Cloudy.","None","","Humans, Pigeons, Mice","Calm","",1,3,22,80,26.7
+"25","02H","AM",10062018,116,"65º F, cloudy","","","Humans, Pigeons, Ducks, Geese","","",1,3,22,65,18.3
+"26","02H","PM",10062018,196,"67º F, Cloudy, mist-rain","Some","","Humans, Dogs","Busy","",1,2,30,67,19.4
+"27","02I","AM",10062018,56,"65º F, overcast","Some","","Humans, Pigeons","Busy","",1,2,28,65,18.3
+"28","02I","PM",10062018,134,"","","","","","",1,2,20,NA,NA
+"29","03A","PM",10172018,241,"60º F, mostly cloudy","None","","Humans, Dogs, Birds","Calm","",1,8,25,60,15.6
+"30","03B","PM",10072018,231,"80º F, Cloudy. Humid","Some","","Humans, Dogs","Busy","",1,11,15,80,26.7
+"31","03C","AM",10072018,116,"71º F, Cloudy","None","","Humans, Dogs","Calm","",1,2,20,71,21.7
+"32","03C","PM",10082018,134,"62º F, overcast","Some","","Humans, Dogs","Busy","",1,2,30,62,16.7
+"33","03D","AM",10062018,121,"64º F, overcast, moist","Some","","Humans, Dogs, Pigeons, Birds","Busy","",1,8,35,64,17.8
+"34","03D","PM",10102018,241,"77º F, Sunny, humid","None","","Humans, Dogs, Birds","Busy","",1,14,31,77,25
+"35","03E","AM",10062018,28,"cloudy, slight drizzle","Some","","Humans, Dogs (off-leash)","Calm","",1,8,23,NA,NA
+"36","03E","PM",10082018,158,"65º F, overcast","","","Humans","Busy","",1,9,25,65,18.3
+"37","03F","AM",10062018,93,"66º F, overcast","None","","Humans, Birds","Calm","",1,14,46,66,18.9
+"38","03G","AM",10082018,114,"67º F, overcast","Some","","Humans, Dogs, Pigeons","Moderate","kinde (sic)",1,3,20,67,19.4
+"39","03G","PM",10132018,224,"57° F, Cloudy to Partly Cloudy, ""Crisp""","Some","","Humans, Dogs, Ducks, Cardinal, Small birds, Robin","Busy","",1,3,39,57,13.9
+"40","03H","AM",10082018,114,"67º F, overcast","","","Humans, Dogs, Pigeons","Calm","",1,6,23,67,19.4
+"41","03I","PM",10132018,27,"56° F, Partly Cloudy","Some","","Humans, Pigeons","Busy","",1,8,25,56,13.3
+"42","03I","AM",10102018,123,"74º F, Partly cloudy, minimal wind","None","","Humans, Dogs, Pigeons","Busy","",1,5,20,74,23.3
+"43","04A","AM",10072018,110,"70º F, Foggy","None","","Humans, Dogs, Birds, but not pigeons","Calm","",1,5,22,70,21.1
+"44","04A","PM",10072018,231,"80º F, Cloudy. Humid","Some","","Humans, Dogs","Busy","",1,6,20,80,26.7
+"45","04B","PM",10182018,109,"48º F, Sun","None","","Humans, Dogs","Busy","",1,5,NA,48,8.9
+"46","04B","AM",10102018,167,"70º F Partly cloudy","Abundant","","Humans, Dogs","Busy","",1,6,25,70,21.1
+"47","04C","PM",10102018,217,"77º F, Mostly sunny, humid","None","","Humans, Dogs, Sparrows","Busy","",1,17,20,77,25
+"48","04D","AM",10122018,11,"60º F, partly cloudy","None","","Humans, Dogs, Blue Jays","Busy","",1,4,25,60,15.6
+"49","04D","PM",10082018,134,"65º F, overcast","Some","","Humans","Calm","",1,14,65,65,18.3
+"50","04E","AM",10202018,145,"55º F, Cloudy","None","","Humans, Dogs, Small birds, Dogs","Busy","",1,4,24,55,12.8
+"51","04E","PM",10082018,158,"65º F, overcast","None","","","","",1,8,29,65,18.3
+"52","04F","AM",10072018,8,"71º F, Coudy. Misty. Rain.","Some","","Humans, Dogs","Calm","",1,0,23,71,21.7
+"53","04G","PM",10072018,133,"77º F, Sunny","Some","","Humans","Busy","",1,1,36,77,25
+"54","04H","PM",10062018,134,"65º F, Very Overcast","None","","Humans","Busy","",1,2,31,65,18.3
+"55","04H","AM",10062018,168,"64º F, overcast","Some","","Humans, Dogs, Birds, Song birds and Crows","Busy","",1,4,45,64,17.8
+"56","04I","AM",10062018,34,"65º F, overcast, misty","Some","","Humans, Dogs, Pigeons, Rat","Busy","",1,3,42,65,18.3
+"57","04I","PM",10072018,134,"77º F, Sunny","Some","","Humans","Busy","",1,3,31,77,25
+"58","05A","AM",10062018,61,"64º F","None","","Humans, Dogs","Busy","",1,5,50,64,17.8
+"59","05A","PM",10102018,241,"77º F, Mostly Sun, humid","","","Humans, Dogs, Birds","Calm","",1,4,23,77,25
+"60","05B","AM",10082018,163,"66º F, overcast","Some","","Humans, Dogs","Busy","",1,4,26,66,18.9
+"61","05B","PM",10132018,241,"55° F, Partly Cloudy","None","","Humans, Dogs, Birds","Busy","",1,6,25,55,12.8
+"62","05C","AM",10062018,169,"64º F, cloudy, light rain","Some","","Humans, Dogs, Sparrows, Starlings, American robins","Calm","",1,7,25,64,17.8
+"63","05C","PM",10102018,217,"77º F, Mostly sunny","None","","Humans, Dogs","Busy","",1,13,20,77,25
+"64","05D","PM",10182018,109,"48º F, Sunny","None","","Humans, Dogs, Sparrows, Robin","Moderate","",1,7,20,48,8.9
+"65","05D","AM",10202018,145,"55º F, Cloudy","None","","Humans, Dogs, Other birds","Calm","",1,4,23,55,12.8
+"66","05E","PM",10122018,134,"61º F, sunny","","","Humans","Busy","",1,6,44,61,16.1
+"67","05E","AM",10082018,163,"66º F, overcast, misty","Some","","Humans, Hawks, Dogs","Busy","",1,10,34,66,18.9
+"68","05F","AM",10072018,17,"71º F, Cloudy","Some","","Humans, Dogs, Pigeons","Busy","",1,6,25,71,21.7
+"69","05F","PM",10072018,119,"80º F, Humid. Cloudy.","None","","Humans, Dogs, Pigeons, Tourists","Busy","",1,6,22,80,26.7
+"70","05G","PM",10102018,151,"77º F Sunny humid","","","Dogs","Busy","",1,5,20,77,25
+"71","05G","AM",10062018,230,"64º F, cloudy, misty","","","Humans, little Birds","Busy","",1,1,20,64,17.8
+"72","05H","AM",10072018,17,"70º F, Cloudy","None","","Humans, Dogs","Calm","",1,1,25,70,21.1
+"73","05H","PM",10062018,196,"67º F, Cloudy, misting","Abundant","","Humans","Busy","",1,0,30,67,19.4
+"74","05I","AM",10102018,60,"74º F","None","","Humans, Dogs","Busy","",1,6,20,74,23.3
+"75","05I","PM",10082018,96,"65º F, dark and damp, drizzling","None","","Humans, Dogs, Pigeons","Calm","",1,2,25,65,18.3
+"76","06A","PM",10122018,115,"sunny, chilly","Some","","Humans, Dogs, Birds","Busy","",1,7,25,NA,NA
+"77","06A","AM",10062018,211,"65º F, gray, misting","Some","","Humans, Dogs","Calm","",1,8,20,65,18.3
+"78","06B","PM",10172018,241,"61º F, mostly cloudy","None","","Humans, Dogs, Birds","Busy","",1,7,25,61,16.1
+"79","06B","AM",10122018,261,"58º F, partly sunny, breezy","None","","Humans (Bikers, Runners), Dogs, Small birds","Busy","",1,2,22,58,14.4
+"80","06C","AM",10072018,34,"68º F, Overcast. Humid.","None","","Humans, Dogs","Busy","T/V busy with cars. Lots on dogs in ball fields.",1,8,25,68,20
+"81","06C","PM",10202018,150,"65º F","","","","","",1,4,25,65,18.3
+"82","06D","PM",10202018,150,"65º F","Some","","Humans, Dogs","Busy","",1,6,25,65,18.3
+"83","06D","AM",10082018,250,"66º F, cloudy","Some","","Humans, Dogs","Calm","",1,4,21,66,18.9
+"84","06E","PM",10102018,195,"77º F, Mostly sunny (humid) but lovely","","","Humans","Busy","",1,5,22,77,25
+"85","06F","PM",10082018,114,"65º F, drizzly","","","Humans, Dogs","Busy","",1,6,23,65,18.3
+"86","06F","AM",10062018,263,"18º C, Cloudy","Abundant","","Humans, Dogs","Busy","",1,1,26,18,-7.8
+"87","06G","PM",10202018,242,"61º F, Sunny. Sun starting to go down","Some","","Humans, Horses, Birds","Busy","",1,4,24,61,16.1
+"88","06H","AM",10082018,6,"66º F, overcast, damp","","","Humans, Dogs","","",1,2,30,66,18.9
+"89","06H","PM",10202018,242,"63º F, Perfect","None","","Humans, Birds, Cardinal","Calm","",1,3,25,63,17.2
+"90","06I","AM",10062018,17,"65º F, cloudy","","","","","",1,1,23,65,18.3
+"91","06I","PM",10132018,256,"57° F, Cloudy","Some","","Humans, Dogs, Pigeons","Busy","",1,7,26,57,13.9
+"92","07A","PM",10072018,182,"79º F, Cloudy","","","Humans, Dogs","Calm","",1,2,22,79,26.1
+"93","07A","AM",10062018,227,"67º F, light drizzle","Some","","Humans, Dogs, Robins (Birds)","Busy","",1,3,29,67,19.4
+"94","07B","AM",10082018,60,"67º F, misty","None","","Humans, Dogs, Pigeons","Busy","",1,15,30,67,19.4
+"95","07B","PM",10062018,118,"Misty","Some","","Humans, Dogs","Busy","",1,1,22,NA,NA
+"96","07C","AM",10122018,261,"58º F, partly cloudy, breezy","None","","Humans (Very Few)","Calm","Sheep Meadow Closed!",1,3,20,58,14.4
+"97","07D","PM",10102018,115,"77º F, Humid, sunny","Some","","Humans","Busy","",1,1,25,77,25
+"98","07D","AM",10062018,117,"60s, cloudy, threatening to rain, misty","None","","Humans, Dogs","Calm","",1,0,30,60,15.6
+"99","07E","AM",10062018,118,"64º F, Cloudy","","","Humans, Dogs, Pigeons","Calm","",1,6,26,64,17.8
+"100","07F","PM",10122018,131,"60º F, sunny","None","","Humans, Dogs, Small birds","Calm","",1,3,25,60,15.6
+"101","07G","AM",10102018,67,"Muggy, cloudy, slightly damp","None","","Humans, Dogs, Birds, Blue jays","Busy","",1,9,25,NA,NA
+"102","07G","PM",10182018,242,"52º F, Sunny","","","Humans","Busy","",1,7,20,52,11.1
+"103","07H","PM",10062018,227228,"68º F, drizzle","None","","Humans, Sparrow","","",1,10,25,68,20
+"104","07I","AM",10122018,44,"59º F, sunny, very windy","Some","","Humans, Dogs, Pigeons, Small birds","Busy","Construction",1,0,25,59,15
+"105","07I","PM",10132018,256,"","","","","","",1,8,33,NA,NA
+"106","08A","PM",10142018,103,"58º F, cloudy, cool & crisp","None","","Humans, Dogs, Pigeons, Mice, Sparrows","Busy","",1,3,25,58,14.4
+"107","08B","PM",10122018,115,"chilly, sunny","Some","","Humans","Busy","",1,9,35,NA,NA
+"108","08C","AM",10072018,34,"68º F, Overcast. Humid.","None","","Humans, Dogs","Calm","Humans quietly walking polite dogs. dog run.",1,2,20,68,20
+"109","08D","PM",10072018,182,"80º F, Sunny","Some","","Humans, Dogs","Busy","",1,4,22,80,26.7
+"110","08D","AM",10072018,224,"71º F, Overcast. Misty","None","","Humans, Dogs, Pigeons","Calm","Very calm, except you can hear machinery",1,8,26,71,21.7
+"111","08E","AM",10132018,78,"46º F, rain","None","","Humans, Dogs","Calm","",1,2,20,46,7.8
+"112","08E","PM",10082018,96,"cloudy, drizzling","None","","Humans, Dogs","Busy","",1,8,25,NA,NA
+"113","08F","PM",10122018,131,"60º F, sunny","Some","","Humans, Dogs","Calm","",1,8,25,60,15.6
+"114","08F","AM",10142018,145,"52º F, Partly Cloudy, Mostly Sunny","None","","Humans, Dogs, Owls, Small birds","Busy","Concert at Naumburg Bandshell",1,0,23,52,11.1
+"115","08G","AM",10122018,44,"","","","Humans","Calm","",1,0,23,NA,NA
+"116","08G","PM",10172018,242,"61º F, Sunny, Breezy","","","Humans, Dogs, Horses, Birds","Busy","",1,2,20,61,16.1
+"117","08H","PM",10142018,138,"57º F, Cloudy","Some","","Dogs, Pigeons, Small birds","Calm","",1,9,25,57,13.9
+"118","08H","AM",10172018,163,"50º F, clear, windy","None","","Humans, Dogs","Busy","",1,6,26,50,10
+"119","08I","PM",10132018,134,"56° F, Partly Cloudy","Some","","Humans, Dogs, Wood Thrush","Calm","",1,9,64,56,13.3
+"120","08I","AM",10062018,237,"77º F, cloudy","Some","","Humans, Dogs","Busy","",1,12,27,77,25
+"121","09A","PM",10102018,195,"77º F (humid) but lovely","None","","Humans, Dogs, Pigeons","Busy","Doggie play area",1,4,22,77,25
+"122","09B","AM",10102018,211,"70º F","","","Blue jay","Busy","",1,9,30,70,21.1
+"123","09C","AM",10062018,196,"68º F, cloudy","Some","","Humans, Dogs, Birds","Busy","",1,3,20,68,20
+"124","09C","PM",10062018,230,"65º F, Mostly Cloudy","Some","","Humans, Dogs, Birds","","",1,7,20,65,18.3
+"125","09D","PM",10082018,55,"drizzling","Some","","Humans, Dogs","Calm","",1,0,10,NA,NA
+"126","09D","AM",10082018,60,"66º F, overcast, misty","Some","","Humans, Dogs, Birds","Busy","",1,4,20,66,18.9
+"127","09E","AM",10082018,6,"overcast, damp","","","Humans, Dogs","Busy","",1,4,20,NA,NA
+"128","09E","PM",10142018,101,"57º F, cloudy","None","","Humans, Hawks, Dogs, Small birds","Busy","",1,3,30,57,13.9
+"129","09F","AM",10132018,78,"46º F, rain","None","","Humans, Dogs","Busy","",1,4,20,46,7.8
+"130","09F","PM",10142018,138,"57º F, crisp & mostly cloudy","Some","","Humans, Dogs, dogs off-leash :( , Birds","Calm","But loud music at edge",1,8,23,57,13.9
+"131","09G","PM",10072018,96,"81º F, Cloudy","Some","","Humans, Dogs, Pigeons","Busy","",1,6,34,81,27.2
+"132","09G","AM",10072018,97,"70º F, Humid. Cloudy.","Some","","Humans, Dogs, Horse drawn carriage. Woodpecker","Busy","",1,4,25,70,21.1
+"133","09H","PM",10182018,242,"52º F, Sunny","","","Humans, Dogs","Busy","",1,9,21,52,11.1
+"134","09I","PM",10102018,114,"77º F, Mostly sunny","","","Humans, Dogs","Busy","",1,7,24,77,25
+"135","10A","AM",10062018,8,"65º F, cloudy, light drizzle","None","","Humans, Dogs, Red Robins","Busy","",1,4,24,65,18.3
+"136","10A","PM",10142018,101,"57º F, cloudy","","","Humans, Dogs, Pigeons, Small birds, Rat, Mice","","",1,4,25,57,13.9
+"137","10B","PM",10142018,103,"58º F, overcast cool & crisp","None","","Humans, Dogs, Pigeons, Tiny birds on trees","Busy","",1,5,25,58,14.4
+"138","10C","AM",10182018,242,"43º F, Sunny, Breezy","Some","","Humans, Dogs","Calm","",1,4,22,43,6.1
+"139","10D","PM",10082018,55,"65º F, overcast","Some","","Humans, Dogs","Busy","",1,1,18,65,18.3
+"140","10D","AM",10082018,250,"66º F, cloudy","Some","","Humans","Busy","",1,5,21,66,18.9
+"141","10E","AM",10102018,211,"71º F, Cloudy, humid","Some","","Humans, Dogs","Busy","",1,2,25,71,21.7
+"142","10E","PM",10072018,224,"79º F, Partly Cloudy","Some","","Humans","Busy","",1,1,24,79,26.1
+"143","10F","AM",10072018,97,"71º F, Humid. Cloudy.","None","","Humans, Dogs, Pigeons, Chickadees, Tour groups","Busy","",1,3,25,71,21.7
+"144","10F","PM",10192018,221,"58º F, Partly, Cloudy","Some","","Humans, Dogs, Pigeons","Busy","CRAZY BUSY",1,12,30,58,14.4
+"145","10G","PM",10172018,242,"60º F, windy, clouds coming in. A couple drops of rain.","None","","Humans","Calm","",1,10,23,60,15.6
+"146","10H","PM",10072018,96,"81º F, Partly Cloudy. Humid.","Some","","Humans, Dogs, Pigeons, Horses","Busy","",1,2,25,81,27.2
+"147","10I","AM",10102018,67,"Partly cloudy, dewy","Some","","Humans, Dogs","Busy","",1,4,26,NA,NA
+"148","10I","PM",10132018,134,"56° F, Partly Cloudy","None","","Humans, Dogs","Busy","",1,1,25,56,13.3
+"149","11A","AM",10142018,13,"Mild (mid-50s), cloudy","Some","","Humans, Dogs, Robins, Small brown birds -- not sparrows","Busy","Noisy and thumpy Avon Walk music from east",1,0,22,50,10
+"150","11A","PM",10132018,229,"55º F, cloudy","Some","","Humans, Dogs, Rat (with an apple core), Horses, Robin","Busy","",1,5,25,55,12.8
+"151","11B","AM",10072018,35,"71º F, Overcast. Humid","Some","","Humans, Dogs, Pigeons, Horses","Busy","",1,5,30,71,21.7
+"152","11B","PM",10142018,234,"Cool, Cloudy","Some","","Humans, Dogs, Horses","Busy","",1,8,18,NA,NA
+"153","11C","AM",10072018,35,"70º F, Overcast. Humid.","None","","Humans, Dogs","Busy","",1,0,30,70,21.1
+"154","11C","PM",10182018,191,"53º F, Sunset","None","","Humans, Ducks, Blue Jay, Horse!","Calm","",1,1,26,53,11.7
+"155","11D","AM",10102018,83,"72º F, Glasses fogging humid","None","","Humans, Dogs, Blue jays, Robins","Calm","",1,8,20,72,22.2
+"156","11E","PM",10122018,132,"61º F, sunny","Some","","Humans, Dogs, Pigeons","Busy","",1,7,20,61,16.1
+"157","11E","AM",10132018,203,"48º F, rain (from light to steady)","","","Humans, Horses","Busy","",1,4,21,48,8.9
+"158","11F","AM",10132018,97,"49º F, rainy, overcast, kinda windy","None","","Humans, Dogs, Chickadees","Busy","",1,3,30,49,9.4
+"159","11G","AM",10122018,37,"60º F, partly cloudy, windy","Some","","Humans, Blue jays, Robins","Calm","",1,1,20,60,15.6
+"160","11G","PM",10132018,85,"55º F, cloudy","None","","Humans, Horses","Busy","",1,2,26,55,12.8
+"161","11H","AM",10102018,37,"70º F, Muggy","Some","","Humans, Sparrows","Calm","",1,9,20,70,21.1
+"162","11I","AM",10122018,166,"60º F, windy, partly cloudy","None","","Humans, Dogs","Calm","",1,2,20,60,15.6
+"163","12A","AM",10082018,123,"66º F, overcast, drizzling, no wind","Some","","Humans, Dogs","Busy","",1,2,20,66,18.9
+"164","12A","PM",10132018,229,"55º F, cloudy","Some","","Humans, Dogs, Rat","","",1,4,24,55,12.8
+"165","12B","PM",10182018,151,"50º F, Sunny, Brisk","Some","","Humans, Dogs","Busy","",1,1,20,50,10
+"166","12B","AM",10072018,260,"70º F, Cloudy","Some","","Dogs","Busy","",1,2,NA,70,21.1
+"167","12C","AM",10132018,203,"48º F, light & steady rain","","","Humans, Dogs, Pigeons, Ducks, Geese","Calm","",1,3,20,48,8.9
+"168","12C","PM",10172018,249,"partly cloudy, pleasant","Some","","Humans, Waterfowl","Calm","",1,1,22,NA,NA
+"169","12D","AM",10132018,28,"rainy","Some","","Humans, Dogs","Busy","",1,2,23,NA,NA
+"170","12D","PM",10142018,36,"56º F","None","","Humans, Dogs","Calm","",1,3,20,56,13.3
+"171","12E","AM",10172018,83,"51º F, sunny, clear","Some","","Humans, Dogs, Pigeons, Various bird types","Busy","",1,8,25,51,10.6
+"172","12E","PM",10182018,191,"53º F, Sunny","None","","Humans, Dogs, Birds, Ducks","Busy","",1,6,23,53,11.7
+"173","12F","PM",10072018,220,"79º F, Partly Cloudy","","","Humans, Dogs, Pigeons","Busy","",1,15,21,79,26.1
+"174","12F","AM",10202018,256,"55º F, Cloudy","Some","","Humans, Dogs, Pigeons","Busy","",1,6,35,55,12.8
+"175","12G","AM",10122018,166,"60º F, windy, cloudy","None","","Humans, Dogs, Blue jay, Sparrows","Calm","",1,5,20,60,15.6
+"176","12H","AM",10072018,235,"71º F, Cloud","Some","","Humans, Dogs, Mandarin Duck","Moderate","",1,0,20,71,21.7
+"177","12I","AM",10132018,8,"46º F, rainy, cold","None","","Humans, Dogs","Calm","",1,1,25,46,7.8
+"178","12I","PM",10172018,80,"60º F, sunny, very windy","None","","Humans, Dogs","Busy","",1,0,25,60,15.6
+"179","13A","AM",10172018,83,"49º F, sunny, not a cloud","None","","Humans, Hawks, Dogs, Pigeons, Sparrows, blue jays","Calm","",1,5,22,49,9.4
+"180","13A","PM",10142018,234,"cool, cloudy","None","","Humans, Dogs","Busy","",1,4,20,NA,NA
+"181","13B","AM",10082018,123,"66º F, overcast, no wind","Some","","Humans, Dogs, Ducks","Busy","",1,0,20,66,18.9
+"182","13B","PM",10082018,240,"70º F, misting","None","","Humans, Dogs, Sparrows, Rats","Busy","",1,2,20,70,21.1
+"183","13C","PM",10192018,47,"56º F, Overcast","Some","","Humans","Calm","",1,5,25,56,13.3
+"184","13C","AM",10102018,83,"71º F Cloudy and wicked humid","Some","","Humans, Dogs, Blue jay, Cardinal, Warbler","Calm, Busy","Sporadically punctuated busy",1,4,20,71,21.7
+"185","13D","PM",10182018,215,"55º F, Sunny","Some","","Humans, Dogs, Pigeons, Cats, Birds, Ducks","Busy","",1,14,27,55,12.8
+"186","13D","AM",10142018,252,"51º F, cloudy w/sun","Some","","Humans, Dogs","Calm","Loud from concert",1,11,22,51,10.6
+"187","13E","PM",10082018,184,"66º F, misty, cloudy, humid","Some","","Humans, Dogs","Busy","",1,11,30,66,18.9
+"188","13E","AM",10172018,224,"52º F, sunny & brisk","Some","","Humans, Birds (non-pigeon)","Calm","",1,13,50,52,11.1
+"189","13F","PM",10082018,127,"66º F, misty, light rain, cloudy","","","Humans","Busy","",1,5,20,66,18.9
+"190","13F","AM",10072018,145,"70-73º F","None","","Humans, Dogs, Small birds","Calm","",1,4,28,70,21.1
+"191","13G","AM",10132018,162,"50º F, rain","None","","Humans","Calm","",1,0,25,50,10
+"192","13G","PM",10082018,244,"65º F, overcast, light breeze","None","","Humans, Dogs, Sparrows, Robins","Moderate","",1,4,22,65,18.3
+"193","13H","PM",10102018,60,"80º F, sunny","Abundant","","Humans, Dogs","Busy","",1,9,25,80,26.7
+"194","13H","AM",10132018,240,"~60º F, rainy","Some","2-3 pieces","Humans, Dogs, Ducks","Calm","Tour at Alice in Wonderland)",1,1,20,60,15.6
+"195","13I","AM",10132018,8,"46º F","None","","Humans, Dogs, Ducks","Calm","",1,0,30,46,7.8
+"196","13I","PM",10082018,127,"66º F, misty, cloudy","Some","","Humans, Dogs, Mice","Busy","",1,1,20,66,18.9
+"197","14A","AM",10142018,13,"mid-50s, cloudy","None","","Humans, Dogs, Pigeons, Finches, Sparrows","Busy","Avon Walk",1,2,21,50,10
+"198","14A","PM",10142018,36,"57º F","Some","","Humans, Dogs, Small birds","Calm","",1,8,20,57,13.9
+"199","14B","AM",10072018,28,"67º F, Cloudy","Some","","Woodpecker","Busy","",1,3,NA,67,19.4
+"200","14B","PM",10142018,222,"57º F, overcast","Some","","Humans, Dogs, Rat, Ducks","Calm, Busy","Busy, calm off walkways",1,8,22,57,13.9
+"201","14C","PM",10062018,25,"67º F, Gloomy, overcast","Some","","Humans, Dogs, Pigeons","Calm","",1,3,30,67,19.4
+"202","14C","AM",10072018,254,"70º F, Cloudy","Some","","Humans, Dogs","Calm","",1,0,22,70,21.1
+"203","14D","AM",10142018,116,"52º F, mostly cloudy","None","","Humans, Dogs","Calm","Loud music from Bethesda Terrace",1,16,55,52,11.1
+"204","14D","PM",10192018,151,"60º F, Cloudy","Some","","Humans, Dogs","Busy","",1,16,35,60,15.6
+"205","14E","PM",10172018,80,"58º F, sunny, breezy","None","","Humans, Dogs","Calm","",1,5,25,58,14.4
+"206","14E","AM",10082018,203,"65º F, fog, clouds, mist","Some","","Humans","Calm","",1,23,40,65,18.3
+"207","14F","PM",10122018,24,"61º F, sunny, windy","Some","","Humans, Dogs","Calm","",1,9,25,61,16.1
+"208","14F","AM",10072018,172,"73º F","Some","","Humans, Dogs","Calm","",1,6,29,73,22.8
+"209","14G","AM",10122018,37,"60º F, partly cloudy, windy","None","","Humans, Dogs, Robins, Horses","Calm","",1,4,20,60,15.6
+"210","14H","PM",10122018,24,"61º F, sunny, windy, sun going behind trees","Some","","Humans, Dogs (Lots)","Busy","",1,8,20,61,16.1
+"211","14H","AM",10072018,235,"71-78º F, Cloudy","Some","","Humans, Dogs, Mandarin Ducks","","",1,4,25,71,21.7
+"212","14I","PM",10182018,70,"40º F, Sunny","Some","","Humans, Dogs, Pigeons, Rat","Calm","",1,6,25,40,4.4
+"213","14I","AM",10132018,240,"~60º F, rainy","None","","Humans, Dogs, Pigeons","Calm, Busy","Calm (in Park), Busy (on Road)",1,1,21,60,15.6
+"214","15A","PM",10172018,224,"52º F, cloudy, light rain drops, chilly","None","","Humans, Birds","Calm, Busy","Busy at sidewalk",1,1,20,52,11.1
+"215","15B","PM",10172018,206,"cool, windy","None","","Humans, Dogs, Birds","Busy","",1,5,40,NA,NA
+"216","15B","AM",10142018,209,"50º F, sunny","None","","Humans, Dogs","Busy","",1,3,20,50,10
+"217","15C","AM",10102018,203,"74º F Muggy & cloudy","None","","Humans, Dogs, Crickets","Calm","",1,3,37,74,23.3
+"218","15C","PM",10172018,249,"got dark very suddenly","Some","","mouse, Rats, Other birds","Calm","",1,5,40,NA,NA
+"219","15D","PM",10172018,163,"61º F, partly cloudy, then some showers","Some","","Humans, Birds, Mouse, Rat","Calm","",1,6,31,61,16.1
+"220","15E","AM",10132018,132,"47º F, raining","None","","Humans","Calm","",1,4,20,47,8.3
+"221","15E","PM",10082018,203,"64º F, cloudy","Some","","Humans","Moderate","",1,11,33,64,17.8
+"222","15F","PM",10102018,60,"80º F Sunny","","","Humans, Dogs","Busy","",1,7,29,80,26.7
+"223","15F","AM",10072018,145,"73º F, Cloudy","None","","Humans, Dogs","Calm","",1,10,30,73,22.8
+"224","15G","AM",10082018,67,"damp, misty, cloudy","Some","","Humans, Dogs","Busy","",1,6,23,NA,NA
+"225","15G","PM",10192018,138,"60º F, Mostly Sunny + Slightly Breezy","Some","","Humans, Dogs, Small birds","Calm","",1,12,23,60,15.6
+"226","15H","AM",10132018,97,"49º F, light rain, cloudy","None","","Humans, Dogs, Bluebird, Chickadees","Calm","",1,3,27,49,9.4
+"227","15H","PM",10082018,244,"67º F, overcast, light breeze","None","","Humans, Dogs","Calm","",1,7,21,67,19.4
+"228","15I","AM",10082018,67,"damp, humid, cloudy, dreary, misty, not raining, moist","Some","","Humans, Dogs, Sparrows, Crickets, Blue jay","Busy","",1,6,29,NA,NA
+"229","16A","AM",10132018,28,"rainy","","","Humans, Dogs","Calm","",1,2,23,NA,NA
+"230","16A","PM",10192018,88,"58º F, Partly Cloudy","None","","Humans, Dogs, Sparrows","Calm","",1,7,20,58,14.4
+"231","16B","PM",10172018,206,"cool, windy","None","","Humans, Dogs, Birds","Busy","",1,2,NA,NA,NA
+"232","16B","AM",10142018,209,"50º F, sunny","None","","Humans, Dogs","Busy","",1,2,19,50,10
+"233","16C","PM",10182018,1,"51º F, Dry and Clear","Some","","Humans, Birds (unknown), Chipmunk","Busy","",1,3,24,51,10.6
+"234","16C","AM",10142018,172,"50º F, partly cloudy","Some","","Humans, Dogs","Calm","",1,4,43,50,10
+"235","16D","PM",10102018,203,"76º F, Sunny, occasional breezes","None","","Humans, Dogs, Butterflies","Moderate","",1,13,28,76,24.4
+"236","16D","AM",10072018,254,"70º F, Cloudy","Abundant","","Humans","Calm","",1,6,21,70,21.1
+"237","16E","AM",10142018,35,"50º F, sunny","Abundant","","Humans, Dogs, Yoga Class","Calm","",1,10,40,50,10
+"238","16E","PM",10182018,267,"48º F, Partly Cloudly","Some","","Humans","Busy","",1,10,35,48,8.9
+"239","16F","PM",10132018,85,"55º F, clouds","Some","","Humans, Dogs, Raccoon (Dead)","Busy","",1,6,46,55,12.8
+"240","16F","AM",10082018,149,"68º F, moist","Some","","Humans","Calm","",1,3,30,68,20
+"241","16G","AM",10102018,37,"70º F Muggy and partly cloudy","None","","Humans, Dogs, Sparrows","Busy","",1,5,20,70,21.1
+"242","16G","PM",10172018,104,"62º F, sunny, light breeze","Some","","Humans, Dogs","Busy","",1,1,25,62,16.7
+"243","16H","AM",10072018,172,"72º F, Overcast","None","","Humans, Dogs","Calm","Calm, but lots of dogs",1,1,20,72,22.2
+"244","16I","AM",10082018,149,"70º F, moist","Some","","Humans","Calm","",1,4,25,70,21.1
+"245","17A","PM",10132018,141,"50s, sunny","None","","Humans","Busy","",1,3,20,50,10
+"246","17A","AM",10172018,255,"Low 50s, cool & sunny","Some","","Humans, Dogs, Pigeons, other Birds","Busy","",1,1,25,50,10
+"247","17B","PM",10122018,29,"60º F, Breezy","None","","Humans, Dogs, Mouse or Baby Rat","Busy","",1,3,22,60,15.6
+"248","17B","AM",10102018,166,"73º F, Sunny","None","","Humans, Dogs, Pigeons","Busy","",1,3,20,73,22.8
+"249","17C","PM",10132018,141,"50s, sunny","None","","Humans","Busy","",1,5,25,50,10
+"250","17D","PM",10082018,184,"66º F, misty, cloudy , humid","None","","Humans","Calm","",1,0,10,66,18.9
+"251","17D","AM",10082018,184,"67º F, misty, cloudy, humid","None","","Humans, Dogs","Calm","",1,7,20,67,19.4
+"252","17E","PM",10182018,178,"73º F","Some","","Humans, Cats","Moderate","Partially blocked due to contruction",1,3,20,73,22.8
+"253","17E","AM",10172018,247,"55º F, Sunny","None","","Birds, Ducks","Calm","",1,11,35,55,12.8
+"254","17F","PM",10202018,128,"61º F, Clear Sky","","","Humans","","",1,6,NA,61,16.1
+"255","17F","AM",10072018,173,"70º F, Cloudy","None","","Humans, Dogs","Moderate","",1,7,50,70,21.1
+"256","17G","AM",10182018,76,"40º F, Windy, Clear","Some","","Humans, Dogs","Busy","",1,1,24,40,4.4
+"257","17G","PM",10172018,104,"62º F, Sunny, light breeze & light sprinkle later on","None","","Humans, Dogs, Other birds","Busy","",1,4,25,62,16.7
+"258","17H","PM",10072018,87,"79º F, Cloudy","None","","Humans, Dogs","Busy","",1,2,20,79,26.1
+"259","17H","AM",10102018,255,"70º F, Humid and partly sunny","Some","","Humans, Dogs, Robin","Moderate","",1,0,25,70,21.1
+"260","17I","PM",10172018,202,"62º F, cloudy, windy","Abundant","","Humans, Dogs, Pigeons, Cats","Busy","",1,1,20,62,16.7
+"261","17I","AM",10142018,230,"49º F, calm & crisp","Some","","Humans, Dogs","Busy","With street noise",1,4,27,49,9.4
+"262","18A","PM",10182018,69,"49º F, Clear","Some","","Dogs, Robins, Mourning Dove, Sparrow","Busy","",1,1,20,49,9.4
+"263","18A","AM",10122018,211,"58º F, cloudy, very windy","Some","","Humans, Dogs, Robins, Blue jays","Calm","",1,2,30,58,14.4
+"264","18B","PM",10182018,95,"Sunny, Windy, Cool","","","","","",1,0,30,NA,NA
+"265","18B","AM",10172018,247,"57º F, sunny","None","","","Calm","",1,0,20,57,13.9
+"266","18C","PM",10182018,95,"","None","","Humans, Dogs","Busy","",1,9,40,NA,NA
+"267","18C","AM",10182018,224,"40º F, Cold, Sunny, Windy","None","","Humans, Dogs, Birds (lots)","Moderate","",1,2,20,40,4.4
+"268","18D","PM",10172018,138,"63º F, mostly sunny, off-&-on windy","Some","","Humans, Dogs, Small birds","Calm","",1,1,20,63,17.2
+"269","18E","PM",10062018,114,"65º F, drizzly","","","Humans, Dogs","Busy","",1,1,21,65,18.3
+"270","18E","AM",10122018,211,"58º F, cloudy, very windy","None","","Humans, Dogs, Robins (Many)","Calm","",1,0,23,58,14.4
+"271","18G","PM",10132018,203,"49º F, breezy, partly cloudy","None","","Humans, Dogs","","",1,4,20,49,9.4
+"272","18H","PM",10142018,201,"58º F, cool","None","","Humans","Busy","",1,3,20,58,14.4
+"273","18H","AM",10182018,239,"44º F, Sunny, Clear Sky, Gusty","None","","Humans","Calm","",1,2,25,44,6.7
+"274","18I","AM",10172018,37,"50º F, sunny","Abundant","","Humans, Dogs","Calm","",1,3,20,50,10
+"275","18I","PM",10072018,220,"79º F, Partly Cloudy","","","Humans, Dogs, Pigeons","Busy","",1,9,20,79,26.1
+"276","19A","PM",10132018,13,"~Low 50s, cold, partly cloudy, sunshine","Some","1 reusable bag","Humans, Dogs, Sparrows, Blue Finch-like Birds, Robins, Blackbirds","Busy","",1,6,26,50,10
+"277","19A","AM",10132018,209,"50º F, rain","None","","","Calm","Calm (in Park), Traffic",1,0,18,50,10
+"278","19B","AM",10192018,148,"46º F","Some","","Humans, Dogs, Birds, but less Robins, Sparrows, Crows, Sterlings, Doves","Busy","",1,2,25,46,7.8
+"279","19C","AM",10192018,148,"46º F, Sunny Breezy","Some","","Humans, Dogs, Robins, starling, Mourning dove, Finches, Sparrows","Busy","",1,0,25,46,7.8
+"280","19D","AM",10072018,252,"69º F","None","","Humans, Dogs","Busy","Busy on path",1,2,20,69,20.6
+"281","19D","PM",10082018,266,"68º F, misty","None","","Humans, Blue jays, Cardinals, Sparrows, Titmice","Moderate","",1,3,20,68,20
+"282","19E","PM",10182018,69,"49º F, Clear","None","","Dogs","Calm","",1,5,30,49,9.4
+"283","19E","AM",10072018,252,"69º F, Cloudy. A bit humid","None","","Dogs","Busy","Busy on suncuncting(?) path",1,0,20,69,20.6
+"284","19F","PM",10172018,151,"63º F, windy, cloudy","","","Humans, Dogs","Calm","",1,7,30,63,17.2
+"285","19F","AM",10072018,173,"29º C, Cloudy","None","","Dogs","Calm","",1,3,50,29,-1.7
+"286","19G","AM",10182018,17,"43º F, Sunny","Some","","Humans, Dogs","Busy","",1,0,25,43,6.1
+"287","19G","PM",10172018,202,"62º F, Partly Cloudy, very windy (attacked by flying leaves kind)","None","","Humans, Dogs","Busy","",1,3,24,62,16.7
+"288","19H","AM",10102018,255,"70º F, Humid and cloudy","None","","Humans, Dogs","Moderate","",1,5,20,70,21.1
+"289","19I","PM",10172018,151,"63º F, Breezy, Sunny","None","","Humans, Pigeons","Busy","",1,0,20,63,17.2
+"290","19I","AM",10172018,166,"51º F, sunny, windy","None","","Humans, Dogs","Busy","",1,0,20,51,10.6
+"291","20A","PM",10172018,138,"63º F, sunny then cloudy, wind gusts, a few raindrops","Some","","Humans, Dogs, Small birds","Calm","",1,1,23,63,17.2
+"292","20A","AM",10102018,166,"73º F, Cloudy and humid","Some","","Humans, Dogs, Pigeons, Birds","Calm","",1,2,20,73,22.8
+"293","20B","PM",10132018,13,"Low 50s, cold","Some","1 piece of plastic","Humans, Dogs, Pigeons, Robins, Blackbirds, Sparrows","Busy","",1,10,22,50,10
+"294","20B","AM",10072018,82,"70º F, Drizzly. Overcast.","None","","Humans, Robin, Seagulls - lots flying high.","Calm","",1,3,20,70,21.1
+"295","20C","AM",10182018,94,"Sunny, Blue Sky","None","","Humans, Dogs, Small birds","Busy","",1,0,23,NA,NA
+"296","20C","PM",10182018,178,"76º F, Sunny","None","","Humans, Dogs","Busy","",1,9,25,76,24.4
+"297","20D","PM",10142018,45,"57º F, overcast","None","","Humans, Dogs","Busy","Great lawn, (2/3 of this hectare fenced off for the season)",1,1,20,57,13.9
+"298","20D","AM",10072018,82,"70º F","None","","Humans, Dogs, Pigeons, Seagulls (3), Butterfly","Busy","",1,2,25,70,21.1
+"299","20E","AM",10142018,132,"49º F, sunny","None","","Humans, Dogs, Jays","Busy","Lots of dogs off leash",1,2,20,49,9.4
+"300","20F","PM",10072018,132,"78º F, Humid. Sunny. Filtered by trees","None","","Humans, Dogs, Sparrows, Robins","Moderate","",1,14,20,78,25.6
+"301","20F","AM",10142018,230,"49º F, calm & crisp","Some","","Humans, Dogs, Small birds","Busy","",1,3,23,49,9.4
+"302","20G","AM",10182018,17,"43º F, Partly Sunny, Breezy","Some","","Humans, Hawks, Dogs","Busy","",1,3,30,43,6.1
+"303","20G","PM",10132018,78,"54º F, cloudy","None","","Humans, Dogs, Pigeons, Robins","Busy","",1,3,20,54,12.2
+"304","20H","PM",10132018,203,"49º F, partly cloudy","","","Humans, Dogs","Calm","",1,0,23,49,9.4
+"305","20H","AM",10142018,240,"55º F, partly sunny","None","","","Busy","Construction site: no access until 2022",1,0,22,55,12.8
+"306","20I","PM",10182018,70,"40º F, Sunny, Windy","None","","Humans, Dogs, Pigeons","Busy","",1,0,19,40,4.4
+"307","20I","AM",10172018,166,"51º F, sunny, windy","None","","Humans, Dogs","Busy","",1,0,20,51,10.6
+"308","21B","PM",10172018,194,"77º F, with some breeze","Some","","Humans, Pigeons, Birds","Busy","Kids playing soccer",1,5,20,77,25
+"309","21C","AM",10142018,216,"54º F, partly cloudy","Some","","Humans, Dogs","Busy","",1,5,23,54,12.2
+"310","21D","PM",10082018,266,"68º F, misty","Some","","Humans, Dogs, Chimney swifts, Blue jay","Busy","",1,6,20,68,20
+"311","21E","PM",10122018,16,"61º F, sunny","None","","Bird","Calm","Empty, Roped Off",1,2,22,61,16.1
+"312","21E","AM",10172018,255,"low 50s, cool & sunny","None","","Humans, Dogs, Pigeons","Calm","",1,3,20,50,10
+"313","21F","PM",10182018,76,"50º F, Light wind, Clear","Some","","Humans, Dogs","Busy","",1,3,25,50,10
+"314","21F","AM",10182018,166,"44º F, Sunny, Windy","None","","Humans, Dogs, Robins","Busy","",1,8,20,44,6.7
+"315","21G","PM",10072018,87,"79º F, Some clouds","None","","Humans, Dogs","Busy","",1,4,25,79,26.1
+"316","21G","AM",10142018,240,"55º F, partly sunny","Some","","Humans, Dogs, Sparrows","Busy","",1,7,25,55,12.8
+"317","21H","AM",10172018,37,"50º F, Sunny","Some","","Humans, Dogs","Busy","",1,2,20,50,10
+"318","21H","PM",10182018,267,"52º F, Clear, Windy","Some","","Humans, Woodpecker","Calm","",1,4,15,52,11.1
+"319","21I","AM",10182018,37,"44º F, Sunny","Abundant","","Humans, Dogs, Pigeons","Calm, Busy","Busy near street, near empty on the playground.",1,0,20,44,6.7
+"320","21I","PM",10132018,205,"55º F, partly cloudy (sundown)","Some","","Humans, Dogs, Sparrows, Migratory birds (a distant V of 30-40 going south)","Busy","",1,0,20,55,12.8
+"321","22A","PM",10172018,194,"75º F, with some breeze","None","","Humans, Dogs","Busy","A lot of traffic noise",1,3,25,75,23.9
+"322","22B","AM",10132018,2,"~58º F, wet, drizzle","Some","","Humans, Dogs","Calm","",1,5,30,58,14.4
+"323","22B","PM",10142018,75,"50º F, Cloudy","Some","","Humans, Dogs, Woodpecker, Blue jay, Robins","Busy","",1,7,20,50,10
+"324","22C","AM",10132018,209,"50º F, rain","None","","Humans, Dogs","Calm","",1,3,17,50,10
+"325","22D","PM",10122018,16,"61º F, sunny","None","","Humans, Pigeons, Sparrows","Calm, Busy","",1,7,26,61,16.1
+"326","22D","AM",10082018,184,"67º F, misty, cloudy, humid","None","","Humans, Dogs","Calm","",1,0,35,67,19.4
+"327","22E","PM",10142018,75,"50º F","None","","","Calm","",1,2,20,50,10
+"328","22E","AM",10182018,224,"40s, Cold, Sunny, Windy","None","","Humans, Dogs, Birds","Calm","",1,0,20,40,4.4
+"329","22F","PM",10142018,201,"58º F, cool","","","Humans","Busy","",1,8,20,58,14.4
+"330","22G","AM",10182018,76,"40º F, Windy, Clear","None","","Humans, Dogs","Medium","",1,5,24,40,4.4
+"331","22G","PM",10182018,215,"53º F, Sunny","Some","","Humans, Dogs, Birds","Busy","",1,3,25,53,11.7
+"332","22H","AM",10182018,37,"44º F, Sunny, Windy","","","Humans, Dogs, Pigeons","Busy","",1,0,20,44,6.7
+"333","22H","PM",10072018,132,"78º F, More overcast","Some","","Humans, Dogs, Rats, Sparrows","Busy","",1,4,20,78,25.6
+"334","22I","PM",10132018,78,"55º F, partly cloudy","Some","","Humans, Dogs, Pigeons, Birds (galore: House sparrows, House finch, Blue jay, etc.)","Busy","",1,0,20,55,12.8
+"335","23A","AM",10182018,94,"Sunny","None","","Humans, Dogs","Calm","",1,5,25,NA,NA
+"336","23B","PM",10122018,29,"60º F, Breezy","None","","Humans, Dogs, Robins, Jays","Busy","",1,7,26,60,15.6
+"337","23B","AM",10192018,57,"48º F, Chilly, Mild","None","","Humans, Dogs, Falcons","Moderate","",1,0,24,48,8.9
+"338","23C","PM",10142018,45,"57º F, overcast","Some","","Humans, Dogs, Horse (saw droppings)","Busy","Lots of foot and bike traffic on paths",1,4,21,57,13.9
+"339","23C","AM",10192018,57,"48º F, Chilly, Mild","None","","Humans, Dogs, Falcons","Busy","Noisy",1,1,23,48,8.9
+"340","23D","AM",10132018,2,"~56º F, drizzle","None","","Humans, Dogs, Ducks","Busy","",1,1,25,56,13.3
+"341","23E","AM",10142018,216,"54º F, partly cloudy","Some","","Humans, Dogs, Birds","Busy","",1,0,27,54,12.2
+"342","23E","PM",10062018,265,"drizzling, cloudy","Some","","Humans, Dogs, Pigeons, Small birds","Calm","",1,1,35,NA,NA
+"343","23F","AM",10182018,166,"44º F, Sunny, Windy","None","","Humans, Dogs, Sparrows, Crows, Cardinal","Busy","",1,1,20,44,6.7
+"344","23F","PM",10132018,205,"55º F, partly cloudy (with sun)","Some","","Humans, Dogs, Blue Jay, Rat, Bee, Sparrow","Moderate","Busy near gate house, quiet on and south of Transverse, reservoir path medium",1,4,NA,55,12.8
+"345","23G","AM",10182018,239,"44º F, Sunny, Clear Sky, Windy (Gusts(","Some","","Humans, Few and calls of larger birds, but not visible","Busy","",1,0,25,44,6.7
+"346","23H","PM",10192018,45,"60º F, Partly Cloudy","Some","","Humans, Dogs","Calm, Busy","Busy on Running Path",1,1,17,60,15.6
+"347","23H","AM",10142018,240,"55º F, partly sunny","Some","","Humans, Dogs, Runners","Busy","",1,0,17,55,12.8
+"348","23I","AM",10192018,23,"46º F, Sunny, no clouds","None","","Humans, Dogs, Small birds","Busy","",1,1,45,46,7.8
+"349","23I","PM",10192018,45,"60º F, Partly Cloudy","None","","Humans, Dogs, Ducks","Busy","Busy",1,3,25,60,15.6
+"350","24A","AM",10142018,170,"50º F, Sunny, Clear","None","","Humans, Dogs","Busy","5k",1,2,25,50,10
+"351","24B","PM",10102018,65,"70s, sunny, humid","Some","","Humans, Dogs, Birds","Busy","",1,0,20,70,21.1
+"352","24B","AM",10132018,243,"50º F, rain, very cloudy","None","","Humans, Dogs, Birds","Busy","",1,1,30,50,10
+"353","24C","AM",10102018,104,"73º F, Vaguely sunny","None","","Pigeons, Other birds","Busy","",1,0,35,73,22.8
+"354","24C","PM",10172018,115,"62º F, sunny, windy","","","","","",1,0,25,62,16.7
+"355","24I","AM",10192018,250,"45º F, Sunny, Windy","Some","","Humans, Dogs","Busy","",1,1,30,45,7.2
+"356","25A","AM",10132018,243,"50º F, drizzle, light rain, overcast","None","","Humans, Dogs, Other Birds","Busy","Busy (road)",1,5,40,50,10
+"357","25B","AM",10142018,28,"Partly cloudy","","","Humans, Dogs, Warblers","","",1,0,NA,NA,NA
+"358","25B","PM",10072018,41,"80º F, Sunny. Humid.","None","","Humans","Busy","",1,2,20,80,26.7
+"359","25I","PM",10072018,155,"Humid","Some","","","Busy","",1,8,45,NA,NA
+"360","25I","AM",10122018,204,"60º F, windy","None","","Humans, Dogs, Pigeons, Song birds","Calm","",1,3,35,60,15.6
+"361","26A","AM",10142018,248,"51º F, Mostly Cloudy, Light Breeze","None","","Humans, Dogs","Busy","",1,2,20,51,10.6
+"362","26B","AM",10102018,104,"70º F Humid and cloudy","None","","Humans, Dogs, Pigeons","Busy","",1,1,30,70,21.1
+"363","26B","PM",10172018,250,"62º F, sunny, windy","Some","","Humans, Dogs, Pigeons, Ducks","Busy","",1,0,20,62,16.7
+"364","26I","PM",10102018,211,"79º F, Part sunny","Some","","Humans, Dogs","Busy","",1,6,20,79,26.1
+"365","26I","AM",10102018,224,"73º F, Partly cloudy, muggy, occasional cool breeze","Some","","Humans, Dogs, Seagull","Busy","",1,2,26,73,22.8
+"366","27A","AM",10082018,97,"65º F, overcast, cloudy, light drizzle","Some","","Humans, Dogs, Chickadees","Calm","",1,2,25,65,18.3
+"367","27A","PM",10062018,265,"drizzling cloudy","None","","Humans, Pigeons","Busy","",1,1,32,NA,NA
+"368","27B","AM",10142018,170,"49º F, Sunny, Clear","Some","","Humans, Dogs, Birds","Busy","5k race",1,0,23,49,9.4
+"369","27C","AM",10142018,248,"53º F, mostly sunny, calm","None","","Humans, Turtle (in water)","Busy","",1,0,5,53,11.7
+"370","27C","PM",10122018,250,"61º F, sunny, windy","None","","Humans","Busy","",1,0,20,61,16.1
+"371","27I","AM",10072018,102,"Cool","None","","Butterfly","Busy","Heavy human congestion",1,4,42,NA,NA
+"372","28A","PM",10072018,40,"80º F, Overcast. Humid.","Abundant","","Humans, Dogs, Birds","Busy","",1,5,20,80,26.7
+"373","28A","AM",10142018,124,"50º F, Sunny & Cloudy","Some","","","Calm","",1,1,25,50,10
+"374","28B","AM",10072018,122,"71º F, Overcast. Breezy","Some","","Humans, Dogs, Pigeons","Busy","",1,1,25,71,21.7
+"375","28B","PM",10102018,161,"79º F, Humid, sunny","Some","","Humans, Dogs, Pigeons","Busy","",1,2,30,79,26.1
+"376","28C","AM",10142018,242,"50ish, sunny, calm","None","","Humans, Dogs, Song birds","Busy","",1,2,22,50,10
+"377","28C","PM",10062018,257,"","","","","","",1,2,20,NA,NA
+"378","28D","PM",10192018,219,"59º F, P/Cloudy, Light Wind","Some","","Humans, Dogs, Pigeons, Sparrows, Robins, Grackles","Busy","",1,2,20,59,15
+"379","28D","AM",10122018,250,"59º F, windy","None","","Humans, Dogs, Robins, Blue jay","Busy","",1,6,21,59,15
+"380","28I","PM",10072018,170,"78º F","None","","Humans, Dogs, Birds","Busy","",1,1,26,78,25.6
+"381","28I","AM",10132018,230,"50º F, overcast, wet, light rain","","","Humans, Dogs","Busy","",1,1,24,50,10
+"382","29A","PM",10192018,242,"59º F, Sunny","Some","","Humans, Dogs, Birds","Busy","",1,3,20,59,15
+"383","29A","AM",10132018,248,"50º F, light rain, calm","Some","","Humans, Dogs","Busy","",1,1,25,50,10
+"384","29B","PM",10102018,65,"70s, Sunny, humid","None","","Humans, Dogs, Birds","Busy","",1,5,25,70,21.1
+"385","29B","AM",10072018,170,"70º F, Overcast. Moist.","Some","","Humans, Dogs, Robins","Busy","",1,2,20,70,21.1
+"386","29C","PM",10062018,9,"Cool, cloudy & light drizzle","None","","Humans, Dogs, Song birds","Busy","",1,2,23,NA,NA
+"387","29C","AM",10072018,122,"70º F","Some","","Humans, Dogs, Pigeons","Calm","",1,6,20,70,21.1
+"388","29D","AM",10142018,28,"","","","","","",1,6,NA,NA,NA
+"389","29D","PM",10102018,250,"77º F, Sunny","None","","Humans, Dogs","Busy","",1,2,20,77,25
+"390","29E","AM",10172018,19,"51º F, clear & sunny","Some","","Humans, Unknown birds","Busy","",1,0,22,51,10.6
+"391","29E","PM",10062018,155,"Misty, Rain, Cool","None","","Humans, Dogs","Moderate","Tennis courts and joggers",1,0,20,NA,NA
+"392","29H","PM",10062018,56,"65º F, Foggy","Some","","Humans, Ducks","Calm","",1,2,22,65,18.3
+"393","29H","AM",10132018,230,"50º F, drizzle, overcast","Some","","Humans (runners), Dogs (1 off-leash), Seagulls?","Calm","",1,0,20,50,10
+"394","29I","PM",10072018,200,"80º F, Overcast","Some","","Humans, Dogs, Pigeons, Cats","Busy","",1,1,26,80,26.7
+"395","29I","AM",10192018,250,"45º F, Sunny, Windy","Some","","Humans, Dogs, Hummingbird??","Busy","",1,0,20,45,7.2
+"396","30A","AM",10102018,18,"22º C, Cloudy and bright","None","","Humans, Dogs, Pigeons, Midges","Busy","",1,1,25,22,-5.6
+"397","30A","PM",10202018,250,"62º F, Sunny","Some","","Humans, Dogs","Busy","",1,4,20,62,16.7
+"398","30B","PM",10192018,19,"59º F","Some","","Humans, Dogs, Birds (Other)","Busy","",1,9,22,59,15
+"399","30B","AM",10072018,170,"70º F, Overcast. Moist.","Some","","Humans, Dogs, Assorted Birds","Busy","",1,12,20,70,21.1
+"400","30C","PM",10082018,122,"65º F, misting","Abundant","","Humans, Dogs","Busy","",1,1,20,65,18.3
+"401","30C","AM",10142018,124,"50º F, Cloudy","None","","Humans, Dogs","Busy","",1,2,21,50,10
+"402","30D","PM",10072018,40,"80º F, Sunny. Humid.","None","","Humans, Dogs, Lots of Birds","Busy","",1,0,20,80,26.7
+"403","30D","AM",10172018,60,"51º F, sunny","None","","Humans, Dogs","Busy","",1,2,30,51,10.6
+"404","30E","AM",10082018,97,"66º F, drizzle, overcast","None","","Humans, Dogs, Pigeons","Busy","",1,3,28,66,18.9
+"405","30E","PM",10082018,122,"65º F, misting","Some","","Humans, Dogs, Pigeons","Busy","",1,1,23,65,18.3
+"406","30F","PM",10072018,200,"80º F, Overcast","None","","Humans, Dogs, Pigeons","","",1,1,20,80,26.7
+"407","30F","AM",10192018,242,"30º F","None","","Humans, Dogs","Busy","",1,0,20,30,-1.1
+"408","30G","AM",10132018,170,"50º F, cold, drizzly, overcast","None","","Humans, Blue jay","Busy","",1,0,20,50,10
+"409","30G","PM",10102018,211,"76º F, Sunny, breezy","None","","Humans, Dogs","Busy","",1,0,20,76,24.4
+"410","30H","AM",10072018,102,"Muggy, but cool. Sprinkling.","None","","","Busy","",1,3,20,NA,NA
+"411","30I","AM",10132018,17,"49º F, rain showers, calm","","","","","",1,0,35,49,9.4
+"412","31A","AM",10102018,18,"25º C, Sunny with clouds","Some","","Humans, Dogs, Blackbird and other birds","Calm","",1,5,25,25,-3.9
+"413","31A","PM",10172018,250,"62º F, sunny, windy","Some","","Humans, Dogs, Pigeons, Sparrows","Busy","",1,4,20,62,16.7
+"414","31B","PM",10072018,41,"80º F, Overcast. Humid.","Some","","","Busy","",1,4,20,80,26.7
+"415","31B","AM",10172018,60,"51º F, sunny, windy","None","","Humans, Dogs","Busy","",1,3,30,51,10.6
+"416","31C","AM",10172018,19,"49º F, clear & sunny","Some","","Humans, Dogs, Falcons, unknown bird","Calm","",1,1,24,49,9.4
+"417","31C","PM",10102018,250,"79º F, Sunny","Some","","Humans, Dogs, Robins","Calm","",1,3,20,79,26.1
+"418","31D","PM",10062018,126,"65º F, dew point 62º F,  misty, light wind","Some","","Humans, Dogs","Calm","",1,4,22,65,18.3
+"419","31D","AM",10142018,243,"50º F, Calm, Fair Sky - Sunny","Some","","Humans, Dogs","Busy","",1,7,30,50,10
+"420","31E","AM",10142018,67,"49º F, Partly Cloudy, Chilly","Some","","Humans, Hawks, Dogs","Calm","",1,1,25,49,9.4
+"421","31E","PM",10062018,126,"65º F, 62º F, dewpoint, light wind, misty","Some","","Humans, Dogs","Calm","",1,9,20,65,18.3
+"422","31F","PM",10072018,155,"Humid","Some","","Humans, Dogs, Pigeons","Calm","",1,5,25,NA,NA
+"423","31F","AM",10132018,170,"50º F, cold, drizzly, overcast, calm","None","","Humans, Dogs, Birds","Calm","",1,1,25,50,10
+"424","31G","PM",10072018,170,"78º F, Overcast","None","","Humans, Dogs, Birds","Calm","",1,1,26,78,25.6
+"425","31G","AM",10192018,242,"46º F,  Windy, Shady","Abundant","","Humans, Dogs","Busy","",1,0,20,46,7.8
+"426","31H","AM",10132018,17,"50º F, cloudy, calm","None","","Humans, Dogs, Sparrows, Jays","Busy","",1,0,20,50,10
+"427","31H","PM",10082018,217,"drizzling","None","","Humans","Busy","",1,5,25,NA,NA
+"428","31I","AM",10122018,204,"60º F, windy, cloudy","None","","Humans, Dogs, Pigeons","Busy","",1,0,20,60,15.6
+"429","31I","PM",10192018,219,"58º F, P Cloudy","Some","","Humans, Dogs","Busy","",1,4,20,58,14.4
+"430","32A","AM",10182018,247,"44º F, Sunny, Breezy","None","","Humans, Hawks, Dogs","Moderate","",1,5,20,44,6.7
+"431","32A","PM",10132018,258,"","","","","","",1,9,23,NA,NA
+"432","32B","AM",10172018,40,"50º F, clear/sunny","Some","","Humans, Dogs, other Birds","Busy","",1,4,20,50,10
+"433","32B","PM",10102018,125,"81º F, Sunny","None","","Humans, Dogs, Chipmunk","Busy","",1,6,35,81,27.2
+"434","32C","AM",10142018,67,"51º F, Partly Cloudy","Abundant","","Humans, Dogs","Calm","",1,6,22,51,10.6
+"435","32C","PM",10132018,171,"60º F, partly sunny","None","","Humans, Dogs","Calm","",1,13,25,60,15.6
+"436","32D","PM",10062018,212,"65º F, cloudy","None","","Humans, Dogs, Small birds","Moderate","",1,9,20,65,18.3
+"437","32E","PM",10172018,125,"61º F, cloudy","Some","","Humans, Dogs","Busy","",1,16,25,61,16.1
+"438","32E","AM",10072018,154,"70º F, Overcast. Slight mist.","","","Humans, Dogs","Calm","",1,14,20,70,21.1
+"439","32F","PM",10082018,104,"66º F, cloudy","Some","","Humans, Dogs","Busy","",1,8,30,66,18.9
+"440","32F","AM",10122018,114,"59º F, partly cloudy, windy","","","Humans, Dogs","Calm","",1,7,18,59,15
+"441","32G","PM",10132018,222,"56° F, partly cloudy","Some","1 plastic bag","Humans (lots of bikers), Dogs, Small birds","Busy","",1,3,21,56,13.3
+"442","32G","AM",10102018,264,"73º F","","","Humans, Hawks, Dogs","Calm","",1,2,25,73,22.8
+"443","32H","PM",10062018,81,"65º F, cloudy","Some","","Humans","Calm","",1,3,30,65,18.3
+"444","32H","AM",10102018,223,"72º F, Overcast","None","","Humans, Dogs, Other Song birds","Moderate","",1,1,22,72,22.2
+"445","32I","AM",10132018,61,"49º F, light rain","None","","Humans, Dogs","Calm","",1,6,50,49,9.4
+"446","32I","PM",10072018,183,"81F Partly cloudy. Humid.","None","","Humans, Dogs","Busy","",1,3,NA,81,27.2
+"447","33A","PM",10182018,244,"Clear Skies, Breezy","Some","","Humans, Dogs, Song birds","Calm","",1,4,26,NA,NA
+"448","33B","PM",10102018,125,"81º F, Sunny","None","","Humans","Busy","",1,12,27,81,27.2
+"449","33B","AM",10102018,199,"70º F, Nice, overcast","None","","Humans, Dogs","Calm","",1,6,30,70,21.1
+"450","33C","PM",10072018,81,"78º F, Cloudy","Some","","Humans, Dogs, Birds","Busy","",1,4,20,78,25.6
+"451","33C","AM",10122018,104,"59º F, mostly cloudy, windy (sunny by 9:30)","None","","Humans, Dogs","Calm","",1,2,25,59,15
+"452","33D","PM",10062018,35,"65º F, Overcast Drizzly","None","","Humans","Busy","Active Tennis and use of fields",1,3,30,65,18.3
+"453","33D","AM",10172018,40,"51º F, clear, sunny, breezy","None","","Humans","Calm","",1,9,20,51,10.6
+"454","33E","AM",10142018,10,"50º F, mostly sunny","None","","Humans, Dogs, Birds, Humans playing tennis","Calm","Except the tennis court was loud",1,13,20,50,10
+"455","33E","PM",10122018,250,"61º F, sunny, windy","Some","","Humans, Dogs, Sparrows, Woodpecker","Busy","",1,9,21,61,16.1
+"456","33F","PM",10122018,19,"60º F, sunny, clear","None","","Humans, Dogs, Warbler (Internet says magnolia warbler), Unknown grey/brown bird","Calm","",1,6,27,60,15.6
+"457","33F","AM",10082018,233,"65º F, drizzling","None","","Humans, Dogs, blue jay","Calm","",1,2,25,65,18.3
+"458","33G","PM",10062018,41,"Calm","Some","","","Calm","",1,2,20,NA,NA
+"459","33G","AM",10132018,145,"50º F, light rain","None","","Humans, Dogs, Small birds","Busy","",1,3,22,50,10
+"460","33H","AM",10192018,114,"46º F, Sunny, Breezy","","","Humans, Dogs","Calm","",1,2,20,46,7.8
+"461","33H","PM",10122018,248,"61º F, clear, breezy","Some","","Humans, Hawks, Dogs","Busy","",1,0,25,61,16.1
+"462","33I","PM",10062018,81,"65º F, drizzling","Some","","Humans, Dogs","Calm","",1,9,25,65,18.3
+"463","33I","AM",10082018,233,"66º F, Drizzly","Some","","Humans, Dogs, Rat","Calm","",1,5,30,66,18.9
+"464","34A","AM",10122018,104,"59º F, windy, sunny","None","","Humans, Dogs, Pigeons, Birds (Assorted)","Calm","",1,3,25,59,15
+"465","34A","PM",10132018,171,"60º F (?), partly cloudy","None","","Humans, Dogs","Calm","",1,5,21,60,15.6
+"466","34B","PM",10072018,81,"78º F, Cloudy","Some","","Humans, Dogs","Busy","",1,1,30,78,25.6
+"467","34C","PM",10122018,77,"61º F, sunny, light breeze","None","","Humans, Dogs","Calm","People on path, not in fields",1,4,23,61,16.1
+"468","34C","AM",10072018,154,"70º F, Overcast","","","","Calm","",1,2,22,70,21.1
+"469","34D","PM",10072018,1,"80º F, Humid. Overcast.","None","","Humans, Dogs","Busy","",1,3,26,80,26.7
+"470","34E","PM",10062018,212,"65º F, Drizzle","None","","Humans, Dogs, Falcons, Small birds","Calm","",1,2,25,65,18.3
+"471","34E","AM",10182018,247,"45º F, Brisk","None","","","","",1,0,20,45,7.2
+"472","34F","AM",10072018,10,"70º F, Overcast","None","","Humans, Dogs, Butterflies, Birds with red chest","Calm","",1,1,20,70,21.1
+"473","34F","PM",10122018,35,"clear blue sky, breezy, getting cold","Some","","Humans, Dogs","Calm","",1,1,30,NA,NA
+"474","34G","PM",10062018,46,"drizzling","Some","","Humans, Dogs, Many Small birds","Calm","",1,2,20,NA,NA
+"475","34G","AM",10182018,60,"","","","","","",1,0,NA,NA,NA
+"476","34H","PM",10062018,46,"sprinkling","Some","","Humans, Dogs, Children in costume","Calm","",1,7,20,NA,NA
+"477","34H","AM",10072018,237,"76º F, Cloudy","Some","","Humans, Dogs, Pigeons, Robins, Woodpeckers","Busy","",1,1,25,76,24.4
+"478","34I","PM",10102018,42,"77-80º F","Some","","","Calm","",1,7,47,77,25
+"479","34I","AM",10122018,114,"59º F, misty, windy","Some","","Humans","Busy","",1,4,20,59,15
+"480","35A","AM",10142018,10,"50º F, mostly sunny","None","","Humans, Dogs, Birds","","Some dogs off leashes next to roads",1,8,22,50,10
+"481","35A","PM",10132018,81,"54º F, partly cloudy","None","","Humans, Dogs","Calm","",1,12,20,54,12.2
+"482","35B","PM",10132018,45,"56° F, Partly Cloudy","None","","Humans, Dogs, Rats, Ducks, Canada Geese","Calm","Foot traffic on the path",1,7,28,56,13.3
+"483","35B","AM",10102018,223,"73º F, Cloud/Overcast, beginning to clear, humid","None","","Humans, Dogs, Sparrows","Calm","",1,4,22,73,22.8
+"484","35C","AM",10072018,209,"70º F, Overcast","None","","Humans, Dogs","Busy","",1,6,21,70,21.1
+"485","35C","PM",10132018,248,"56° F, Partly Cloudy, Breeze","","","Humans, Dogs","Busy","",1,8,23,56,13.3
+"486","35D","AM",10192018,186,"45º F, Sunny, Windy","None","","Humans, Dogs, Birds, No Pigeons","Busy","Chainsaw in distance, park golf carts zipping around, joggers",1,2,20,45,7.2
+"487","35D","PM",10132018,258,"","","","","","",1,9,23,NA,NA
+"488","35E","PM",10062018,35,"68º F, Overcast Misty","Some","","Humans, Dogs","Busy","",1,7,30,68,20
+"489","35E","AM",10202018,114,"55º F, Overcast, Breezy","Some","","Humans, Hawks, Dogs","Calm","",1,4,21,55,12.8
+"490","35F","PM",10122018,19,"61º F, sunny, clear","None","","Humans, Hawks, Dogs, Blue jay","Calm","",1,3,27,61,16.1
+"491","35F","AM",10072018,237,"74º F, Cloudy","Some","","Humans, Dogs","Busy","",1,1,1,74,23.3
+"492","35G","AM",10072018,10,"70º F, Overcast","Some","","Humans, Dogs, Birds.","Busy","",1,2,20,70,21.1
+"493","35G","PM",10062018,196,"64 F Cloudy & misty","","","","Moderate","",1,1,20,64,17.8
+"494","35H","AM",10132018,61,"49º F, light rain","None","","Humans, Dogs","Calm","",1,2,23,49,9.4
+"495","35H","PM",10122018,248,"61º F, clear sky, breezy","None","","Humans, Dogs","Busy","",1,0,25,61,16.1
+"496","35I","PM",10062018,41,"68º F, misty, humid","Some","","Humans, Dogs, Field mouse, Chipmunk","Calm","Hilly, rocky terrain",1,2,20,68,20
+"497","35I","AM",10132018,145,"50º F, light rain","Some","","Humans, Dogs, Small birds","Calm","Calm in hectare, but cars on [road]",1,1,23,50,10
+"498","36A","AM",10182018,2,"45º F, Brisk, Clear","None","","Humans, Dogs, Birds, Sparrows","Calm","",1,2,23,45,7.2
+"499","36A","PM",10132018,243,"56º F, mostly sunny, very slight breeze","Some","","Humans, Dogs, Pigeons, Chipmunk (?), Crickets","Busy","Busy (bypassers)",1,9,67,56,13.3
+"500","36B","AM",10132018,41,"50º F, rainy","Some","","Humans, Dogs, Ducks","Calm","",1,4,23,50,10
+"501","36B","PM",10132018,81,"54º F, partly cloudy","None","","Humans, Birds (lots of screeching, not sure what kind of birds)","Calm","",1,5,20,54,12.2
+"502","36C","PM",10132018,45,"56° F, Partly Cloudy","None","","Humans, Dogs, Dogs (on path), Ducks & Geese (in pool)","Calm, Busy","Busy on West Dr",1,6,25,56,13.3
+"503","36C","AM",10142018,243,"50º F, Calm, Fair, Sunny","None","","Humans, Birds","Calm, Busy","Calm in woods, busy outside with fund walk",1,4,40,50,10
+"504","36D","PM",10072018,1,"81º F, Humid. Overcast.","Some","","Humans, Dogs, Turtle, Chipmunks","Calm","",1,2,32,81,27.2
+"505","36D","AM",10072018,209,"70º F, Overcast","Some","","Humans, Dogs, Chipmunks","Calm","",1,1,34,70,21.1
+"506","36E","AM",10132018,41,"50º F, rainy","","","Humans, Dogs, Chipmunk","Moderate","Lots of runners",1,3,20,50,10
+"507","36E","PM",10122018,77,"61º F, sunny, light breeze","Some","","Humans, Dogs, Rat","Calm","People on path",1,2,25,61,16.1
+"508","36F","PM",10122018,35,"61º F, no clouds, clear sky, breeze","None","","Humans, Robin","Busy","",1,7,25,61,16.1
+"509","36F","AM",10172018,183,"50º F, sunny, clear","None","","Humans, Dogs","Calm","Squeaky toys",1,5,20,50,10
+"510","36G","AM",10182018,60,"","","","","","",1,0,NA,NA,NA
+"511","36G","PM",10122018,250,"61º F, sunny, windy","Some","","Humans, Dogs, Pigeons, Robins","Busy","",1,2,20,61,16.1
+"512","36H","PM",10082018,104,"66º F, foggy, drizzly","None","","Humans, Hawks, Dogs","Busy","",1,2,40,66,18.9
+"513","36H","AM",10102018,264,"72º F, Mostly cloudy, calm","None","","Dogs, lots of Blue jays & Gackels","Calm","",1,2,26,72,22.2
+"514","36I","AM",10172018,183,"50º F, sunny, clear","Some","","Humans, Dogs, Many song birds: Wrens, Finches, Blue jays, Mourning dove","Calm","Traffic noises nearby",1,8,23,50,10
+"515","36I","PM",10072018,183,"81º F, partly cloudy. Humid","None","","Humans, Dogs, Blue jays. Robins, Sparrows","Busy","",1,13,30,81,27.2
+"516","37A","AM",10122018,248,"59º F, partly cloudy, breeze","","","Morning Dove, Crows","Calm","",1,1,23,59,15
+"517","37B","AM",10182018,120,"45º F, Clear, Cold","None","","Humans, Dogs, Birds","Calm","",1,6,25,45,7.2
+"518","37B","PM",10132018,128,"55° F, mostly cloudy","","","Dogs","Calm","",1,5,25,55,12.8
+"519","37C","PM",10132018,242,"55° F, Mostly Cloudy, Cool, Breezy","","","Chipmunks (2)","Busy","",1,5,20,55,12.8
+"520","37C","AM",10122018,248,"59º F, mostly cloudy, windy","Some","Beer party can debris","Humans, Blue Jay, Warbler","Calm","",1,4,24,59,15
+"521","37D","AM",10182018,2,"45º F, Clear","None","","Humans, Falcon, Chipmunks","Calm","",1,2,31,45,7.2
+"522","37D","PM",10142018,209,"57º F, overcast","Some","","Humans, Chipmunks","Calm","",1,8,26,57,13.9
+"523","37E","PM",10062018,40,"65º F, misty overcast","Some","","Humans, Chipmunks, Lots of little birds","Calm","",1,9,20,65,18.3
+"524","37E","AM",10132018,252,"50º F, light rain","None","","Humans, Dogs, Birds","Calm","",1,5,22,50,10
+"525","37F","AM",10102018,120,"Overcast & humid but cool","Some","","Humans, Dogs, Gull, Birds","Busy","",1,1,25,NA,NA
+"526","37F","PM",10142018,243,"59º F, overcast, SW 6 mph","None","","Humans","Busy","",1,3,24,59,15
+"527","37G","PM",10072018,114,"81º F, p/c. Humid","","","Humans, Dogs","Busy","",1,9,24,81,27.2
+"528","37H","PM",10062018,34,"65º F, misty, overcast","None","","Humans, Dogs","Calm","Lots of humans walking quietly",1,6,23,65,18.3
+"529","37H","AM",10182018,84,"45º F, Very Sunny, Chilly","","","Humans, Dogs, Mourning doves (sic), Sparrows","Calm","",1,4,27,45,7.2
+"530","37I","AM",10102018,120,"Overcast & humid but cool","None","","Humans, Dogs, Birds, Chipmunks","Calm","",1,5,25,NA,NA
+"531","37I","PM",10062018,172,"~65º F, Misting & Cloudy","None","","Humans, Dogs, Chipmunks (5+)","Calm","",1,2,22,65,18.3
+"532","38A","AM",10192018,186,"45º F, Sunny Windy","None","","Humans, Birds, No Pigeons","Busy","Traffic, lawn mowing in 39A, kids on lawn in 39.",1,5,25,45,7.2
+"533","38A","PM",10132018,210,"55º F, partly cloudly","Some","","Humans, Dogs, Pigeons","Calm","",1,5,23,55,12.8
+"534","38B","AM",10192018,7,"45º F, Sunny, Cold Breeze","None","","Humans, Dogs","","",1,5,25,45,7.2
+"535","38B","PM",10182018,114,"53º F, Sunny, Light Breeze","None","","Humans, Hawks, Dogs","Busy","Lots of school kids",1,2,24,53,11.7
+"536","38C","AM",10192018,7,"45º F, Sunny, Cold Breeze Wind","None","","Humans, Dogs","Calm","",1,11,25,45,7.2
+"537","38C","PM",10142018,217,"58º F, Cloudy","None","","Humans, Sparrows","Busy","",1,10,25,58,14.4
+"538","38D","PM",10062018,40,"65º F, Misty, overcast","Some","","Humans, Small birds, Chipmunks","Moderate","",1,4,20,65,18.3
+"539","38D","AM",10172018,135,"50º F, clear, sunny","None","","Humans, Dogs, Migratory birds","Calm","",1,6,32,50,10
+"540","38E","AM",10102018,105,"72º F, Bit cloudier","Some","","Chipmunks","Calm","",1,12,20,72,22.2
+"541","38E","PM",10142018,243,"59º F, overcast, SW 6 mph","None","","Humans, Chippys, Birds","Busy","",1,5,35,59,15
+"542","38F","AM",10182018,114,"45º F, Clear","Some","","Humans, Dogs","","",1,6,23,45,7.2
+"543","38F","PM",10132018,222,"56º F, partly cloudy","None","","Humans, Small birds, Chipmunks","Calm, Busy","Only small chunk near road was busy, the rest was unoccupied",1,6,22,56,13.3
+"544","38G","PM",10202018,87,"61º F, Sunny and Clear","None","","Humans","Calm","",1,11,25,61,16.1
+"545","38G","AM",10182018,114,"45º F, Sunny","","","Humans, Dogs","Busy","",1,0,20,45,7.2
+"546","38H","PM",10122018,64,"61º F, breeze, blue sky","Abundant","","Humans, Birds","Calm","",1,1,30,61,16.1
+"547","38H","AM",10192018,114,"46º F, Sunny","Some","","Humans, Hawks, Dogs","Calm","",1,1,22,46,7.8
+"548","38I","AM",10192018,37,"45º F, Sunny, Breezy","None","","Humans, So many Birds!","Calm","",1,2,20,45,7.2
+"549","38I","PM",10142018,100,"57º F, overcast","Some","","Humans, Dogs, Rats, Chipmunks","Busy","",1,4,25,57,13.9
+"550","39A","PM",10142018,238,"57º F, overcast","Some","","Humans, Dogs","Busy","",1,3,23,57,13.9
+"551","39A","AM",10132018,252,"50º F, light rain","None","","Humans","Calm","",1,1,20,50,10
+"552","42D","AM",10142018,215,"50º F, mostly sunny","Some","","Humans, Dogs, Pigeons","Busy","",1,3,25,50,10
+"553","39B","PM",10142018,183,"57º F, Cloudy","None","","Humans, Hawks, Dogs, Chipmunks, Blue jays","Calm, Busy","Calm in woods, busy, music nearby w/ tambourines, chanting, just outside so. edge of hectare",1,6,20,57,13.9
+"554","39B","AM",10182018,262,"45º F, Clear, Brisk","","","Humans, Dogs","Busy","",1,1,26,45,7.2
+"555","39C","AM",10172018,120,"50º F, clear, sunny","None","","Humans, Dogs","Busy","",1,4,30,50,10
+"556","39C","PM",10062018,196,"64º F, Cloudy & Misty","","","Hawks, Chipmunk","Moderate","",1,4,20,64,17.8
+"557","39D","PM",10122018,22,"61º F, clear sky, windy","Some","","Humans, Chipmunk, Warbler","Calm","",1,4,32,61,16.1
+"558","39D","AM",10082018,224,"67º F, cloudy, drizzling","Some","","Humans","Calm","",1,6,33,67,19.4
+"559","39E","PM",10132018,3,"59º F, sunny, slightly cloudy","Abundant","","Humans, Dogs, Birds, Chipmunks","Calm","",1,2,26,59,15
+"560","39E","AM",10182018,120,"45º F, Clear, Brisk","Some","","Humans, Dogs, Birds","Busy","",1,5,28,45,7.2
+"561","39F","AM",10142018,17,"51º F, mostly sunny","None","","Humans, Dogs, Chipmunks","Calm, Busy","""no woods""",1,5,25,51,10.6
+"562","39F","PM",10062018,34,"65º F, misty, overcast","None","","Humans, Dogs","Calm","",1,4,21,65,18.3
+"563","39G","AM",10182018,244,"45º F, Windy, Clear Skies","Some","","Humans, Song birds","Calm","",1,2,24,45,7.2
+"564","39H","PM",10132018,236,"55° F, mostly cloudy","None","","Humans, Hawks, Dogs","Busy","",1,3,25,55,12.8
+"565","39H","AM",10072018,259,"","","","Humans, Dogs","Busy","",1,4,NA,NA,NA
+"566","39I","AM",10192018,37,"45º F, Sunny, Breezy","None","","Humans, Hawks, Dogs","Calm","",1,0,25,45,7.2
+"567","40A","PM",10142018,99,"57º F, overcast","","","Humans","","",1,6,NA,57,13.9
+"568","40A","AM",10102018,105,"72º F, Absolute perfection","Some","","Robins?","Moderate","Noise pollution",1,4,25,72,22.2
+"569","40B","AM",10192018,253,"47º F, Sunny, Breezy","Some","","Humans, Dogs","Calm","",1,9,40,47,8.3
+"570","40C","AM",10172018,135,"50º F, clear, sunny","None","","Humans, Chipmunk, migratory birds","Calm","",1,7,23,50,10
+"571","40D","AM",10132018,40,"50º F, light rain","Abundant","","Humans (a trail runner)","Calm","",1,7,20,50,10
+"572","40D","PM",10132018,210,"56º F, Partly Cloudy","Abundant","","Humans, Dogs, Chipmunk","Calm","",1,7,27,56,13.3
+"573","40E","AM",10142018,215,"50º F, mostly sunny","Some","","Humans, Hawks, Dogs","Busy","",1,4,25,50,10
+"574","40F","AM",10182018,84,"45º F, Clear, Sunny","","","Humans, Dogs, Ducks, Mainly female mallards, Canadian geese, also Small birds Sparrows?","Calm","",1,0,27,45,7.2
+"575","40F","PM",10062018,172,"~65º F, cloudy misting","Some","","Dogs","Calm","",1,3,28,65,18.3
+"576","40G","AM",10072018,54,"70º F, Overcast","","","Humans, Dogs, Finches","Calm","",1,2,NA,70,21.1
+"577","40H","PM",10082018,49,"overcast, dusk","None","","Humans, Dogs, Woodpecker, Chipmunk","Calm","",1,0,25,NA,NA
+"578","40H","AM",10172018,104,"52º F, breezy, sunny","None","","Humans, Dogs, Geese","Calm","",1,2,20,52,11.1
+"579","40I","AM",10182018,27,"45º F, Clear","","","Humans, Hawks, Ducks","Busy","",1,2,20,45,7.2
+"580","41A","PM",10072018,30,"81º F, Partly Cloudy","Some","","Humans, Dogs, Pigeons, Chipmunks","Busy","",1,6,25,81,27.2
+"581","41A","AM",10132018,40,"50º F, light rain","Abundant","","Humans, Dogs, Birds, Chipmunks","Calm","",1,1,20,50,10
+"582","41B","PM",10142018,111,"57º F, overcast","Some","","Dogs, Chipmunks (at least 3)","Calm","",1,5,45,57,13.9
+"583","41C","PM",10072018,30,"81º F, Partly Cloudy","","","Humans, Birds. Chipmunks","","",1,4,25,81,27.2
+"584","41C","AM",10172018,120,"50º F, clear, sunny","Abundant","","Humans, Dogs, Birds","Calm","",1,7,30,50,10
+"585","41D","PM",10142018,26,"57º F, cloudy","Some","","Humans, Hawks, Dogs, Chipmunk","Calm","",1,5,30,57,13.9
+"586","41D","AM",10142018,176,"50º F, mostly sunny","Some","","Humans, Dogs","Calm","",1,5,NA,50,10
+"587","41E","AM",10072018,114,"71º F, o/c","Some","","Humans, Dogs","Busy","Runners",1,6,25,71,21.7
+"588","41F","PM",10192018,114,"60º F, p/c bluh","","","Humans","","",1,2,NA,60,15.6
+"589","41F","AM",10192018,183,"45º F, Sunny, Breezy","None","","Humans, Dogs, Geese, Mallard Nests","Calm, Busy","Started busy, then very calm",1,0,21,45,7.2
+"590","41G","PM",10142018,10,"57º F, overcast","Some","","Humans, Ducks, Birds","Calm","",1,0,20,57,13.9
+"591","41G","AM",10132018,114,"50º F, sprinkling","Some","","Humans, Dogs","Calm","",1,2,20,50,10
+"592","41H","PM",10082018,49,"cool, overcast","","","Humans, Dogs, Pigeons, Turtles, Ducks, Geese","","",1,0,15,NA,NA
+"593","41H","AM",10172018,104,"51º F, sunny, light breeze","Some","","Humans, Dogs, Geese","Calm","",1,0,30,51,10.6
+"594","41I","AM",10182018,27,"45º F, Clear","","","Humans, Dogs, Pigeons","Busy","",1,2,20,45,7.2
+"595","41I","PM",10172018,114,"63º F, partly cloudy, breezy","Some","","Humans, Dogs, Pigeons, Geese, Ducks","Busy","",1,1,22,63,17.2
+"596","42A","PM",10142018,12,"57º F, mostly cloudy","Some","","Humans, Dogs, Sparrows","Busy","He took a 20-minute lunch break in the middle of shift.",1,1,28,57,13.9
+"597","42A","AM",10192018,253,"45º F, Sunny Breezy","Some","","Humans, Dogs, Pigeons, Rat, Chipmunk","Calm","",1,1,30,45,7.2
+"598","42B","PM",10082018,134,"64º F, cloudy, slight drizzle, humid","Some","","Humans, Dogs","Busy","",1,0,25,64,17.8
+"599","42C","AM",10072018,114,"71º F","","","Humans, Dogs","Busy","",1,4,27,71,21.7
+"600","42C","PM",10132018,128,"55° F, mostly cloudy","Some","","Humans, Dogs, Chipmunk","Busy","",1,6,26,55,12.8
+"601","42D","PM",10132018,3,"55º F, cloudy (mostly)","Abundant","On street","Humans, Dogs, Birds, Chipmunks, Rats","Calm","",1,4,28,55,12.8
+"602","19H","PM",10082018,164165,"cloudy","","","","Calm","",2,1,5,NA,NA
+"603","42E","PM",10122018,22,"61º F, clear sky, windy","Some","","Humans, Dogs, Pigeons","Busy","",1,6,20,61,16.1
+"604","42E","AM",10082018,224,"65º F, cloudy, drizzling","Abundant","","Humans","Busy","Construction just outside sector",1,0,21,65,18.3
+"605","42F","AM",10192018,194,"66º F, Calm and some Breeze","Abundant","","Humans, Dogs, Geese","Busy","",1,2,20,66,18.9
+"606","42G","AM",10182018,244,"45º F, Breezy, Clear Skies","","","Humans, Dogs, Pigeons, other Song birds","Calm","",1,3,25,45,7.2
+"607","42H","PM",10142018,39,"57º F, overcast","Some","","Humans, Dogs, Pigeons","Busy","",1,5,30,57,13.9
+"608","42H","AM",10192018,194,"66º F, Calm, Sunny","Some","","Humans, Dogs, Birds","Calm","",1,2,25,66,18.9
+"609","42I","PM",10142018,79,"57º F, cloudy","None","","Humans, Dogs, Pigeons, Sparrows","Calm","",1,3,25,57,13.9
+"610","42I","AM",10192018,183,"45º F, Sunny, Breezy","None","","Humans, Dogs, Geese (a few)","Calm","",1,0,20,45,7.2
+"611","9I","AM",10142018,145,"54º F, mostly sunny","Some","","Humans, Dogs, Pigeons, Small birds","Busy","",1,9,22,54,12.2
+"612","01C","AM",10122018,225226,"cool, sunny","Some","","Humans, Dogs, Cats","Calm","",2,2,30,NA,NA
+"613","01D","PM",10072018,3334,"80º F, Cloudy","None","","Humans, Dogs, Pigeons, Sparrows","","",2,7,25,80,26.7
+"614","01E","PM",10072018,3334,"80º F, Sunny","None","","Humans, Dogs, Pigeons,  Robins. Blue jays","Busy","",2,3,20,80,26.7
+"615","01I","PM",10122018,225226,"cold, sunny","Some","","Humans, Hawks, Dogs, Pigeons, Cats","Busy","",2,4,70,NA,NA
+"616","02B","PM",10132018,245246,"54° F, Sunny, Breezy","None","","Humans, Dogs, Pigeons, Robins, Sparrows","Calm, Busy","West Drive Busy",2,9,22,54,12.2
+"617","02B","AM",10102018,6263,"70º F Partly cloudy","Some","","Humans, Dogs, Pigeons","Busy","",2,8,25,70,21.1
+"618","02C","PM",10132018,245246,"54° F, Sunny, Breezy","None","","Humans, Robins, Sparrows","Calm, Busy","Fenced Areas / West Drive",2,12,24,54,12.2
+"619","02F","PM",10142018,9798,"57º F, cloudy","None","","Humans, Dogs, Pigeons, Chickadees","Busy","",2,12,23,57,13.9
+"620","03A","AM",10122018,225226,"sunny, cool","None","","Humans (Notes), Dogs, Cats","Calm","",2,3,45,NA,NA
+"621","03B","AM",10102018,6263,"70º F Cloudy","Some","","Humans, Dogs","Busy","",2,10,30,70,21.1
+"622","03F","PM",10132018,3031,"13° C, Partly Cloudy","","","Humans, Dogs, Birds","Busy","",2,7,20,13,-10.6
+"623","03H","PM",10142018,9798,"57º F, cloudy","Some","","Humans, Dogs, Pigeons, Chickadees","Busy","",2,7,25,57,13.9
+"624","04C","AM",10062018,73,"65º F, cloudy","None","","Humans, Dogs","Calm","",2,5,20,65,18.3
+"625","04F","PM",10132018,3031,"13° C, Partly Cloudy","None","","Humans, Dogs, Birds, Rats (Fat), Inchworm","Busy","",2,4,20,13,-10.6
+"626","06E","AM",10142018,146147,"50º F, mostly sunny","Some","","Humans, Dogs, Small birds","Calm","",2,1,22,50,10
+"627","07C","PM",10202018,189190,"62º F, Sunny","None","","Humans, Dogs, Sparrows, Other Birds","Calm","",2,6,23,62,16.7
+"628","07E","PM",10132018,112113,"56° F, Cloudy, Light Wind","None","","Humans, Dogs, Sparrows","Busy","",2,5,39,56,13.3
+"629","07H","AM",10062018,5051,"60s, cloudy, slight drizzle","Some","","Sparrows, Butterflies","Busy","",2,16,30,60,15.6
+"630","08C","PM",10132018,197198,"54° F, Bit Breezy, Cool","Some","","Humans, Dogs, Pigeons","Calm","",2,8,22,54,12.2
+"631","09B","PM",10132018,197198,"54° F, Breeze, Cool","None","","Humans, Dogs, Rats (Notes)","Calm","",2,10,22,54,12.2
+"632","09H","AM",10062018,2526,"64º F, cloudy","Some","","Humans, Dogs","Busy","",2,6,20,64,17.8
+"633","10B","AM",10062018,7172,"","Some","","Humans, Dogs, Pigeons","Busy","",2,4,35,NA,NA
+"634","10C","PM",10132018,112113,"56° F, Cloudy","Some","","Humans, Dogs, Sparrow, Starlings, Cardinals, Crows","Busy","",2,4,27,56,13.3
+"635","10G","AM",10062018,136137,"64º F, overcast","Some","","Humans, Dogs, Sparrows","Busy","",2,11,58,64,17.8
+"636","10H","AM",10142018,146147,"50º F, cloudy","None","","Humans, Dogs, Small birds","Busy","",2,6,23,50,10
+"637","11D","PM",10062018,2829,"65º F","None","","Humans, Dogs, Horses","Busy","",2,5,25,65,18.3
+"638","11H","PM",10132018,129130,"55º F, sunny","Abundant","","Humans","Busy","",2,4,20,55,12.8
+"639","11I","PM",10122018,4243,"58-60º F, sunny","None","","Humans, Dogs, Birds, Mice","Calm","",2,7,23,58,14.4
+"640","14G","PM",10132018,129130,"55º F, sunny","Abundant","","Humans","Busy","",2,1,20,55,12.8
+"641","15A","AM",10072018,2021,"71º F, Humid. Cloudy.","Some","","Humans, Dogs, Sparrows. Butterflies","Busy","",2,2,20,71,21.7
+"642","15D","AM",10072018,2021,"71º F, humid cloudy","Some","","Humans, Dogs","Calm","",2,8,NA,71,21.7
+"643","15I","PM",10122018,4243,"58-60º F, sunny","Some","","Humans, Dogs, Birds","Busy","",2,7,25,58,14.4
+"644","16H","PM",10142018,5253,"cool, dusk","Some","","Humans, Dogs, Birds","Calm, Busy","",2,5,25,NA,NA
+"645","16I","PM",10142018,5253,"cool, dusk","Some","","Humans, Dogs, Birds","Calm","",2,0,20,NA,NA
+"646","17C","AM",10182018,213214,"Low 40s, Windy, Sunny","None","","Dogs, Birds","Calm","",2,0,25,40,4.4
+"647","18D","AM",10182018,213214,"Low 40s, Windy, Sunny","Some","","Humans","Busy","",2,4,25,40,4.4
+"648","18F","PM",10082018,164165,"cloudy, misting rain","None","","Humans, Dogs, Mallard, Sparrow","Busy","",2,2,16,NA,NA
+"649","18F","AM",10142018,8990,"49º F","None","","Humans, Dogs, Birds","Busy","",2,2,24,49,9.4
+"650","18G","AM",10142018,8990,"49º F, sunny","None","","Birds","Calm","",2,3,25,49,9.4
+"651","19B","PM",10182018,9192,"51º F, Clear","None","","Humans, Dogs, Birds, Robins, Mourning Doves","Busy","",2,5,30,51,10.6
+"652","19C","PM",10182018,207208,"51º F, Clear","None","","Humans, Hawks, Dogs, Pigeons, Robin","Busy","",2,8,30,51,10.6
+"653","20E","PM",10062018,8586,"65º F, light drizzle","None","","Humans","Calm","",2,0,15,65,18.3
+"654","21A","AM",10192018,213214,"Clear, Calm, No wind","Some","","Humans, Dogs, Birds","Calm","",2,9,25,NA,NA
+"655","21A","PM",10062018,8586,"65º F, Drizzle","Abundant","","Humans, Dogs","Busy","",2,0,27,65,18.3
+"656","21B","AM",10192018,213214,"Mid 40s, Clear, No Wind","Some","","Humans, Dogs, Pigeons, Birds","Calm","",2,7,25,40,4.4
+"657","21C","PM",10062018,1415,"65º F, Slightly Drizzling","Some","","Humans","Busy","",2,1,25,65,18.3
+"658","21D","AM",10082018,156157,"70º F, cloudy, misty","None","","Humans, Dogs, Birds","Busy","",2,6,20,70,21.1
+"659","22A","AM",10082018,156157,"70º F, cloudy","Some","","Dogs, Birds","Busy","",2,6,20,70,21.1
+"660","22C","PM",10062018,1415,"65º F, Drizzling","None","","Humans, Dogs","Busy","",2,13,30,65,18.3
+"661","22F","AM",10072018,5859,"72º F, Foggy","Some","","Humans, Dogs, Sparrow","Moderate","In between",2,7,20,72,22.2
+"662","22I","AM",10072018,5859,"72º F, Foggy","Some","","Humans, Dogs, Starlings, Sparrows, Blue jays","Busy","",2,3,20,72,22.2
+"663","23A","PM",10072018,192193,"","Some","","Humans, Dogs","Busy","",2,0,20,NA,NA
+"664","23D","PM",10072018,192193,"","Some","","Humans, Rats (by reservoir)","Busy","",2,0,20,NA,NA
+"665","23G","PM",10122018,3032,"artsy lighting, breezy","Some","","Humans","Calm","",2,0,20,NA,NA
+"666","24A","PM",10072018,3132,"80º F, Humid. Overcast. No rain.","None","","Humans, Dogs, Little Birds","Moderate","In between calm and busy",2,5,23,80,26.7
+"667","24I","PM",10072018,45,"Humid. Overcast.","None","","Humans, Dogs, Birds","Calm","",2,0,30,NA,NA
+"668","25A","PM",10072018,3132,"79º F, Humid. Overcast. No rain.","None","","Humans, Dogs, Raccoons, Little Birds, Raccoon sleeping in tree","Calm, Busy","Calm on grass. Busy on road.",2,1,21,79,26.1
+"669","27B","PM",10062018,155,"Misty, rain, cool","None","","Pigeons, Robins","Calm","",2,2,20,NA,NA
+"670","27I","PM",10202018,3334,"60º F, Sunny","Some","","Humans, Dogs, Pigeons","Busy","",2,5,20,60,15.6
+"671","30H","PM",10062018,159160,"Raining","","","Ducks","","",2,1,11,NA,NA
+"672","30I","PM",10062018,159160,"","","","","","",2,7,23,NA,NA
+"673","32D","AM",10132018,187188,"48º F, sprinkling","","","Humans, Dogs","Busy","",2,6,20,48,8.9
+"674","33A","AM",10082018,139140,"65º F, drizzle","","","","","",2,1,30,65,18.3
+"675","34B","AM",10132018,187188,"50º F, light rain","","","Humans","Busy","",2,3,23,50,10
+"676","34D","AM",10082018,139140,"65º F, drizzle","Some","","Humans","Calm","",2,3,25,65,18.3
+"677","37A","PM",10132018,250251,"55º F, mostly cloudy","Abundant","","Humans, Dogs, Chipmunk, Sparrow","Calm","",2,2,20,55,12.8
+"678","37G","AM",10142018,139140,"50º F, mostly sunny","","","Humans, Dogs","Calm","",2,6,27,50,10
+"679","39G","PM",10132018,6768,"Sunny, cloudy, chilly, damp, slightly warm","Some","","Humans, Sleeping possum, Chipmunk, Blue jay","Calm","",2,7,24,NA,NA
+"680","39I","PM",10132018,174175,"53º F, mostly cloudy","","","Humans, Dogs, Pigeons, Blue jays, American Robin, Chipmunk","Busy","",2,4,23,53,11.7
+"681","40B","PM",10142018,152153,"57º F, cloudy","None","","Humans, Hawks, Chipmunks","Calm","",2,8,35,57,13.9
+"682","40C","PM",10062018,174175,"Overcast lite rain","","","Humans, Dogs, Chimney Swifts, Birds, Chipmunk","Calm","",2,8,25,NA,NA
+"683","40E","PM",10172018,139140,"63º F, Partly Cloudy","","","","","",2,3,NA,63,17.2
+"684","40G","PM",10132018,174175,"55º F, partly cloudy","","","Humans, Pigeons, Chipmunk","Calm","",2,6,22,55,12.8
+"685","40I","PM",10132018,6768,"55º F, partly cloudy, chilly, breezy, some sun","Some","","Humans, Hawks, Dogs, Pigeons, Duck","Busy","",2,1,25,55,12.8
+"686","41B","AM",10102018,74,"Humid","Some","","","Calm","",2,11,32,NA,NA
+"687","41E","PM",10132018,250251,"55º F, partly cloudy","Some","","Humans, Dogs, Chipmunk, Sparrows","Calm, Busy","Calm (in forest), Busy (near road)",2,5,21,55,12.8
+"688","42B","AM",10142018,176,"","None","","Humans, Dogs","Calm","",2,2,NA,NA,NA
+"689","42F","PM",10172018,139140,"62º F, Partly Sunny/Cloudy","","","Mallards, Canadian Geese","","",2,4,NA,62,16.7
+"690","42G","PM",10142018,3839,"overcast","Some","","Humans, Hawks, Dogs, Pigeons, Geese","Busy","",2,3,25,NA,NA
+"691","04G","AM",10062018,142143144,"65º F, cloudy, sprinkling of rain","None","","Humans, Dogs, Horses","Busy","",3,5,24,65,18.3
+"692","06G","AM",10082018,48,"68º F, humid","None","","Humans, Dogs","Calm","",3,6,20,68,20
+"693","07F","AM",10082018,48,"68º F, chilly, humid","Some","","Humans, Dogs","Calm","",3,17,22,68,20
+"694","08A","AM",10132018,179180181,"55º F, rainy","Some","","Pigeons","Calm","",3,6,20,55,12.8
+"695","08B","AM",10072018,227,"70º F, Muggy","None","","Humans, Dogs, Pigeons, Doves. Grackle Birds","Busy","",3,9,25,70,21.1
+"696","09A","AM",10132018,179180181,"","Some","","Humans, Dogs, Pigeons, Rats, Blue jays","Busy","",3,12,20,NA,NA
+"697","11F","PM",10062018,168,"","Some","","Humans, Dogs, Pigeons","Busy","",3,3,26,NA,NA
+"698","12G","PM",10072018,106.107108,"80º F","None","","Humans, Cat bird","Busy","",3,7,29,80,26.7
+"699","12H","PM",10072018,106.107108,"79º F","None","","Humans, Sparrows","Busy","",3,8,30,79,26.1
+"700","26A","PM",10062018,185,"","","","Horse, Pony","","",3,6,30,NA,NA
