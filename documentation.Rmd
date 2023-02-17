@@ -1,0 +1,539 @@
+---
+title: "The Squirrel Census"
+author: "Luana Rossi & Nick Schneeberger"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+
+
+#### 🐿️ 🌳 Come along on a journey to explore the mysterious world of Central Park's squirrel population!
+
+As we set out on our quest to uncover the optimal locations and weather conditions for observing Central Park's squirrel population, we found ourselves asking two key questions: where are the squirrels most likely to be spotted, and how does the weather affect their behavior?
+
+To answer the first question, we explored the hectare-by-hectare distribution of squirrel sightings throughout the park. Our data analysis revealed that certain areas of the park are more conducive to squirrel sightings than others. In fact, we discovered that one particular hectare had the highest frequency of squirrel sightings, making it the best location to visit for any aspiring squirrel watcher.
+
+Next, we turned our attention to the weather. Could the temperature, precipitation, or time of day affect squirrel behavior and, therefore, their visibility to park-goers? Through our statistical analysis, we were able to identify specific weather conditions that are correlated with higher rates of squirrel sightings. Without giving away too much, we can say that certain temperatures and shifts in weather patterns seem to be particularly conducive to spotting squirrels.
+
+As our investigation drew to a close, we couldn't help but feel a sense of awe at the intricate dance between the squirrels and their environment. We hope that our findings will not only help visitors to Central Park have a more enjoyable and fruitful squirrel-watching experience, but also contribute to our collective understanding of these fascinating creatures and their role in the natural world.
+
+
+# 📋 Datasets
+
+In order to answer our research question, we've been working with data from "The Squirrel Census". The squirrel census was a multimedia science project focusing on the Eastern gray (Sciurus carolinensis) squirrel in Central Park in New York City. It was conducted in October 2018, with the help of 323 volunteer Squirrel Sighters.
+
+We've been working with the following two datasets from The Squirrel Census:
+
+#### 🐿️ Squirrel Data
+Dataset: 2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv
+
+This table contains squirrel data for each of the 3,023 sightings, including location coordinates, age, primary and secondary fur color, elevation, activities, communications, and interactions between squirrels and with humans.
+
+#### 📍 Hectare Data
+Dataset: 2018_Central_Park_Squirrel_Census_-_Hectare_Data.csv
+
+This table contains environmental data related to each of the 350 “countable” hectares of Central Park. Examples include weather, litter, animals sighted, and human density. 
+
+# 🧹 Cleaning and preparing the Data
+
+```{r import_datasets, echo = FALSE}
+
+hectare <- read.csv("2018_Central_Park_Squirrel_Census_-_Hectare_Data.csv")
+squirrels <- read.csv("2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv")
+
+```
+
+Squirrel Sighters recorded temperature and weather conditions during their observations in a loosely structured comma-separated list. To process this weather data, we identified the most frequently occurring weather conditions and extracted the temperature values. To accomplish this, we firstly converted the list to lowercase and analyzed the recorded data. 
+
+Here is an example of how weather data was recorded by Squirrel Sighters:
+
+``` {r glimpse}
+
+weather <- tolower(hectare$Sighter.Observed.Weather.Data)
+head(weather)
+
+```
+
+## 🌡️ Extracting Temperature
+
+Since temperature values were typically the only numerical data in the recorded list, we extracted them from the string using a regular expression (regex). Furthermore, we converted the temperature values from Fahrenheit to Celsius to ensure consistency across our analyses. The extracted and converted temperature data, we put into a new column.
+
+``` {r fahr_to_cels}
+
+library(stringr)
+
+# find temperature with regex
+temp_fahrenheit <- as.numeric(str_extract(weather, "\\d+"))
+
+
+# define function to convert from F to C
+fahrenheit_to_celsius <- function(x) {
+  if(!is.na(x)){
+    (x - 32) * 5/9
+  } else {
+    NA
+  }
+}
+
+# convert to celsius and then round to one decimal
+temp_celsius <- round(sapply(temp_fahrenheit, fahrenheit_to_celsius), 1)
+
+# add column to file
+hectare$temperature_celsius <- temp_celsius
+
+```
+
+## 🌧️ Extracting Weather Conditions
+
+We wanted to find out the weather conditions that were most commonly reported in our dataset. To do this, we separated the weather descriptions in the recorded list by splitting them at the commas.
+
+``` {r weather_conditions}
+
+weather_split <- str_split(weather, ",")
+
+
+```
+
+We then counted the number of occurrences for each weather condition in our dataset.
+
+```` {r weather_unique}
+
+unique_weather <- str_trim(unique(unlist(weather_split)))
+weather_no_numbers <- str_trim(unlist(weather_split), side = "both")[!str_detect(str_trim(unlist(weather_split), side = "both"), "\\d")]
+top_10 <- sort(table(weather_no_numbers), decreasing = TRUE)[1:10]
+top_10
+
+
+````
+
+Based on the weather conditions that appeared most frequently in our dataset, we created distinct groups of weather conditions. We carefully scanned the entire dataset for synonyms and categorized all weather conditions as follows:
+
+| Weather Category | Adjectives                                                     |
+|------------------|----------------------------------------------------------------|
+| Sun              | sunny, clear, bright, blue, pleasant, perfect, not a cloud, nice, fair, crisp |
+| Clouds           | overcast, cloudy, dreary, gray, not a cloud                  |
+| Drizzle          | light rain, drizzle, drizzling, drizzly, sprinkling, lite rain, couple drops of rain, a few raindrops |
+| Rain             | rain, rainy, wet, showers, heavy rain, pouring, drenching, torrential, downpour, cloudburst |
+| Wind             | windy, breezy, brisk, gusty                         |
+| Fog              | foggy, misty                                                   |
+| Humid            | humid, muggy, damp, moist                                     |
+
+These categories and adjectives were not suitable for our analysis:
+
+| Weather Category | Adjectives                                                     |
+|------------------|----------------------------------------------------------------|
+| Temperature      | cool, chilly, cold, warm, dewy, dewpoint, mild                |
+| Other            | artsy lighting, got dark very suddenly, shady, sun starting to go down |
+| No Wind          | calm, no wind                                                  |
+
+
+Subsequently, we developed a function to check each row of the hectare-dataset for the presence of the specific weather-adjectives from the table above. If a condition was found in a given row, we assigned a value of "true" to the corresponding (new) column. If not, we assigned a value of "false" to the same column. We repeated this process for all weather conditions of interest, creating a new column with a boolean value for each condition. 
+
+For illustrative purposes, below one example of this process applied to the "sunny" weather condition:
+
+```` {r weather_detect}
+
+detect_weather <- function(x, words_positive, words_negative = character(0)) {
+  detect <- any(str_detect(x, paste(words_positive, collapse = "|")))
+  if (detect == TRUE && length(words_negative) > 0) {
+    not_detect <- any(str_detect(x, paste(words_negative, collapse = "|")))
+    if (not_detect == TRUE) {
+      detect <- FALSE
+    }
+  }
+  detect
+}
+
+words_sun <- c("sun", "clear", "bright", "blue", "pleasant", "perfect", "not a cloud", "nice", "fair", "crisp")
+
+sunny <- sapply(weather_split, function(x) detect_weather(x, words_sun))
+sunny[1:10]
+
+````
+
+
+# 📊 Data Analysis
+
+```` {r squirrel_import}
+
+weather <- read.csv("hectare_weather.csv")
+squirrels <- read.csv("joint_squirrels.csv")
+hectare <- read.csv("2018_Central_Park_Squirrel_Census_-_Hectare_Grid.csv")
+
+````
+
+
+### Number of Squirrel Sighting per Hectare
+
+```` {r squirrel_scatter, warning=FALSE}
+
+plot(weather$Hectare, weather$Number.of.Squirrels, 
+     xlab="Hectare ID", 
+     ylab="Number of Squirrel Sightings",
+     main="Squirrel Sightings per Hectare in Central Park")
+
+````
+
+
+### Squirrel Density by Hectare
+
+```` {r squirrel_heatmap, warning = FALSE}
+
+library(ggplot2)
+
+# Heatmap with squirrels per hectare in central park
+ggplot(data = weather, cache = TRUE, aes(x = as.numeric(substr(Hectare, 1, 2)), 
+                           y = as.factor(substr(Hectare, 3, 3)), 
+                           fill = Number.of.Squirrels)) +
+  geom_tile() +
+  geom_text(aes(label = Hectare), color = "darkgrey", size = 3, vjust = 0.5) +
+  scale_fill_gradient(low = "white", high = "brown") +
+  scale_x_continuous(limits = c(0, 43), expand = c(0, 0)) +
+  scale_y_discrete(limits = c("A", "B", "C", "D", "E", "F", "G", "H", "I"), expand = c(0, 0)) +
+  labs(x = "Grid Column (1-42)", y = "Grid Row (A-I)", fill = "Number of Squirrels") +
+  theme_classic() +
+  ggtitle("Squirrel density per hectare") +
+  theme(legend.position = "bottom")
+
+````
+
+# 🗺️ Squirrel Map from Geodata (chapter of choice)
+After analyzing the heatmap, we can draw the conclusion that the highest concentration of squirrels was reported in Hectare 14E. To provide more value to our visitors, we decided to plot all the squirrel sightings on a geographical map. In this map, we color-coded the sightings within Hectare 14E in red and all other sightings in blue. This makes it easier for visitors to identify the best locations for squirrel-watching in Central Park.
+
+
+```` {r map_install, echo=TRUE, include=FALSE, warning=FALSE}
+
+library(osmdata)
+library(sf)
+library(ggmap)
+
+squirrels <- read.csv("joint_squirrels.csv")
+
+````
+
+
+First we set the bounding box (= frame) of our map, then we draw the map using ggmap()
+```` {r map_boundingbox}
+
+longitude_min <- min(squirrels$X) - 0.005
+latitude_min <- min(squirrels$Y) - 0.001
+longitude_max <- max(squirrels$X) + 0.005
+latitude_max <- max(squirrels$Y) + 0.001
+
+# Background map
+mad_map <- get_map(location = c(left = longitude_min, bottom = latitude_min, right = longitude_max, top = latitude_max),
+                   source = "stamen",
+                   maptype = "toner-background",
+                   zoom = 15,
+                   cache = TRUE)
+
+d.stations <- data.frame(Latitude = squirrels$Y, 
+                         Longitude = squirrels$X)
+
+ggmap(mad_map) +
+  geom_point(data = squirrels,
+             aes(x = X, y = Y, color = ifelse(Hectare == "14B", "red", "gray"), alpha = 0.5),
+             ) +
+  theme(legend.position = "right") +
+  labs(x = "Longitude", y = "Latitude") +
+  ggtitle("Squirrel Sightings in Central Park") +
+  scale_color_manual(name = "Hectare",
+                     values = c("blue", "red"),
+                     labels = c("Other Hectares", "14B"))
+
+````
+
+
+
+
+# ☀️ Heatmaps per Weather Condition
+
+For each weather condition, we also drew a heatmap in which hectare our visitors are most likely to spot squirrels.
+
+```` {r squirrel_heatmap_weather_sunny, warning = FALSE}
+
+weather_sunny <- subset(weather, sunny == TRUE)
+
+# Plot each subset in a separate plot: heatmap for squirrel sightings when sunny
+p_sunny <- ggplot(data = weather_sunny, aes(x = as.numeric(substr(Hectare, 1, 2)), 
+                                            y = as.factor(substr(Hectare, 3, 3)), 
+                                            fill = Number.of.Squirrels)) +
+  geom_tile() +
+  geom_text(aes(label = Hectare), color = "darkgrey", size = 3, vjust = 0.5) +
+  scale_fill_gradient(low = "white", high = "gold") +
+  scale_x_continuous(limits = c(0, 43), expand = c(0, 0)) +
+  scale_y_discrete(limits = c("A", "B", "C", "D", "E", "F", "G", "H", "I"), expand = c(0, 0)) +
+  labs(x = "Grid Column (1-42)", y = "Grid Row (A-I)", fill = "Number of Squirrels") +
+  theme_classic() +
+  ggtitle("Squirrel Density per Hectare (Sunny)") +
+  theme(legend.position = "bottom")
+
+p_sunny
+
+````
+
+
+```` {r squirrel_heatmap_weather_rainy, warning = FALSE, echo = FALSE, include = TRUE}
+
+# because of include = false this code will be omitted in the html output for better readability. 
+# The echo (plot) will be printed tho. 
+
+weather_rainy <- subset(weather, rainy == TRUE)
+
+# Plot each subset in a separate plot: heatmap for squirrel sightings when sunny
+p_rainy <- ggplot(data = weather_rainy, 
+                  aes(x = as.numeric(substr(Hectare, 1, 2)), 
+                                            y = as.factor(substr(Hectare, 3, 3)), 
+                                            fill = Number.of.Squirrels)) +
+  geom_tile() +
+  geom_text(aes(label = Hectare), color = "darkgrey", size = 3, vjust = 0.5) +
+  scale_fill_gradient(low = "white", high = "darkblue") +
+  scale_x_continuous(limits = c(0, 43), expand = c(0, 0)) +
+  scale_y_discrete(limits = c("A", "B", "C", "D", "E", "F", "G", "H", "I"), expand = c(0, 0)) +
+  labs(x = "Grid Column (1-42)", y = "Grid Row (A-I)", fill = "Number of Squirrels") +
+  theme_classic() +
+  ggtitle("Squirrel Density per Hectare (Rainy)") +
+  theme(legend.position = "bottom")
+
+p_rainy
+
+````
+
+```` {r squirrel_heatmap_weather_cloudy, warning = FALSE, echo = FALSE, include = TRUE}
+
+# because of include = false this code will be omitted in the html output for better readability. 
+# The echo (plot) will be printed tho. 
+
+weather_cloudy <- subset(weather, cloudy == TRUE)
+
+p_cloudy <- ggplot(data = weather_cloudy, 
+                  aes(x = as.numeric(substr(Hectare, 1, 2)), 
+                      y = as.factor(substr(Hectare, 3, 3)), 
+                      fill = Number.of.Squirrels)) +
+  geom_tile() +
+  geom_text(aes(label = Hectare), color = "darkgrey", size = 3, vjust = 0.5) +
+  scale_fill_gradient(low = "white", high = "darkgrey") +
+  scale_x_continuous(limits = c(0, 43), expand = c(0, 0)) +
+  scale_y_discrete(limits = c("A", "B", "C", "D", "E", "F", "G", "H", "I"), expand = c(0, 0)) +
+  labs(x = "Grid Column (1-42)", y = "Grid Row (A-I)", fill = "Number of Squirrels") +
+  theme_classic() +
+  ggtitle("Squirrel Density per Hectare (Cloudy)") +
+  theme(legend.position = "bottom")
+
+p_cloudy
+
+````
+
+```` {r squirrel_heatmap_weather_humid, warning = FALSE, echo = FALSE, include = TRUE}
+
+# because of include = false this code will be omitted in the html output for better readability. 
+# The echo (plot) will be printed tho. 
+
+weather_humid <- subset(weather, humid == TRUE)
+
+p_humid <- ggplot(data = weather_humid, 
+                   aes(x = as.numeric(substr(Hectare, 1, 2)), 
+                       y = as.factor(substr(Hectare, 3, 3)), 
+                       fill = Number.of.Squirrels)) +
+  geom_tile() +
+  geom_text(aes(label = Hectare), color = "darkgrey", size = 3, vjust = 0.5) +
+  scale_fill_gradient(low = "white", high = "violet") +
+  scale_x_continuous(limits = c(0, 43), expand = c(0, 0)) +
+  scale_y_discrete(limits = c("A", "B", "C", "D", "E", "F", "G", "H", "I"), expand = c(0, 0)) +
+  labs(x = "Grid Column (1-42)", y = "Grid Row (A-I)", fill = "Number of Squirrels") +
+  theme_classic() +
+  ggtitle("Squirrel Density per Hectare (Humid)") +
+  theme(legend.position = "bottom")
+
+p_humid
+
+````
+
+```` {r squirrel_heatmap_weather_foggy, warning = FALSE, echo = FALSE, include = TRUE}
+
+# because of include = false this code will be omitted in the html output for better readability. 
+# The echo (plot) will be printed tho. 
+
+weather_foggy <- subset(weather, foggy == TRUE)
+
+# Plot each subset in a separate plot: heatmap for squirrel sightings when foggy
+p_foggy <- ggplot(data = weather_foggy, 
+                    aes(x = as.numeric(substr(Hectare, 1, 2)), 
+                        y = as.factor(substr(Hectare, 3, 3)), 
+                        fill = Number.of.Squirrels)) +
+  geom_tile() +
+  geom_text(aes(label = Hectare), color = "darkgrey", size = 3, vjust = 0.5) +
+  scale_fill_gradient(low = "white", high = "brown") +
+  scale_x_continuous(limits = c(0, 43), expand = c(0, 0)) +
+  scale_y_discrete(limits = c("A", "B", "C", "D", "E", "F", "G", "H", "I"), expand = c(0, 0)) +
+  labs(x = "Grid Column (1-42)", y = "Grid Row (A-I)", fill = "Number of Squirrels") +
+  theme_classic() +
+  ggtitle("Squirrel Density per Hectare (Foggy)") +
+  theme(legend.position = "bottom")
+
+p_foggy
+
+````
+
+```` {r squirrel_heatmap_weather_windy, warning = FALSE, echo = FALSE, include = TRUE}
+
+# because of include = false this code will be omitted in the html output for better readability. 
+# The echo (plot) will be printed tho. 
+
+weather_windy <- subset(weather, windy == TRUE)
+
+# Plot each subset in a separate plot: heatmap for squirrel sightings when windy
+p_windy <- ggplot(data = weather_windy, 
+                    aes(x = as.numeric(substr(Hectare, 1, 2)), 
+                        y = as.factor(substr(Hectare, 3, 3)), 
+                        fill = Number.of.Squirrels)) +
+  geom_tile() +
+  geom_text(aes(label = Hectare), color = "darkgrey", size = 3, vjust = 0.5) +
+  scale_fill_gradient(low = "white", high = "red") +
+  scale_x_continuous(limits = c(0, 43), expand = c(0, 0)) +
+  scale_y_discrete(limits = c("A", "B", "C", "D", "E", "F", "G", "H", "I"), expand = c(0, 0)) +
+  labs(x = "Grid Column (1-42)", y = "Grid Row (A-I)", fill = "Number of Squirrels") +
+  theme_classic() +
+  ggtitle("Squirrel Density per Hectare (Windy)") +
+  theme(legend.position = "bottom")
+
+p_windy
+
+````
+
+```` {r squirrel_heatmap_weather_drizzly, warning = FALSE, echo = FALSE, include = TRUE}
+
+# because of include = false this code will be omitted in the html output for better readability. 
+# The echo (plot) will be printed tho. 
+
+weather_drizzly <- subset(weather, drizzly == TRUE)
+
+# Plot each subset in a separate plot: heatmap for squirrel sightings when windy
+p_drizzly <- ggplot(data = weather_drizzly, 
+                  aes(x = as.numeric(substr(Hectare, 1, 2)), 
+                      y = as.factor(substr(Hectare, 3, 3)), 
+                      fill = Number.of.Squirrels)) +
+  geom_tile() +
+  geom_text(aes(label = Hectare), color = "darkgrey", size = 3, vjust = 0.5) +
+  scale_fill_gradient(low = "white", high = "blue") +
+  scale_x_continuous(limits = c(0, 43), expand = c(0, 0)) +
+  scale_y_discrete(limits = c("A", "B", "C", "D", "E", "F", "G", "H", "I"), expand = c(0, 0)) +
+  labs(x = "Grid Column (1-42)", y = "Grid Row (A-I)", fill = "Number of Squirrels") +
+  theme_classic() +
+  ggtitle("Squirrel Density per Hectare (Drizzly)") +
+  theme(legend.position = "bottom")
+
+p_drizzly
+
+````
+
+```` {r squirrel_heatmap_combined_sunny_rainy, warning = FALSE, echo = FALSE, include = TRUE}
+
+# because of include = false this code will be omitted in the html output for better readability. 
+# The echo (plot) will be printed tho. 
+
+weather$fill_alpha <- ifelse(weather$sunny & weather$rainy, 0.75, 
+                             ifelse(weather$sunny, 1, 0.5))
+
+ggplot(data = weather, aes(x = as.numeric(substr(Hectare, 1, 2)), 
+                           y = as.factor(substr(Hectare, 3, 3)), 
+                           fill = ifelse(sunny, 
+                                         Number.of.Squirrels * (1-rainy), 
+                                         Number.of.Squirrels * rainy),
+                           alpha = fill_alpha)) +
+  geom_tile() +
+  geom_text(aes(label = Hectare), color = "darkgrey", size = 3, vjust = 0.5) +
+  scale_fill_gradient(low = "white", high = c("yellow", "blue"),
+                      breaks = c(0, 1)) +
+  scale_x_continuous(limits = c(0, 43), expand = c(0, 0)) +
+  scale_y_discrete(limits = c("A", "B", "C", "D", "E", "F", "G", "H", "I"), expand = c(0, 0)) +
+  labs(x = "Grid Column (1-42)", y = "Grid Row (A-I)", fill = "Number of Squirrels") +
+  theme_classic() +
+  ggtitle("Squirrel Density per Hectare (Sunny and Rainy)") +
+  theme(legend.position = "bottom")
+
+````
+
+# 📈 Models
+
+## GLM with date and shift
+```` {r model_glm}
+
+# Load the necessary packages
+library(tidyverse)
+
+# Fit the GLM model
+model <- glm(Number.of.Squirrels ~ Date + Shift,
+             data = weather,
+             family = poisson())
+
+
+# Summarize the model
+summary(model)
+
+````
+
+This is a generalized linear model (GLM) with a Poisson family that aims to predict the number of squirrels based on the date and whether the shift is PM or not. The coefficients of the model are estimated using the maximum likelihood method.
+
+The model shows that the number of squirrels decreases as the date increases, while the shift being PM has a positive effect on the number of squirrels. In other words, the model suggests that there are fewer squirrels as time goes by, and that there are more squirrels in the afternoon shift compared to the morning shift.
+
+The significance codes indicate that the intercept, the date, and the shift are all statistically significant predictors of the number of squirrels. The null deviance and residual deviance are measures of the goodness of fit of the model. The AIC provides a measure of the quality of the model relative to other models.
+
+Overall, this GLM suggests that the date and the shift are important predictors of the number of squirrels, and the model fits the data well.
+
+## Overview over the Number of Occurrences of the Different Weather Conditions (and Other Things)
+
+```` {r model_glm_weather}
+
+model <- glm(Number.of.Squirrels ~ sunny + drizzly + cloudy + foggy + rainy + humid,
+             data = weather,
+             family = poisson())
+
+summary(model)
+
+````
+
+According to the results, the presence of rainy weather significantly decreases the expected number of squirrels, while the presence of drizzly and humid weather significantly increases the expected number of squirrels. The presence of sunny weather has a small, but not significant, negative effect on the expected number of squirrels. The presence of cloudy and foggy weather does not have a significant effect on the expected number of squirrels.
+
+The residual deviance of 2066.5 on 693 degrees of freedom indicates that the model fits the data well, as the residual deviance is smaller than the null deviance. The AIC of 4069.7 also suggests that the model is a good fit to the data.
+
+Overall, these results suggest that the number of squirrels observed in Central Park may be influenced by the weather conditions, particularly the presence of rainy, drizzly, and humid weather.
+
+## Linear Regression with Weather Conditions, Shift, Hectare Conditions, and Temperature
+
+```` {r model_glm_allvar}
+
+# Fit the GLM
+model <- glm(Number.of.Squirrels ~ sunny + drizzly + cloudy + foggy + rainy + humid + Shift + Hectare.Conditions + temperature_celsius,
+             data = weather,
+             family = poisson())
+
+# Summarize the model
+summary(model)
+
+````
+
+The model is a Poisson regression that predicts the number of squirrels seen based on various weather conditions. The variables included in the model are: sunny, drizzly, cloudy, foggy, rainy, humid, Shift (morning or afternoon), Hectare.Conditions (categorical variable with levels: "Calm", "Busy", "Moderate", "Calm, Busy", and "Medium"), and temperature_celsius.
+
+The model shows that rainy weather conditions are associated with fewer squirrels seen, while the other weather conditions (sunny, drizzly, cloudy, foggy, and humid) do not have a statistically significant effect on the number of squirrels seen. Additionally, an increase in temperature by one degree Celsius is associated with an increase in the expected number of squirrels by 1.7%.
+
+The model also shows that being in the afternoon shift is associated with more squirrels seen compared to the morning shift. The Hectare.Conditions variable does not have a statistically significant effect on the number of squirrels seen.
+
+Overall, the model suggests that temperature and time of day may be the most important factors in predicting the number of squirrels seen. However, it is important to note that the model's predictions may not be accurate for weather conditions and environments outside of the observed data.
+
+## Regression with Time and Temperature (with Interaction Term)
+
+```` {r model_glm_time_temp}
+
+reg <- glm(Number.of.Squirrels ~ temperature_celsius * Shift, data = weather, family = poisson())
+summary(reg)
+
+````
+
+Overall, this model suggests that the number of squirrels is influenced by both temperature and shift, with the effect of temperature depending on the time of the shift. Specifically, there is a positive relationship between the number of squirrels and both temperature and shift, but the effect of temperature is stronger in the morning than in the afternoon.
+
+# 🐿️❤️ What does this mean for you, squirrel lover?
+
+According to our statistical models, the best time to see the most squirrels is in the afternoon and during drizzly or humid weather. On the other hand, rainy weather conditions are associated with fewer squirrels seen. While temperature also plays a role, its effect is stronger in the morning than in the afternoon. So, if you want to increase your chances of seeing squirrels in Central Park, plan your visit for the afternoon and keep an eye out for drizzly or humid weather. 
+
+### Happy squirrel spotting!
