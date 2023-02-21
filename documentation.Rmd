@@ -34,7 +34,7 @@ Dataset: 2018_Central_Park_Squirrel_Census_-_Hectare_Data.csv
 
 This table contains environmental data related to each of the 350 “countable” hectares of Central Park. Examples include weather, litter, animals sighted, and human density. 
 
-# 🧹 Cleaning and preparing the Data
+# 🧹 Cleaning and Preparing the Data
 
 ```{r import_datasets, echo = FALSE}
 
@@ -54,7 +54,7 @@ head(weather)
 
 ```
 
-## 🌡️ Extracting Temperature
+### 🌡️ Extracting Temperature
 
 Since temperature values were typically the only numerical data in the recorded list, we extracted them from the string using a regular expression (regex). Furthermore, we converted the temperature values from Fahrenheit to Celsius to ensure consistency across our analyses. The extracted and converted temperature data, we put into a new column.
 
@@ -83,7 +83,7 @@ hectare$temperature_celsius <- temp_celsius
 
 ```
 
-## 🌧️ Extracting Weather Conditions
+### 🌧️ Extracting Weather Conditions
 
 We wanted to find out the weather conditions that were most commonly reported in our dataset. To do this, we separated the weather descriptions in the recorded list by splitting them at the commas.
 
@@ -152,6 +152,19 @@ sunny[1:10]
 ````
 
 
+### ➕ Merging Datasets
+
+As a last step we wanted to assign each squirrel sighting the corresponding hectare conditions. To that end we merged the two datasets based on hectare, shift and date:
+
+```` {r merge files}
+
+write.csv(hectare, "hectare_weather.csv")
+joint <- merge(squirrels, hectare, by=c("Hectare", "Shift", "Date"))
+write.csv(joint, "joint_squirrels.csv")
+
+````
+
+
 # 📊 Data Analysis
 
 ```` {r squirrel_import}
@@ -165,6 +178,8 @@ hectare <- read.csv("2018_Central_Park_Squirrel_Census_-_Hectare_Grid.csv")
 
 ### Number of Squirrel Sighting per Hectare
 
+We used a first plot to display the number of squirrels sighted per hectare.
+
 ```` {r squirrel_scatter, warning=FALSE}
 
 plot(weather$Hectare, weather$Number.of.Squirrels, 
@@ -176,6 +191,8 @@ plot(weather$Hectare, weather$Number.of.Squirrels,
 
 
 ### Squirrel Density by Hectare
+
+We quickly realised that the scatterplot created at first was of little relevance. As a consequence, we decided for a different approach, namely a heatmap-grid. The grid combined with a heatmap has the advantage that it provides a visualization along the geographic ramifications that Central Park's hectare structure defines.
 
 ```` {r squirrel_heatmap, warning = FALSE}
 
@@ -427,6 +444,8 @@ p_drizzly
 
 ````
 
+While it is nice to see a heatmap of each weather condition, we also wanted to display several within the same grid. Making use of a colour scale, we were able to display two weather conditions, namely rainy and sunny, at once, providing more insights on how squirrel sighting locations change with weather.
+
 ```` {r squirrel_heatmap_combined_sunny_rainy, warning = FALSE, echo = FALSE, include = TRUE}
 
 # because of include = false this code will be omitted in the html output for better readability. 
@@ -456,32 +475,9 @@ ggplot(data = weather, aes(x = as.numeric(substr(Hectare, 1, 2)),
 
 # 📈 Models
 
-## GLM with date and shift
-```` {r model_glm}
+Applying a Poisson regression, which is suitable when working with sum data, we wanted to estimate the influence and predictive power of weather on the probability of spotting a squirrel.
 
-# Load the necessary packages
-library(tidyverse)
-
-# Fit the GLM model
-model <- glm(Number.of.Squirrels ~ Date + Shift,
-             data = weather,
-             family = poisson())
-
-
-# Summarize the model
-summary(model)
-
-````
-
-This is a generalized linear model (GLM) with a Poisson family that aims to predict the number of squirrels based on the date and whether the shift is PM or not. The coefficients of the model are estimated using the maximum likelihood method.
-
-The model shows that the number of squirrels decreases as the date increases, while the shift being PM has a positive effect on the number of squirrels. In other words, the model suggests that there are fewer squirrels as time goes by, and that there are more squirrels in the afternoon shift compared to the morning shift.
-
-The significance codes indicate that the intercept, the date, and the shift are all statistically significant predictors of the number of squirrels. The null deviance and residual deviance are measures of the goodness of fit of the model. The AIC provides a measure of the quality of the model relative to other models.
-
-Overall, this GLM suggests that the date and the shift are important predictors of the number of squirrels, and the model fits the data well.
-
-## Overview over the Number of Occurrences of the Different Weather Conditions (and Other Things)
+## Sightings by Weather
 
 ```` {r model_glm_weather}
 
@@ -499,29 +495,8 @@ The residual deviance of 2066.5 on 693 degrees of freedom indicates that the mod
 
 Overall, these results suggest that the number of squirrels observed in Central Park may be influenced by the weather conditions, particularly the presence of rainy, drizzly, and humid weather.
 
-## Linear Regression with Weather Conditions, Shift, Hectare Conditions, and Temperature
 
-```` {r model_glm_allvar}
-
-# Fit the GLM
-model <- glm(Number.of.Squirrels ~ sunny + drizzly + cloudy + foggy + rainy + humid + Shift + Hectare.Conditions + temperature_celsius,
-             data = weather,
-             family = poisson())
-
-# Summarize the model
-summary(model)
-
-````
-
-The model is a Poisson regression that predicts the number of squirrels seen based on various weather conditions. The variables included in the model are: sunny, drizzly, cloudy, foggy, rainy, humid, Shift (morning or afternoon), Hectare.Conditions (categorical variable with levels: "Calm", "Busy", "Moderate", "Calm, Busy", and "Medium"), and temperature_celsius.
-
-The model shows that rainy weather conditions are associated with fewer squirrels seen, while the other weather conditions (sunny, drizzly, cloudy, foggy, and humid) do not have a statistically significant effect on the number of squirrels seen. Additionally, an increase in temperature by one degree Celsius is associated with an increase in the expected number of squirrels by 1.7%.
-
-The model also shows that being in the afternoon shift is associated with more squirrels seen compared to the morning shift. The Hectare.Conditions variable does not have a statistically significant effect on the number of squirrels seen.
-
-Overall, the model suggests that temperature and time of day may be the most important factors in predicting the number of squirrels seen. However, it is important to note that the model's predictions may not be accurate for weather conditions and environments outside of the observed data.
-
-## Regression with Time and Temperature (with Interaction Term)
+## Shift and Temperature
 
 ```` {r model_glm_time_temp}
 
