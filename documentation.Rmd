@@ -295,6 +295,12 @@ p_sunny
 # because of include = false this code will be omitted in the html output for better readability. 
 # The echo (plot) will be printed tho. 
 
+words_rain <- c("rain", "wet", "shower")
+words_not_rain <- c("lite rain", "drop", "light rain")
+
+rainy <- sapply(weather_split, function(x) detect_weather(x, words_rain, words_not_rain))
+rainy
+
 weather_rainy <- subset(weather, rainy == TRUE)
 
 # Plot each subset in a separate plot: heatmap for squirrel sightings when sunny
@@ -321,6 +327,12 @@ p_rainy
 # because of include = false this code will be omitted in the html output for better readability. 
 # The echo (plot) will be printed tho. 
 
+words_clouds <- c("overcast", "cloud", "drear", "gray")
+words_not_clouds <- ("not a cloud")
+
+cloudy <- sapply(weather_split, function(x) detect_weather(x, words_clouds, words_not_clouds))
+cloudy
+
 weather_cloudy <- subset(weather, cloudy == TRUE)
 
 p_cloudy <- ggplot(data = weather_cloudy, 
@@ -345,6 +357,8 @@ p_cloudy
 
 # because of include = false this code will be omitted in the html output for better readability. 
 # The echo (plot) will be printed tho. 
+words_humid <- c("humid", "muggy", "damp", "moist")
+humid <- sapply(weather_split, function(x) detect_weather(x, words_humid))
 
 weather_humid <- subset(weather, humid == TRUE)
 
@@ -370,6 +384,8 @@ p_humid
 
 # because of include = false this code will be omitted in the html output for better readability. 
 # The echo (plot) will be printed tho. 
+words_fog <- c("fog", "mist")
+foggy <- sapply(weather_split, function(x) detect_weather(x, words_fog))
 
 weather_foggy <- subset(weather, foggy == TRUE)
 
@@ -396,6 +412,8 @@ p_foggy
 
 # because of include = false this code will be omitted in the html output for better readability. 
 # The echo (plot) will be printed tho. 
+words_wind <- c("wind", "breez", "brisk", "gusty")
+windy <- sapply(weather_split, function(x) detect_weather(x, words_wind))
 
 weather_windy <- subset(weather, windy == TRUE)
 
@@ -422,6 +440,9 @@ p_windy
 
 # because of include = false this code will be omitted in the html output for better readability. 
 # The echo (plot) will be printed tho. 
+
+words_drizzle <- c("light rain", "drizzle", "drizzling", "drizzly", "sprink", "lite rain", "couple drops of rain", "a few raindrops")
+drizzly <- sapply(weather_split, function(x) detect_weather(x, words_drizzle))
 
 weather_drizzly <- subset(weather, drizzly == TRUE)
 
@@ -511,4 +532,4 @@ Overall, this model suggests that the number of squirrels is influenced by both 
 
 According to our statistical models, the best time to see the most squirrels is in the afternoon and during drizzly or humid weather. On the other hand, rainy weather conditions are associated with fewer squirrels seen. While temperature also plays a role, its effect is stronger in the morning than in the afternoon. So, if you want to increase your chances of seeing squirrels in Central Park, plan your visit for the afternoon and keep an eye out for drizzly or humid weather. 
 
-### Happy squirrel spotting!
+### Happy squirrel spotting!e
